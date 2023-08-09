@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #c42218!important;
+
+}
+
+.primary-color{
+  color: var(--primary-color)!important;
+}
+
