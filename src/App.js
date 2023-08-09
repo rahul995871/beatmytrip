@@ -13,23 +13,24 @@ import HomePage from "./pages/HomePage";
 
 function App() {
 
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: (<HomePage/>),
-    },
-    {
-      path: "/about",
-      element: <div>Hello world!</div>,
-    },
+  // const router = createBrowserRouter([
+  //   {
+  //     path: "/",
+  //     element: (<HomePage/>),
+  //   },
+  //   {
+  //     path: "/about",
+  //     element: <div>Hello world!</div>,
+  //   },
     
     
-  ]);
+  // ]);
   
   return (
     <div className="App">
+      <HomePage></HomePage>
     
-   <RouterProvider router={router} />
+   {/* <RouterProvider router={router} /> */}
     </div>
   );
 }
