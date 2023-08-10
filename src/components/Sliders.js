@@ -312,6 +312,168 @@ export  const trip = function Sliders() {
 }
 
 
+export  const teamslide = function Sliders() {
+
+  const team=[{
+    title:"Ravi Rautela",
+    des:"Founder & CEO",
+    img:require('../images/trip.jpg')
+
+
+},
+{
+  title:"Ravi Rautela",
+  des:"Founder & CEO",
+  img:require('../images/trip2.jpg')
+
+
+},
+{
+  title:"Ravi Rautela",
+  des:"Founder & CEO",
+  img:require('../images/trip.jpg')
+
+
+},
+{
+  title:"Ravi Rautela",
+  des:"Founder & CEO",
+  img:require('../images/trip2.jpg')
+
+
+},
+{
+  title:"Ravi Rautela",
+  des:"Founder & CEO",
+  img:require('../images/trip.jpg')
+
+
+}
+
+
+]
+
+
+ 
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      // <i class="fa-solid fa-arrow-right"></i>
+      <div
+        className={`${className} fa-solid fa-arrow-right`}
+        style={{ ...style}}
+        onClick={onClick}
+      />
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style}}
+        onClick={onClick}
+      />
+    );
+  }
+    const settings = {
+      dots: true,
+      infinite: true,
+      autoplay:false,
+      speed: 500,
+  
+      slidesToShow: 4,
+      slidesToScroll: 3,
+      initialSlide: 0,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+            arrows: false
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false
+          }
+        }
+      ]
+    };
+  return (
+    <div>
+     
+       
+        
+      
+
+        {/* //////////////////////// */}
+
+      <Slider {...settings} className="pro">
+
+      {team.map((e)=>{
+  return(
+    <>
+     <div className="pro-c">
+    <div className="trip team bg-grey text-center">
+  <div className="position-relative  ">
+    {/* <div className="overlay"></div> */}
+  <img src={e.img} className="my-4"/>
+  </div>
+ 
+ <div className="my-4">
+ <div className="des my-4 px-3">
+  <h6 className="trip-title position-relative ">{e.title}</h6>
+    <p className="text-dark fs-6"> <small className="primary-color fw-semibold ">{e.des}</small></p>
+  </div>
+    <div className=" my-4 pb-3 text-center social-icon d-flex flex-wrap justify-content-center gap-3">
+      <a>
+        <img src={require('../images/fb1.png')}/>
+      </a>
+      <a>
+        <img src={require('../images/insta.png')}/>
+      </a>
+      
+     
+    </div>
+ </div>
+      
+    </div>
+        </div>
+    </>
+  )
+})}
+
+       
+
+      </Slider>
+
+        {/* //////////////////////// */}
+        
+       
+
+  
+    </div>
+  );
+}
+
 
 
 // -----------------test------

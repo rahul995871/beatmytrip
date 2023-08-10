@@ -1,9 +1,12 @@
-
+import './Footer.css'
 
 function Footer() {
     return (
         <>
          <div className="section bg-dark m-0 py-4">
+            <div className='footer-icon'>
+                <img src={require('../images/whatsapp-w.png')}/>
+            </div>
             <div className="container">
                 <div className="row justify-content-center align-items-center text-center">
                     <div className="col-md-10">

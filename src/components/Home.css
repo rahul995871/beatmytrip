@@ -22,7 +22,9 @@
    
 font-family: 'Montserrat', sans-serif;
 }
-
+.bg-w{
+    background-color: white!important;
+}
 .bg-grey{
     background-color: #F9F9F9!important;
 }
@@ -180,7 +182,7 @@ font-size: 55px;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--primary-color);
+    background-color: black;
     width: 65%;
     height: 100%;
     

@@ -89,6 +89,13 @@
 .trip:hover{
     /* transform: scale(1.1); */
 }
+.team::before{
+    display: none!important;
+}
+.team{
+    box-shadow: none!important;
+}
+
 .slick-prev:before, .slick-next:before {
     font-family: fontawesome;
     font-size: 10px;

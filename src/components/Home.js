@@ -34,7 +34,7 @@ function Home() {
 
             
                   {/* ------------------------whychoose--------------- */}
-                  <div className="section m-0 bg-white">
+                  <div className="section m-0 bg-w">
                   <div className="container mt-5 pt-5">
                     <div className="row">
                         <div className="col-md-6">
@@ -65,6 +65,11 @@ function Home() {
 
         <div className="section m-0 test bg-dark">
             <div className="container">
+            <div className="headings mb-5">
+                <p className="text-dark cursive primary-color  fs-5 mb-"> destinations </p>
+                <h1 className="px-3 c-line text-light">Why Choose Us</h1>
+
+            </div>
                 <div className="row justify-content-around gap-4">
                     <div className="col-md-3 text-center mb-md-0 mb-5">
                     <div className="whychoose text-white ">
@@ -112,7 +117,7 @@ function Home() {
 
 
                   {/* ------------------------carousal--------------- */}
-                  <div className="section m-0 bg-white" >
+                  <div className="section m-0 bg-w" >
                   <div className="container">
                   <div className="headings mb-5">
                 <p className="text-dark cursive primary-color  fs-5 mb-0"> destinations </p>
@@ -158,10 +163,34 @@ function Home() {
 
             {/* ------------------trips-end-------------------- */}
 
+               {/* ------------------test--------------------- */}
+
+               <div className="section m-0 c-testimonial" style={{background:'white'}}>
+                    <div className="container py-4">
+                        <div className="row justify-content-around align-items-center" >
+                        <div className="col-md-4 text-center text-md-start">
+                        <div className="">
+               
+                <h1 className="text-light mb-4">What Our Customers <span className='primary-color'>Say</span>?</h1>
+                <p className="text-light mb-5 ">Fuerat aestu carentem habentia spectent</p>
+
+            </div>
+                        </div>
+
+                        <div className="col-md-6">
+                                {testimonial()}
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* ------------------test-end-------------------- */}
+
 
             {/* ------------------weekends-------------------- */}
 
-           <div className="section m-0 bg-white">
+           <div className="section m-0 bg-grey">
            <div className="container week">
 
             <div className="headings mb-5">
@@ -215,29 +244,7 @@ function Home() {
 
               {/* ------------------weekends-end-------------------- */}
 
-               {/* ------------------test--------------------- */}
-
-                <div className="section m-0 c-testimonial">
-                    <div className="container">
-                        <div className="row justify-content-around align-items-center" >
-                        <div className="col-md-4 text-center text-md-start">
-                        <div className="">
-               
-                <h1 className="text-light mb-4">What Our Customers Say?</h1>
-                <p className="text-light mb-5">Fuerat aestu carentem habentia spectent</p>
-
-            </div>
-                        </div>
-
-                        <div className="col-md-6">
-                                {testimonial()}
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                {/* ------------------test-end-------------------- */}
+            
 
                
 

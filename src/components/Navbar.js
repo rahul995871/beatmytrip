@@ -1,14 +1,15 @@
 
 import './Navbar.css'
 import logo from '../images/logo.png'
+import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <div>
             <nav className="c-navbar navbar navbar-expand-lg bg-transparent">
   <div className="container-fluid px-md-5 px-2 w-md-75 w-100">
-    <a className="navbar-brand" href="#">
+    <Link className="navbar-brand" to="/">
       <img src={logo}/>
-    </a>
+    </Link>
     <button
       className="navbar-toggler"
       type="button"
@@ -24,14 +25,14 @@ function Navbar() {
       <ul className="navbar-nav  gap-4">
        
       <li className="nav-item px-2">
-          <a className="nav-link active" aria-current="page" href="#">
+          <Link  to="/" className="nav-link active" aria-current="page" href="#">
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav-item px-2">
-          <a className="nav-link active" aria-current="page" href="#">
+          <Link to="/about" className="nav-link active" aria-current="page" href="#">
             About
-          </a>
+          </Link>
         </li>
         <li className="nav-item px-2">
           <a className="nav-link active" aria-current="page" href="#">
@@ -44,9 +45,9 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item px-2">
-          <a className="nav-link active" aria-current="page" href="#">
+          <Link to='/contact' className="nav-link active" aria-current="page" href="#">
             Contact
-          </a>
+          </Link>
         </li>
        
       </ul>

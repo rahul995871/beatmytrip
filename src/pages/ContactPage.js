@@ -1,15 +1,14 @@
-import About from '../components/About';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar'
-
-function AboutPage() {
+function ContactPage() {
     return (
         <div>
-           <Navbar></Navbar>
-           <About></About>
+            <Navbar></Navbar>
+           <Contact></Contact>
            <Footer></Footer>
         </div>
     );
 }
 
-export default AboutPage;
+export default ContactPage;
