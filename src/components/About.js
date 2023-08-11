@@ -22,12 +22,12 @@ function About() {
         <div className="section m-0 test " style={{background:'white'}}>
             <div className="container">
             <div className="headings mb-5">
-                <p className="text-dark cursive primary-color  fs-5 mb-"> destinations </p>
-                <h1 className="px-3 c-line text-dark">Why Choose Us</h1>
+                <p className="text-dark cursive primary-color  fs-5 mb-" data-aos="fade-right" data-aos-delay="100"  data-aos-duration="1000"> destinations </p>
+                <h1 className="px-3 c-line text-dark" data-aos="fade-left" data-aos-delay="300"  data-aos-duration="1000">Why Choose Us</h1>
 
             </div>
                 <div className="row justify-content-around gap-4">
-                    <div className="col-md-3 text-center mb-md-0 mb-5">
+                    <div className="col-md-3 text-center mb-md-0 mb-5" >
                     <div className="whychoose text-dark ">
                     <div>
                         <img src={require('../images/price.png')} style={{backgroundColor:'var(--primary-color)',border:'none'}}/>
@@ -51,7 +51,7 @@ function About() {
                     </div>
                     </div>
 
-                    <div className="col-md-3 text-center mb-md-0 mb-5">
+                    <div className="col-md-3 text-center mb-md-0 mb-5" >
                     <div className="whychoose text-dark ">
                     <div>
                         <img src={require('../images/customer.png')} style={{backgroundColor:'var(--primary-color)',border:'none'}}/>
@@ -74,14 +74,14 @@ function About() {
                   <div className="section m-0 bg-dark text-light">
                   <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6" data-aos="fade-right" data-aos-delay="100"  data-aos-duration="1000">
                             <img src={require('../images/whyus.png')} className="img-fluid"/>
                         </div>
                         <div className="col-md-6">
                             <div>
-                                <p className="cursive primary-color fs-4 px-3">About Us</p>
-                                <h1 className="c-line position-relative px-3">Plan Your Trip with<br/>Trevily</h1>
-                                <div className="mt-4">
+                                <p className="cursive primary-color fs-4 px-3"data-aos="fade-left" data-aos-delay="300"  data-aos-duration="1000">About Us</p>
+                                <h1 className="c-line position-relative px-3"data-aos="fade-left" data-aos-delay="200"  data-aos-duration="1200">Plan Your Trip with<br/>Trevily</h1>
+                                <div className="mt-4" data-aos="fade-left" data-aos-delay="100"  data-aos-duration="1400">
                                 <small className="text-light">
                                 <span className="primary-color fs-5 fw-semibold">W</span>elcome to BeatsMyTrip, your gateway to unforgettable travel experiences in India! Founded just two years ago by a group of 18 well-experienced and trained travelers who have extensively explored every nook and cranny of this magnificent country, we are dedicated to making your journey through India seamless, enriching, and budget-friendly.
                                 </small>
@@ -104,8 +104,8 @@ function About() {
             <div className="section m-0  " style={{background:'white'}}>
            <div className="container trips">
            <div className="headings mb-5">
-                <p className="text-dark cursive primary-color  fs-5 mb-0">Destination lists</p>
-                <h1 className="px-3 c-line">Our Team</h1>
+                <p className="text-dark cursive primary-color  fs-5 mb-0" data-aos="fade-right" data-aos-delay="500"  data-aos-duration="1000">Destination lists</p>
+                <h1 className="px-3 c-line"  data-aos="fade-left" data-aos-delay="500"  data-aos-duration="1000">Our Team</h1>
 
             </div>
             <div className="row">
@@ -127,7 +127,7 @@ function About() {
                   <div className="section m-0 c-testimonial" style={{background:'white'}}>
                     <div className="container">
                         <div className="row justify-content-around align-items-center" >
-                        <div className="col-md-4 text-center text-md-start">
+                        <div className="col-md-4 text-center text-md-start" data-aos="fade-right" data-aos-delay="100"  data-aos-duration="700">
                         <div className="">
                
                 <h1 className="text-light mb-4">What Our Customers <span className='primary-color'>Say</span>?</h1>
@@ -136,7 +136,7 @@ function About() {
             </div>
                         </div>
 
-                        <div className="col-md-6">
+                        <div className="col-md-6"data-aos="fade-left" data-aos-delay="200"  data-aos-duration="1400">
                                 {testimonial()}
                         </div>
                         </div>

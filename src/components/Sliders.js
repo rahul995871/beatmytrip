@@ -132,7 +132,7 @@ function SamplePrevArrow(props) {
       {sliderData.map((e)=>{
   return(
     <>
-     <div className="pro-c">
+     <div className="pro-c" >
     <div className="pp">
       <h4 className="title">{e.title}</h4>
       <img src={e.img}/>

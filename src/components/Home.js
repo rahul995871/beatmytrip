@@ -11,12 +11,12 @@ function Home() {
         <div>
             <div className="container-fluid home-bg " style={{backgroundImage:`url("${homebg}")`}}>
              <div className="home-title">  
-                <h1 className=" mb-3">Find Next Place To Visit</h1> 
-               <p>Discover amzaing places at exclusive deals</p>
+                <h1 className=" mb-3" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">Find Next Place To Visit</h1> 
+               <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Discover amzaing places at exclusive deals</p>
                {/* <a className="c-btn">Discover More</a> */}
                </div>
 
-               <div className="home-blob">
+               <div className="home-blob" >
                <div className="row justify-content-center align-items-center">
                 <div className="col-md-7">
                 <p className="fs-5 mb-4">Begin your adventurous journey here.</p>
@@ -37,14 +37,14 @@ function Home() {
                   <div className="section m-0 bg-w">
                   <div className="container mt-5 pt-5">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 " data-aos="fade-right" data-aos-delay="100"  data-aos-duration="500">
                             <img src={require('../images/whyus.png')} className="img-fluid"/>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 " >
                             <div>
-                                <p className="cursive primary-color fs-4 px-3">About Us</p>
-                                <h1 className="c-line position-relative px-3">Plan Your Trip with<br/>Trevily</h1>
-                                <div className="mt-4">
+                                <p className="cursive primary-color fs-4 px-3" data-aos="fade-left" data-aos-delay="300"  data-aos-duration="1000">About Us</p>
+                                <h1 className="c-line position-relative px-3" data-aos="fade-left" data-aos-delay="200"  data-aos-duration="1200">Plan Your Trip with<br/>Trevily</h1>
+                                <div className="mt-4" data-aos="fade-left" data-aos-delay="100"  data-aos-duration="1400">
                                 <small className="text-dark">
                                 <span className="primary-color fs-5 fw-semibold">W</span>elcome to BeatsMyTrip, your gateway to unforgettable travel experiences in India! Founded just two years ago by a group of 18 well-experienced and trained travelers who have extensively explored every nook and cranny of this magnificent country, we are dedicated to making your journey through India seamless, enriching, and budget-friendly.
                                 </small>
@@ -66,12 +66,12 @@ function Home() {
         <div className="section m-0 test bg-dark">
             <div className="container">
             <div className="headings mb-5">
-                <p className="text-dark cursive primary-color  fs-5 mb-"> destinations </p>
-                <h1 className="px-3 c-line text-light">Why Choose Us</h1>
+                <p className="text-dark cursive primary-color  fs-5 mb-" data-aos="fade-right" data-aos-delay="500"  data-aos-duration="1000"> destinations </p>
+                <h1 className="px-3 c-line text-light" data-aos="fade-left" data-aos-delay="500"  data-aos-duration="1000">Why Choose Us</h1>
 
             </div>
                 <div className="row justify-content-around gap-4">
-                    <div className="col-md-3 text-center mb-md-0 mb-5">
+                    <div className="col-md-3 text-center mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
                     <div className="whychoose text-white ">
                     <div>
                         <img src={require('../images/price.png')}/>
@@ -83,7 +83,7 @@ function Home() {
                     </div>
                     </div>
 
-                    <div className="col-md-3 text-center mb-md-0 mb-5 ">
+                    <div className="col-md-3 text-center mb-md-0 mb-5 " data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <div className="whychoose text-white ">
                     <div>
                         <img src={require('../images/booking.png')}/>
@@ -95,7 +95,7 @@ function Home() {
                     </div>
                     </div>
 
-                    <div className="col-md-3 text-center mb-md-0 mb-5">
+                    <div className="col-md-3 text-center mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">
                     <div className="whychoose text-white ">
                     <div>
                         <img src={require('../images/customer.png')}/>
@@ -119,9 +119,9 @@ function Home() {
                   {/* ------------------------carousal--------------- */}
                   <div className="section m-0 bg-w" >
                   <div className="container">
-                  <div className="headings mb-5">
-                <p className="text-dark cursive primary-color  fs-5 mb-0"> destinations </p>
-                <h1 className="px-3 c-line">Popular Destinations</h1>
+                  <div className="headings mb-5" >
+                <p className="text-dark cursive primary-color  fs-5 mb-0" data-aos="fade-right" data-aos-delay="500"  data-aos-duration="1000"> destinations </p>
+                <h1 className="px-3 c-line"data-aos="fade-left" data-aos-delay="500"  data-aos-duration="1000">Popular Destinations</h1>
 
             </div>
                         <div className="row">
@@ -144,9 +144,9 @@ function Home() {
         
             <div className="section m-0 ">
            <div className="container trips">
-           <div className="headings mb-5">
-                <p className="text-dark cursive primary-color  fs-5 mb-0">Destination lists</p>
-                <h1 className="px-3 c-line">Backpacking Trips</h1>
+           <div className="headings mb-5" >
+                <p className="text-dark cursive primary-color  fs-5 mb-0" data-aos="fade-right" data-aos-delay="300"  data-aos-duration="1000">Destination lists</p>
+                <h1 className="px-3 c-line" data-aos="fade-left" data-aos-delay="500"  data-aos-duration="1000">Backpacking Trips</h1>
 
             </div>
             <div className="row">
@@ -168,7 +168,7 @@ function Home() {
                <div className="section m-0 c-testimonial" style={{background:'white'}}>
                     <div className="container py-4">
                         <div className="row justify-content-around align-items-center" >
-                        <div className="col-md-4 text-center text-md-start">
+                        <div className="col-md-4 text-center text-md-start" data-aos="fade-right" data-aos-delay="100"  data-aos-duration="700">
                         <div className="">
                
                 <h1 className="text-light mb-4">What Our Customers <span className='primary-color'>Say</span>?</h1>
@@ -177,7 +177,7 @@ function Home() {
             </div>
                         </div>
 
-                        <div className="col-md-6">
+                        <div className="col-md-6" data-aos="fade-left" data-aos-delay="200"  data-aos-duration="1400">
                                 {testimonial()}
                         </div>
                         </div>
@@ -193,30 +193,30 @@ function Home() {
            <div className="section m-0 bg-grey">
            <div className="container week">
 
-            <div className="headings mb-5">
-                <p className="text-dark cursive primary-color  fs-5 mb-0">Destination lists</p>
-                <h1 className="px-3 c-line ">Weekend Trips</h1>
+            <div className="headings mb-5" >
+                <p className="text-dark cursive primary-color  fs-5 mb-0" data-aos="fade-right" data-aos-delay="500"  data-aos-duration="1000">Destination lists</p>
+                <h1 className="px-3 c-line "data-aos="fade-left" data-aos-delay="500"  data-aos-duration="1000">Weekend Trips</h1>
 
             </div>
                         <div className="row g-2">
-                            <div className="col-md-3 rounded position-relative">
+                            <div className="col-md-3 rounded position-relative" data-aos="flip-right" data-aos-delay="500"  data-aos-duration="1200">
                                 <img className="rounded" src={require('../images/week1.png')}/>
                                 <h4 className="weektitle">Kerala</h4>
                             </div>
-                            <div  className="col-md-6 rounded position-relative">
+                            <div  className="col-md-6 rounded position-relative"data-aos="fade-down" data-aos-delay="500"  data-aos-duration="1200">
                             <img className="rounded" src={require('../images/week2.png')}/>
                             <h4 className="weektitle">Ladakh</h4>
                             </div>
-                            <div className="col-md-3 rounded position-relative">
+                            <div className="col-md-3 rounded position-relative" data-aos="flip-left" data-aos-delay="500"  data-aos-duration="1200">
                             <img className="rounded" src={require('../images/week3.png')}/>
                             <h4 className="weektitle">Risikesh</h4>
                             </div>
 
-                            <div  className="col-md-6 rounded position-relative">
+                            <div  className="col-md-6 rounded position-relative" data-aos="fade-right" data-aos-delay="500"  data-aos-duration="1200">
                             <img className="rounded"  src={require('../images/week4.png')}/>
                             <h4 className="weektitle">Bhopal</h4>
                             </div>
-                            <div  className="col-md-6 rounded position-relative">
+                            <div  className="col-md-6 rounded position-relative" data-aos="fade-left" data-aos-delay="500"  data-aos-duration="1200">
                             <img  className="rounded" src={require('../images/week5.png')}/>
                             <h4 className="weektitle">Meghalaya</h4>
                             </div>

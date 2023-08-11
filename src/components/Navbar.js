@@ -7,7 +7,7 @@ function Navbar() {
         <div>
             <nav className="c-navbar navbar navbar-expand-lg bg-transparent">
   <div className="container-fluid px-md-5 px-2 w-md-75 w-100">
-    <Link className="navbar-brand" to="/">
+    <Link className="navbar-brand" to="/beatmytrip">
       <img src={logo}/>
     </Link>
     <button
@@ -25,7 +25,7 @@ function Navbar() {
       <ul className="navbar-nav  gap-4">
        
       <li className="nav-item px-2">
-          <Link  to="/" className="nav-link active" aria-current="page" href="#">
+          <Link  to="/beatmytrip" className="nav-link active" aria-current="page" href="#">
             Home
           </Link>
         </li>

@@ -13,7 +13,7 @@ import ContactPage from "./pages/ContactPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/beatmytrip/",
     element: <HomePage></HomePage>,
    
   },

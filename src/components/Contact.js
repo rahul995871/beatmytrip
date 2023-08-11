@@ -26,7 +26,7 @@ function Contact(props) {
             </p>
           </div>
           <div className="row justify-content-around gx-5  pt-4">
-            <div className="col-md-4 text-center mb-md-0 mb-5">
+            <div className="col-md-4 text-center mb-md-0 mb-5 " data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
               <div className=" cccc">
                 <div className="imgg">
                   <img src={require("../images/phone.png")} />
@@ -42,7 +42,7 @@ function Contact(props) {
               </div>
             </div>
 
-            <div className="col-md-4 text-center mb-md-0 mb-5">
+            <div className="col-md-4 text-center mb-md-0 mb-5 " data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1300">
               <div className=" cccc">
                 <div className="imgg">
                   <img src={require("../images/email.png")} />
@@ -58,7 +58,7 @@ function Contact(props) {
               </div>
             </div>
 
-            <div className="col-md-4 text-center mb-md-0 mb-5">
+            <div className="col-md-4 text-center mb-md-0 mb-5" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500">
               <div className=" cccc">
                 <div className="imgg">
                   <img src={require("../images/location.png")} />
