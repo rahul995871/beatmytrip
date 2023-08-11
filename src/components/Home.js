@@ -1,7 +1,7 @@
 
 import  "../App.css"
 import  "./Home.css"
-import  homebg from "../images/home.jpg.webp"
+import  homebg from "../images/home.jpg.jpg"
 import {week,trip,testimonial} from '../components/Sliders'
 
 function Home() {
