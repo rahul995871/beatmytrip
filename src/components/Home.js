@@ -142,7 +142,7 @@ function Home() {
 
             {/* ------------------trips-------------------- */}
         
-            <div className="section m-0 ">
+            <div className="section m-0 "id="bt">
            <div className="container trips">
            <div className="headings mb-5" >
                 <p className="text-dark cursive primary-color  fs-5 mb-0" data-aos="fade-right" data-aos-delay="300"  data-aos-duration="1000">Destination lists</p>
@@ -191,7 +191,7 @@ function Home() {
 
             {/* ------------------weekends-------------------- */}
 
-           <div className="section m-0 bg-grey">
+           <div className="section m-0 bg-grey" id="wt">
            <div className="container week">
 
             <div className="headings mb-5" >

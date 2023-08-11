@@ -5,7 +5,8 @@ import is from '../images/logo-black.png'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import './Navbar.css'
+import './Navbar.css';
+import { HashLink } from 'react-router-hash-link';
 
 
 function Navbar() {
@@ -35,9 +36,9 @@ function Navbar() {
         <div className={`${classes} rr`}>
             <nav className="c-navbar navbar navbar-expand-lg p-0">
   <div className="container-fluid px-md-5 px-0 w-md-75 w-100">
-    <Link className="navbar-brand px-2" to="/beatmytrip">
+    <HashLink className="navbar-brand px-2" to="/beatmytrip/#">
       <img src={sticky=="is-sticky" ? is : logo}/>
-    </Link>
+    </HashLink>
     <button
       className="navbar-toggler mx-2"
       type="button"
@@ -53,29 +54,29 @@ function Navbar() {
       <ul className="navbar-nav  gap-4">
        
       <li className="nav-item px-2">
-          <Link  to="/beatmytrip" className="nav-link active" aria-current="page" href="#">
+          <HashLink  to="/beatmytrip/#" className="nav-link active" aria-current="page" href="#">
             Home
-          </Link>
+          </HashLink>
         </li>
         <li className="nav-item px-2">
-          <Link to="/about" className="nav-link active" aria-current="page" href="#">
+          <HashLink to="/about/#" className="nav-link active" aria-current="page" href="#">
             About
-          </Link>
+          </HashLink>
         </li>
         <li className="nav-item px-2">
-          <a className="nav-link active" aria-current="page" href="#">
+          <HashLink className="nav-link active" aria-current="page" smooth={true} to="/beatmytrip/#bt">
             Backpacking Trips
-          </a>
+          </HashLink>
         </li>
         <li className="nav-item px-2">
-          <a className="nav-link active" aria-current="page" href="#">
+          <HashLink className="nav-link active" aria-current="page" smooth={true} to="/beatmytrip/#wt">
             Weekend Trips
-          </a>
+          </HashLink>
         </li>
         <li className="nav-item px-2">
-          <Link to='/contact' className="nav-link active" aria-current="page" href="#">
+          <HashLink to='/contact/#' className="nav-link active" aria-current="page" href="#">
             Contact
-          </Link>
+          </HashLink>
         </li>
        
       </ul>
