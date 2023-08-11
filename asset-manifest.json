@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/beatmytrip/static/css/main.cbd5a98b.css",
-    "main.js": "/beatmytrip/static/js/main.3adb33f2.js",
-    "static/media/contact.jpg": "/beatmytrip/static/media/contact.68f2d954cd1910e5a262.jpg",
-    "static/media/about.jpg": "/beatmytrip/static/media/about.6b776b439c284de1fbb9.jpg",
-    "static/media/whyus.png": "/beatmytrip/static/media/whyus.c7cad6ffb9e3ba789bc6.png",
-    "static/media/trip2.jpg": "/beatmytrip/static/media/trip2.fca26f7e48a5be0742ca.jpg",
-    "static/media/trip.jpg": "/beatmytrip/static/media/trip.8966cfc04ed69048b8d5.jpg",
-    "static/media/home.jpg.webp": "/beatmytrip/static/media/home.jpg.e536e0fba890165e75b9.webp",
-    "static/media/pro3.jpg": "/beatmytrip/static/media/pro3.c8b55a536d1d4940f3d1.jpg",
-    "static/media/pro1.jpg": "/beatmytrip/static/media/pro1.95d48fa12c472e1d53fe.jpg",
-    "static/media/pro2.jpg": "/beatmytrip/static/media/pro2.e80fb24827d2fde16ff0.jpg",
-    "static/media/pro4.jpg": "/beatmytrip/static/media/pro4.ed230feec3991a4b7b6c.jpg",
+    "main.css": "/beatmytrip/static/css/main.0f98372b.css",
+    "main.js": "/beatmytrip/static/js/main.f99ab953.js",
+    "static/media/home.jpg.jpg": "/beatmytrip/static/media/home.jpg.05071f89d7c4d75e7834.jpg",
+    "static/media/contact.jpg": "/beatmytrip/static/media/contact.76cb7e446b813f62dcec.jpg",
+    "static/media/about.jpg": "/beatmytrip/static/media/about.c931bfd17c1cbfb0ac33.jpg",
+    "static/media/whyus.png": "/beatmytrip/static/media/whyus.7f6275b1427416687fef.png",
     "static/media/week4.png": "/beatmytrip/static/media/week4.267de5bf6ac02617cfc3.png",
     "static/media/week2.png": "/beatmytrip/static/media/week2.c13421a9da4d21e70011.png",
+    "static/media/trip2.jpg": "/beatmytrip/static/media/trip2.0f4896dd2de090621a0c.jpg",
     "static/media/week5.png": "/beatmytrip/static/media/week5.9188ea94ba8df29bbb2a.png",
+    "static/media/trip.jpg": "/beatmytrip/static/media/trip.dd469862a75e187df036.jpg",
     "static/media/week1.png": "/beatmytrip/static/media/week1.342d980dfea2b757a8d8.png",
     "static/media/week3.png": "/beatmytrip/static/media/week3.c0c660d69ff9e3ffd9b5.png",
+    "static/media/pro3.jpg": "/beatmytrip/static/media/pro3.4f2f173a0cf34054cdf6.jpg",
+    "static/media/pro1.jpg": "/beatmytrip/static/media/pro1.6e7d141a3ad880a6c956.jpg",
+    "static/media/pro4.jpg": "/beatmytrip/static/media/pro4.455ee8976135e6ff4998.jpg",
+    "static/media/pro2.jpg": "/beatmytrip/static/media/pro2.f92af86104defd5d1149.jpg",
     "static/media/contact-side.svg": "/beatmytrip/static/media/contact-side.38c15cd62c6ffd02186dd852c5b1b586.svg",
     "static/media/slick.svg": "/beatmytrip/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/beatmytrip/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/beatmytrip/index.html",
+    "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
-    "main.cbd5a98b.css.map": "/beatmytrip/static/css/main.cbd5a98b.css.map",
-    "main.3adb33f2.js.map": "/beatmytrip/static/js/main.3adb33f2.js.map"
+    "main.0f98372b.css.map": "/beatmytrip/static/css/main.0f98372b.css.map",
+    "main.f99ab953.js.map": "/beatmytrip/static/js/main.f99ab953.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbd5a98b.css",
-    "static/js/main.3adb33f2.js"
+    "static/css/main.0f98372b.css",
+    "static/js/main.f99ab953.js"
   ]
 }
