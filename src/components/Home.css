@@ -18,6 +18,9 @@
                 padding:10px 0px;
                 
             }
+            .c-navbar .container-fluid{
+                background-color: white;
+            }
            
 }
 
@@ -52,6 +55,10 @@
             padding:10px 0px;
             
         }
+        .c-navbar .container-fluid{
+            background-color: white;
+        }
+       
        
    
 

@@ -10,7 +10,8 @@ import { HashLink } from 'react-router-hash-link';
 
 
 function Navbar() {
-  const [sticky, setSticky] = useState("");
+  const [sticky, setSticky] = useState('');
+  const [mob, setMob] = useState('');
 
   // on render, set listener
   useEffect(() => {
@@ -21,15 +22,34 @@ function Navbar() {
     };
   }, []);
 
+  useEffect(() => {
+  
+   isMob()
+   
+  }, [mob]);
+
+  const isMob = () => {
+    const mheight = window.innerWidth;
+    const mresult=mheight<979 ? "logo-c" : "logo";
+    setMob(mresult)
+    console.log(mresult);
+  }
+
   const isSticky = () => {
     /* Method that will fix header after a specific scrollable */
+   
+
     const scrollTop = window.scrollY;
+    
     const stickyClass = scrollTop >= 100 ? "is-sticky"  : "rr";
     setSticky(stickyClass);
+  
     console.log(stickyClass);
   };
 
   const classes = ` ${sticky}`;
+  const mobChange=`${mob}`
+  console.log(mobChange)
 
   
     return (
@@ -37,7 +57,7 @@ function Navbar() {
             <nav className="c-navbar navbar navbar-expand-lg p-0">
   <div className="container-fluid px-md-5 px-0 w-md-75 w-100">
     <HashLink className="navbar-brand px-2" to="/beatmytrip/#">
-      <img src={sticky=="is-sticky" ? is : logo}/>
+      <img src={sticky=="is-sticky" ? is : logo && mob== "logo" ? logo : is}/>
     </HashLink>
     <button
       className="navbar-toggler mx-2"
