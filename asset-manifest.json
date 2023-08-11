@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beatmytrip/static/css/main.0f98372b.css",
-    "main.js": "/beatmytrip/static/js/main.f99ab953.js",
+    "main.css": "/beatmytrip/static/css/main.90f24867.css",
+    "main.js": "/beatmytrip/static/js/main.1ece2bf3.js",
     "static/media/home.jpg.jpg": "/beatmytrip/static/media/home.jpg.05071f89d7c4d75e7834.jpg",
     "static/media/contact.jpg": "/beatmytrip/static/media/contact.76cb7e446b813f62dcec.jpg",
     "static/media/about.jpg": "/beatmytrip/static/media/about.c931bfd17c1cbfb0ac33.jpg",
@@ -18,16 +18,16 @@
     "static/media/pro4.jpg": "/beatmytrip/static/media/pro4.455ee8976135e6ff4998.jpg",
     "static/media/pro2.jpg": "/beatmytrip/static/media/pro2.f92af86104defd5d1149.jpg",
     "static/media/contact-side.svg": "/beatmytrip/static/media/contact-side.38c15cd62c6ffd02186dd852c5b1b586.svg",
+    "index.html": "/beatmytrip/index.html",
     "static/media/slick.svg": "/beatmytrip/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/beatmytrip/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "index.html": "/beatmytrip/index.html",
     "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
-    "main.0f98372b.css.map": "/beatmytrip/static/css/main.0f98372b.css.map",
-    "main.f99ab953.js.map": "/beatmytrip/static/js/main.f99ab953.js.map"
+    "main.90f24867.css.map": "/beatmytrip/static/css/main.90f24867.css.map",
+    "main.1ece2bf3.js.map": "/beatmytrip/static/js/main.1ece2bf3.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f98372b.css",
-    "static/js/main.f99ab953.js"
+    "static/css/main.90f24867.css",
+    "static/js/main.1ece2bf3.js"
   ]
 }
