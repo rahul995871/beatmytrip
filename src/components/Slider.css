@@ -141,7 +141,7 @@
     position: relative;
 }
 .slick-slider{
-    z-index: 12121;
+    z-index: 12;
 }
 
 .test-card::before{
