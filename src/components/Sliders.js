@@ -79,7 +79,8 @@ function SamplePrevArrow(props) {
       dots: true,
       infinite: true,
       autoplay:true,
-      speed: 500,
+      // autoplaySpeed: 3000,
+      speed: 1000,
       
   
       slidesToShow: 4,
@@ -549,7 +550,8 @@ export  const testimonial = function Sliders() {
       {testimonialdata.map((e)=>{
   return(
     <>
-     <div className="test-card py-5 px-4 text-center">
+     <div className="test-card py-5 px-5 text-center ">
+    
           <small className=" text-dark">{e.title}</small>
           <p className="mt-3 mb-0 pb-0 fw-semibold text-dark">-{e.name}</p>
         </div>

@@ -178,6 +178,7 @@ function Home() {
                         </div>
 
                         <div className="col-md-6" data-aos="fade-left" data-aos-delay="200"  data-aos-duration="1400">
+                            
                                 {testimonial()}
                         </div>
                         </div>
