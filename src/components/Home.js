@@ -25,7 +25,7 @@ function Home() {
                 </div>
                 <div className="col-md-5 text-center text-md-end">
 
-                <a className="c-btn bg-white text-dark fw-semibold">Get started</a>
+                <HashLink to="/about/#" className="c-btn bg-white text-dark fw-semibold">Get started</HashLink>
                 </div>
 
                </div>
