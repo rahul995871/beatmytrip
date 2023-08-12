@@ -6,7 +6,7 @@ import { teamslide,testimonial } from "./Sliders";
 function About() {
     return (
         <div>
-        <div className="container-fluid home-bg position-relative" style={{backgroundImage:`url("${about}")`,height:"50vh"}}>
+        <div className="container-fluid home-bg position-relative" style={{backgroundImage:`url("${about}")`,height:"50vh",backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover" }}>
              <div className="home-title pt-5">  
                 <h1 className=" mb-3">About Us</h1> 
                <p>Discover amzaing places at exclusive deals</p>

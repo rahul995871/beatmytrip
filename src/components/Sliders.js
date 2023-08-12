@@ -7,6 +7,7 @@ import "../App.css"
 
 import './Slider.css'
 import aa from '../images/aa.png'
+import { HashLink } from "react-router-hash-link";
 
 
 
@@ -161,37 +162,43 @@ export  const trip = function Sliders() {
 
   const tripData=[{
     title:"Meghalaya Backpack",
-    img:require('../images/trip.jpg')
+    img:require('../images/trip.jpg'),
+    links:'/itenary/#'
 
 
 },
 {
   title:"Meghalaya Backpack",
-  img:require('../images/trip2.jpg')
+  img:require('../images/trip2.jpg'),
+  links:'/itenary/#'
 
 
 },
 {
   title:"Meghalaya Backpack",
-  img:require('../images/trip.jpg')
+  img:require('../images/trip.jpg'),
+  links:'/itenary/#'
 
 
 },
 {
   title:"Meghalaya Backpack",
-  img:require('../images/trip2.jpg')
+  img:require('../images/trip2.jpg'),
+  links:'/itenary/#'
 
 
 },
 {
   title:"Meghalaya Backpack",
-  img:require('../images/trip.jpg')
+  img:require('../images/trip.jpg'),
+  links:'/itenary/#'
 
 
 },
 {
   title:"Meghalaya Backpack",
-  img:require('../images/trip2.jpg')
+  img:require('../images/trip2.jpg'),
+  links:'/itenary/#'
 
 
 },
@@ -289,7 +296,7 @@ export  const trip = function Sliders() {
     <p className="text-dark fs-6"> <small className="primary-color fw-semibold ">(5N/6D) </small><small className="fs-7">/ Per Person</small></p>
   </div>
     <div className=" my-4 pb-3 text-center">
-      <a className="c-btn">Learn More</a>
+      <HashLink to={e.links} className="c-btn">Learn More</HashLink>
     </div>
  </div>
       
@@ -319,6 +326,7 @@ export  const teamslide = function Sliders() {
     title:"Ravi Rautela",
     des:"Founder & CEO",
     img:require('../images/trip.jpg')
+
 
 
 },

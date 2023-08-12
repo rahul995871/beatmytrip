@@ -9,6 +9,7 @@ import {
 import HomePage from './pages/HomePage'
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import ItenaryPage from "./pages/ItenaryPage";
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <ContactPage></ContactPage>,
+   
+  },
+  {
+    path: "/itenary",
+    element: <ItenaryPage></ItenaryPage>,
    
   },
 ]);

@@ -3,13 +3,15 @@ import  "../App.css"
 import  "./Home.css"
 import  homebg from "../images/home.jpg.jpg"
 import {week,trip,testimonial} from '../components/Sliders'
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Home() {
 
 
     return (
         <div>
-            <div className="container-fluid home-bg " style={{backgroundImage:`url("${homebg}")`}}>
+            <div className="container-fluid home-bg " style={{backgroundImage:`url("${homebg}")`,backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover" }}>
              <div className="home-title">  
                 <h1 className=" mb-3" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">Find Next Place To Visit</h1> 
                <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Discover amzaing places at exclusive deals</p>
@@ -201,25 +203,40 @@ function Home() {
             </div>
                         <div className="row g-2">
                             <div className="col-md-3 rounded position-relative" data-aos="flip-right" data-aos-delay="500"  data-aos-duration="1200">
+                                <HashLink to='/itenary/#'>
                                 <img className="rounded" src={require('../images/week1.png')}/>
                                 <h4 className="weektitle">Kerala</h4>
+                                </HashLink>
                             </div>
                             <div  className="col-md-6 rounded position-relative"data-aos="fade-down" data-aos-delay="500"  data-aos-duration="1200">
+                            <HashLink to='/itenary/#'>
                             <img className="rounded" src={require('../images/week2.png')}/>
                             <h4 className="weektitle">Ladakh</h4>
+                                </HashLink>
+                           
+                           
                             </div>
                             <div className="col-md-3 rounded position-relative" data-aos="flip-left" data-aos-delay="500"  data-aos-duration="1200">
+                            <HashLink to='/itenary/#'>
                             <img className="rounded" src={require('../images/week3.png')}/>
                             <h4 className="weektitle">Risikesh</h4>
+                                </HashLink> 
+                           
                             </div>
 
                             <div  className="col-md-6 rounded position-relative" data-aos="fade-right" data-aos-delay="500"  data-aos-duration="1200">
+                            <HashLink to='/itenary/#'>
                             <img className="rounded"  src={require('../images/week4.png')}/>
                             <h4 className="weektitle">Bhopal</h4>
+                                </HashLink> 
+                            
                             </div>
                             <div  className="col-md-6 rounded position-relative" data-aos="fade-left" data-aos-delay="500"  data-aos-duration="1200">
+                            <HashLink to='/itenary/#'>
                             <img  className="rounded" src={require('../images/week5.png')}/>
                             <h4 className="weektitle">Meghalaya</h4>
+                                </HashLink> 
+                           
                             </div>
                             
                             

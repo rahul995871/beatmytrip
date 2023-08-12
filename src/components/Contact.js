@@ -6,7 +6,7 @@ function Contact(props) {
     <div>
       <div
         className="container-fluid home-bg position-relative"
-        style={{ background: `url("${contact}")`, height: "50vh" }}
+        style={{ background: `url("${contact}")`, height: "50vh" ,backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover" }}
       >
         <div className="home-title pt-5">
           <h1 className=" mb-3">Contact Us</h1>
