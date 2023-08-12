@@ -17,10 +17,10 @@ function Itenary() {
 
             {/* ---------------details-------------- */}
 
-            <div className="section m-0 bg-white">
+            <div className="section m-0 bg-white pt-4 mt-3">
                 <div className="container">
-                    <div className="row  align-items-start mt-2">
-                        <div className="col-md-8">
+                    <div className="row  align-items-start">
+                        <div className="col-md-8 mb-3">
                         <div className="itenary-heading row ">
                    <div className="col-md-7">
                    <h1 className='fs-4'>London to Ancient Rome Short</h1>
@@ -83,7 +83,7 @@ function Itenary() {
 
         <div>
         <>
-  <nav>
+  <nav className='mt-4'>
     <div className="nav nav-tabs" id="nav-tab" role="tablist">
       <button
         className="nav-link active"
@@ -292,7 +292,7 @@ itenary-card">
 
 
                                 <>
-                               <div className='m-2 mt-3'>
+                               <div className='mb-4'>
                                <h6>BATCH DATE</h6>
                                </div>
   <nav>
@@ -401,7 +401,7 @@ itenary-card">
 
 
                                 <>
-                               <div className='m-2 mt-3'>
+                               <div className='mb-4 px-1'>
                                <h6>COSTING</h6>
                                </div>
   <nav>

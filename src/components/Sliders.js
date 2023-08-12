@@ -163,42 +163,42 @@ export  const trip = function Sliders() {
   const tripData=[{
     title:"Meghalaya Backpack",
     img:require('../images/trip.jpg'),
-    links:'/itenary/#'
+    links:'/itenary'
 
 
 },
 {
   title:"Meghalaya Backpack",
   img:require('../images/trip2.jpg'),
-  links:'/itenary/#'
+  links:'/itenary'
 
 
 },
 {
   title:"Meghalaya Backpack",
   img:require('../images/trip.jpg'),
-  links:'/itenary/#'
+  links:'/itenary'
 
 
 },
 {
   title:"Meghalaya Backpack",
   img:require('../images/trip2.jpg'),
-  links:'/itenary/#'
+  links:'/itenary'
 
 
 },
 {
   title:"Meghalaya Backpack",
   img:require('../images/trip.jpg'),
-  links:'/itenary/#'
+  links:'/itenary'
 
 
 },
 {
   title:"Meghalaya Backpack",
   img:require('../images/trip2.jpg'),
-  links:'/itenary/#'
+  links:'/itenary'
 
 
 },
