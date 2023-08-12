@@ -1,7 +1,7 @@
 
 
-import logo from '../images/logo.png'
-import is from '../images/logo-black.png'
+import logo from '../images/logo-n.png'
+import is from '../images/logo-n-black.png'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';

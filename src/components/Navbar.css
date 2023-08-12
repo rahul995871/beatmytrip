@@ -23,13 +23,20 @@
 .nav-link{
     color: white;
 }
-.nav-item a:hover{
-color: white;
-background-color: red;
-border-radius: 4px;
-transform: scale(1.1);
+.nav-item a:hover::after{
+    content: "";
+    /* color: white; */
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    /* border-bottom: 3px solid var(--primary-color); */
+    left: 0;
 
 }
+
+
 .c-navbar .nav-link{
     color: white;
 }
@@ -39,6 +46,7 @@ transform: scale(1.1);
   font-size: 13px;
   font-weight: 600;
   padding-left: 10px;
+  position: relative;
 }
 .is-sticky {
     background-color: white;

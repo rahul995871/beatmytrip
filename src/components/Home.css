@@ -21,7 +21,18 @@
             .c-navbar .container-fluid{
                 background-color: white;
             }
-           
+            .rr{
+                position:static!important;
+            }
+            .is-sticky{
+                position:static!important;
+            }
+           .nav-link{
+            display: inline-block;
+           }
+           .nav-item a:hover::after{
+            left: 5px!important;
+           }
 }
 
 @media only screen and (max-width: 768px) {
@@ -59,7 +70,19 @@
             background-color: white;
         }
        
-       
+        .rr{
+            position:static!important;
+        }
+        .is-sticky{
+            position:static!important;
+        }
+
+        .nav-link{
+            display: inline-block;
+           }
+           .nav-item a:hover::after{
+            left: 5px!important;
+           }
    
 
   }
