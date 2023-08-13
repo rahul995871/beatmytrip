@@ -108,3 +108,13 @@
     
 } */
 
+.navbar-toggler-icon{
+    background-image: url('../images/menu.svg');
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.navbar-toggler,.navbar-toggler:focus{
+    border: none;
+    outline: none!important;
+    box-shadow: none;
+}
