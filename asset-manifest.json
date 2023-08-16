@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/beatmytrip/static/css/main.d5676341.css",
-    "main.js": "/beatmytrip/static/js/main.4a0e7a96.js",
-    "static/media/itenary.jpg": "/beatmytrip/static/media/itenary.b2e7425de4a9e1b68fbb.jpg",
+    "main.js": "/beatmytrip/static/js/main.6ea3a6e5.js",
+    "static/media/meghalaya.jpg": "/beatmytrip/static/media/meghalaya.b453f04430f43db8db61.jpg",
     "static/media/home.jpg.jpg": "/beatmytrip/static/media/home.jpg.05071f89d7c4d75e7834.jpg",
+    "static/media/kerala.jpg": "/beatmytrip/static/media/kerala.8765258cda994441bd6c.jpg",
     "static/media/contact.jpg": "/beatmytrip/static/media/contact.76cb7e446b813f62dcec.jpg",
+    "static/media/ladakh.jpg": "/beatmytrip/static/media/ladakh.15f7fa64eb936dac2dea.jpg",
+    "static/media/himachal.jpg": "/beatmytrip/static/media/himachal.ef992eb48aae3cdbb56f.jpg",
     "static/media/about.jpg": "/beatmytrip/static/media/about.c931bfd17c1cbfb0ac33.jpg",
     "static/media/whyus.png": "/beatmytrip/static/media/whyus.7f6275b1427416687fef.png",
     "static/media/week4.png": "/beatmytrip/static/media/week4.267de5bf6ac02617cfc3.png",
@@ -28,10 +31,10 @@
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
     "static/media/menu2.svg": "/beatmytrip/static/media/menu2.a05877e9bd6924d9621b.svg",
     "main.d5676341.css.map": "/beatmytrip/static/css/main.d5676341.css.map",
-    "main.4a0e7a96.js.map": "/beatmytrip/static/js/main.4a0e7a96.js.map"
+    "main.6ea3a6e5.js.map": "/beatmytrip/static/js/main.6ea3a6e5.js.map"
   },
   "entrypoints": [
     "static/css/main.d5676341.css",
-    "static/js/main.4a0e7a96.js"
+    "static/js/main.6ea3a6e5.js"
   ]
 }
