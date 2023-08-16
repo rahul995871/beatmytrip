@@ -1,19 +1,34 @@
+import { useEffect } from 'react';
 import './Itenary.css'
-import itenary from "../images/itenary.jpg";
+
+import { useLocation } from 'react-router-dom';
+
 function Itenary() {
+  useEffect(()=>{
+    window.scrollTo(0,0);
+
+  },[])
+
+
+  const location=useLocation()
+  // console.log( JSON.parse(location.state))
+  const fetcData= JSON.parse(location.state)
+
+  
+ 
+  
     return (
         <div>
              <div
         className="container-fluid home-bg position-relative"
-        style={{ background: `url("${itenary}")`, height: "50vh",backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover" }}
+        style={{ background: `url("${fetcData.bannerimg}")`, height: "50vh",backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover" }}
       >
         <div className="home-title pt-5">
-          <h1 className=" mb-3">Megahayla Tour</h1>
-          <p>Discover amzaing places at exclusive deals</p>
+          <h1 className=" mb-3">{fetcData.maintitle}</h1>
+          <p>{fetcData.maindes}</p>
           {/* <a className="c-btn">Discover More</a> */}
         </div>
       </div>
-
 
             {/* ---------------details-------------- */}
 
@@ -23,8 +38,8 @@ function Itenary() {
                         <div className="col-md-8 mb-3">
                         <div className="itenary-heading row ">
                    <div className="col-md-7">
-                   <h1 className='fs-4'>London to Ancient Rome Short</h1>
-                   <small className=''>LOrema darta cimidhn hekdu</small>
+                   <h1 className='fs-4'>{fetcData.title}</h1>
+                   <small className=''>{fetcData.des}</small>
                    </div>
                    <div className="col-md-1">
                     <img className='img-fluid' src={require('../images/download.png')}/>
@@ -37,38 +52,38 @@ function Itenary() {
             <div className='col-md-4 mb-3 mt-3'>
                 <div className='task-card'>
                     <img src={require('../images/day.png')}/>
-                    <small className='m-0 text-dark '>5 Days</small>
+                    <small className='m-0 text-dark '>{fetcData.days}</small>
                 </div>
             </div>
 
             <div className='col-md-4 mb-3 mt-3'>
                 <div className='task-card'>
                     <img src={require('../images/people.png')}/>
-                    <small className='m-0 text-dark '>Max People : 26</small>
+                    <small className='m-0 text-dark '>{fetcData.people}</small>
                 </div>
             </div>
             <div className='col-md-4 mb-3 mt-3'>
                 <div className='task-card'>
                     <img src={require('../images/tag.png')}/>
-                    <small className='m-0 text-dark '>Price : 2,999</small>
+                    <small className='m-0 text-dark '>{fetcData.price}</small>
                 </div>
             </div>
             <div className='col-md-4 mb-3 mt-3'>
                 <div className='task-card'>
                     <img src={require('../images/date.png')}/>
-                    <small className='m-0 text-dark '>Jan 18’ - Dec 21'</small>
+                    <small className='m-0 text-dark '>{fetcData.date}</small>
                 </div>
             </div>
             <div className='col-md-4 mb-3 mt-3'>
                 <div className='task-card'>
                     <img src={require('../images/age.png')}/>
-                    <small className='m-0 text-dark '>Min Age : 10+</small>
+                    <small className='m-0 text-dark '>{fetcData.age}</small>
                 </div>
             </div>
             <div className='col-md-4 mb-3 mt-3'>
                 <div className='task-card'>
                     <img src={require('../images/pickup.png')}/>
-                    <small className='m-0 text-dark '>Pickup: Airpot</small>
+                    <small className='m-0 text-dark '>{fetcData.pickup}</small>
                 </div>
             </div>
 
@@ -133,10 +148,10 @@ function Itenary() {
       aria-labelledby="nav-home-tab"
       tabIndex={0}
     >
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+<div className="accordion" id="accordionExample">
+  <div className="accordion-item">
+    <h2 className="accordion-header">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         <div className='itenary-btn'>
         <div><img src={require('../images/goal.png')}/></div>
         <small className='m-0 fw-semibold'>Day 1</small>
@@ -144,30 +159,31 @@ function Itenary() {
         </div>
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-      <ul class="itenary-list p-3 pt-1 pb-0 mx-2">
-  <li class="itenary-list-child"><small>Airport pick up by 12 noon.
+    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div className="accordion-body">
+      <ul className="itenary-list p-3 pt-1 pb-0 mx-2">
+      {fetcData.itenaryday1.map((e)=>{
+        console.log(e)
+        return(
+          <>
+            <li className="itenary-list-child"><small>{e}
 </small></li>
-  <li class="itenary-list-child"><small>Road trip to Shillong (approx 4 hours).
-</small></li>
-  <li class="itenary-list-child"><small>Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.
-</small></li>
-   <li class="itenary-list-child"><small>Reach Shillong and Check-In & freshen up.
-</small></li>
-    <li class="itenary-list-child"><small>Gather for our BMTIEN style, welcome shots to start the night right.
-</small></li>
-     <li class="itenary-list-child"><small>Some amazing group bonding activities over music & dinner at the property.
-</small></li>
+ 
      
+          </>
+        )
+      })}
+
+
+
  
 </ul>
        </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+  <div className="accordion-item">
+    <h2 className="accordion-header">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
       <div className='itenary-btn'>
       <div><img src={require('../images/goal.png')}/></div>
             <small className='m-0 fw-semibold'>Day 2</small>
@@ -175,30 +191,29 @@ function Itenary() {
         </div>
       </button>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-      <ul class="itenary-list p-3 pt-1 pb-0 mx-2">
-  <li class="itenary-list-child"><small>Airport pick up by 12 noon.
+    <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div className="accordion-body">
+      <ul className="itenary-list p-3 pt-1 pb-0 mx-2">
+      {fetcData.itenaryday2.map((e)=>{
+        console.log(e)
+        return(
+          <>
+            <li className="itenary-list-child"><small>{e}
 </small></li>
-  <li class="itenary-list-child"><small>Road trip to Shillong (approx 4 hours).
-</small></li>
-  <li class="itenary-list-child"><small>Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.
-</small></li>
-   <li class="itenary-list-child"><small>Reach Shillong and Check-In & freshen up.
-</small></li>
-    <li class="itenary-list-child"><small>Gather for our BMTIEN style, welcome shots to start the night right.
-</small></li>
-     <li class="itenary-list-child"><small>Some amazing group bonding activities over music & dinner at the property.
-</small></li>
+ 
+     
+          </>
+        )
+      })}
      
  
 </ul>
          </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+  <div className="accordion-item">
+    <h2 className="accordion-header">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
       <div className='itenary-btn'>
       <div><img src={require('../images/goal.png')}/></div>
         <small className='m-0 fw-semibold'>Day 3</small>
@@ -206,22 +221,20 @@ function Itenary() {
         </div>
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-      <ul class="itenary-list p-3 pt-1 pb-0 mx-2">
-  <li class="itenary-list-child"><small>Airport pick up by 12 noon.
+    <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div className="accordion-body">
+      <ul className="itenary-list p-3 pt-1 pb-0 mx-2">
+      {fetcData.itenaryday3.map((e)=>{
+        console.log(e)
+        return(
+          <>
+            <li className="itenary-list-child"><small>{e}
 </small></li>
-  <li class="itenary-list-child"><small>Road trip to Shillong (approx 4 hours).
-</small></li>
-  <li class="itenary-list-child"><small>Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.
-</small></li>
-   <li class="itenary-list-child"><small>Reach Shillong and Check-In & freshen up.
-</small></li>
-    <li class="itenary-list-child"><small>Gather for our BMTIEN style, welcome shots to start the night right.
-</small></li>
-     <li class="itenary-list-child"><small>Some amazing group bonding activities over music & dinner at the property.
-</small></li>
+ 
      
+          </>
+        )
+      })}
  
 </ul>
         </div>
@@ -236,19 +249,18 @@ function Itenary() {
       aria-labelledby="nav-profile-tab"
       tabIndex={0}
     >
-       <ul class="itenary-list p-4 mx-4">
-  <li class="itenary-list-child"><small>Airport pick up by 12 noon.
+       <ul className="itenary-list p-4 mx-4">
+ {fetcData.inclusion.map((e)=>{
+        
+        return(
+          <>
+            <li className="itenary-list-child"><small>{e}
 </small></li>
-  <li class="itenary-list-child"><small>Road trip to Shillong (approx 4 hours).
-</small></li>
-  <li class="itenary-list-child"><small>Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.
-</small></li>
-   <li class="itenary-list-child"><small>Reach Shillong and Check-In & freshen up.
-</small></li>
-    <li class="itenary-list-child"><small>Gather for our BMTIEN style, welcome shots to start the night right.
-</small></li>
-     <li class="itenary-list-child"><small>Some amazing group bonding activities over music & dinner at the property.
-</small></li>
+ 
+     
+          </>
+        )
+      })}
      
  
 </ul>
@@ -260,19 +272,18 @@ function Itenary() {
       aria-labelledby="nav-contact-tab"
       tabIndex={0}
     >
-     <ul class="itenary-list p-4 mx-4">
-  <li class="itenary-list-child"><small>Airport pick up by 12 noon.
+     <ul className="itenary-list p-4 mx-4">
+ {fetcData.exclusion.map((e)=>{
+       
+        return(
+          <>
+            <li className="itenary-list-child"><small>{e}
 </small></li>
-  <li class="itenary-list-child"><small>Road trip to Shillong (approx 4 hours).
-</small></li>
-  <li class="itenary-list-child"><small>Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.
-</small></li>
-   <li class="itenary-list-child"><small>Reach Shillong and Check-In & freshen up.
-</small></li>
-    <li class="itenary-list-child"><small>Gather for our BMTIEN style, welcome shots to start the night right.
-</small></li>
-     <li class="itenary-list-child"><small>Some amazing group bonding activities over music & dinner at the property.
-</small></li>
+ 
+     
+          </>
+        )
+      })}
      
  
 </ul>
@@ -356,7 +367,7 @@ itenary-card">
       aria-labelledby="nav-home-tab2"
       tabIndex={0}
     >
-     <small className='fs-7 fw-semibold'>21-07-2023 – 25-08-2023 (open)</small>
+     <small className='fs-7 fw-semibold'>{fetcData.sep}</small>
     </div>
     <div
       className="tab-pane fade"
@@ -365,7 +376,7 @@ itenary-card">
       aria-labelledby="nav-profile-tab2"
       tabIndex={0}
     >
-     <small className='fs-7 fw-semibold'>21-07-2023 – 25-08-2023 (open)</small>
+     <small className='fs-7 fw-semibold'>{fetcData.oct}</small>
     </div>
     <div
       className="tab-pane fade"
@@ -374,7 +385,7 @@ itenary-card">
       aria-labelledby="nav-contact-tab2"
       tabIndex={0}
     >
-     <small className='fs-7 fw-semibold'>21-07-2023 – 25-08-2023 (open)</small>
+     <small className='fs-7 fw-semibold'>{fetcData.nov}</small>
     </div>
     <div
       className="tab-pane fade"
@@ -383,7 +394,7 @@ itenary-card">
       aria-labelledby="nav-disabled-tab2"
       tabIndex={0}
     >
-     <small className='fs-7 fw-semibold'>21-07-2023 – 25-08-2023 (open)</small>
+     <small className='fs-7 fw-semibold'>{fetcData.dec}</small>
     </div>
   </div>
   
@@ -446,7 +457,7 @@ itenary-card">
       Double Sharing : 
       </small>
       <small className='fs-7 fw-semibold m-0 text-dark'>
-       ₹ 29,999/-
+      {fetcData.sharing}
       </small>
       
      </div>
@@ -463,7 +474,7 @@ itenary-card">
       Triple Sharing : 
       </small>
       <small className='fs-7 fw-semibold m-0 text-dark'>
-       ₹ 29,999/-
+      {fetcData.selling}
       </small>
       
      </div>

@@ -32,7 +32,7 @@ function Navbar() {
     const mheight = window.innerWidth;
     const mresult=mheight<979 ? "logo-c" : "logo";
     setMob(mresult)
-    console.log(mresult);
+    // console.log(mresult);
   }
 
   const isSticky = () => {
@@ -44,12 +44,12 @@ function Navbar() {
     const stickyClass = scrollTop >= 100 ? "is-sticky"  : "rr";
     setSticky(stickyClass);
   
-    console.log(stickyClass);
+    // console.log(stickyClass);
   };
 
   const classes = ` ${sticky}`;
   const mobChange=`${mob}`
-  console.log(mobChange)
+  // console.log(mobChange)
 
   
     return (

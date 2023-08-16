@@ -8,6 +8,8 @@ import "../App.css"
 import './Slider.css'
 import aa from '../images/aa.png'
 import { HashLink } from "react-router-hash-link";
+import { useNavigate } from "react-router-dom";
+
 
 
 
@@ -159,49 +161,291 @@ function SamplePrevArrow(props) {
 
 
 export  const trip = function Sliders() {
-
+const navigate =useNavigate()
   const tripData=[{
     title:"Meghalaya Backpack",
     img:require('../images/trip.jpg'),
-    links:'itenary'
-
+    links:'itenary',
+    data:{
+      maintitle:"Meghalaya",
+      maindes:"hello punjab what are u doing",
+      title:"Meghalaya trip by Beatmytrip",
+      des:"lorem of Meghalaya coming from data",
+      days:"5 Days",
+      people:"Max People : 26",
+      price:"Price : 2,999",
+      date:"Jan 18’ - Dec 21'",
+      age:"Min Age : 10+",
+      pickup:"Pickup: Airpot",
+      itenaryday1:[
+        "Airport pick up by 12 noon.(Inclusion)",
+        "Road trip to Shillong (approx 4 hours).",
+        "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+        "Reach Shillong and Check-In & freshen up.",
+        "Gather for our BMTIEN style, welcome shots to start the night right.",
+        "Some amazing group bonding activities over music & dinner at the property.",
+        
+      ],
+      itenaryday2:[
+        "Airport pick up by 12 noon.(Inclusion)",
+        "Road trip to Shillong (approx 4 hours).",
+        "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+        "Reach Shillong and Check-In & freshen up.",
+        "Gather for our BMTIEN style, welcome shots to start the night right.",
+        "Some amazing group bonding activities over music & dinner at the property.",
+        
+      ],
+      itenaryday3:[
+        "Airport pick up by 12 noon.(Inclusion)",
+        "Road trip to Shillong (approx 4 hours).",
+        "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+        "Reach Shillong and Check-In & freshen up.",
+        "Gather for our BMTIEN style, welcome shots to start the night right.",
+        "Some amazing group bonding activities over music & dinner at the property.",
+        
+      ],
+      inclusion:[
+         
+        "Airport pick up by 12 noon.(Inclusion)",
+        "Road trip to Shillong (approx 4 hours).",
+        "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+        "Reach Shillong and Check-In & freshen up.",
+        "Gather for our BMTIEN style, welcome shots to start the night right.",
+        "Some amazing group bonding activities over music & dinner at the property.",
+    ],
+      exclusion:[
+         
+        "Airport pick up by 12 noon.(exclusion)",
+        "Road trip to Shillong (approx 4 hours).",
+        "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+        "Reach Shillong and Check-In & freshen up.",
+        "Gather for our BMTIEN style, welcome shots to start the night right.",
+        "Some amazing group bonding activities over music & dinner at the property.",
+      ],
+      sep:"21-07-2023 – 25-08-2023 (open)",
+      oct:"21-07-2023 – 25-08-2023 (open)",
+      nov:"21-07-2023 – 25-08-2023 (open)",
+      dec:"21-07-2023 – 25-08-2023 (open)",
+      sharing:"₹ 29,999/-",
+      selling:"₹ 29,999/-",
+      bannerimg: require("../images/meghalaya.jpg")
+    }
 
 },
 {
-  title:"Meghalaya Backpack",
+  title:"Kerala Backpack",
   img:require('../images/trip2.jpg'),
-  links:'itenary'
+  links:'itenary',
+  data:{
+    maintitle:"Kerala",
+    maindes:"hello Kerala what are u doing",
+    title:"Kerala trip by Beatmytrip",
+    des:"lorem of Kerala coming from data",
+    days:"5 Days",
+    people:"Max People : 26",
+    price:"Price : 2,999",
+    date:"Jan 18’ - Dec 21'",
+    age:"Min Age : 10+",
+    pickup:"Pickup: Airpot",
+    itenaryday1:[
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+      
+    ],
+    itenaryday2:[
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+      
+    ],
+    itenaryday3:[
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+      
+    ],
+    inclusion:[
+       
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+  ],
+    exclusion:[
+       
+      "Airport pick up by 12 noon.(exclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+    ],
+    sep:"21-07-2023 – 25-08-2023 (open)",
+    oct:"21-07-2023 – 25-08-2023 (open)",
+    nov:"21-07-2023 – 25-08-2023 (open)",
+    dec:"21-07-2023 – 25-08-2023 (open)",
+    sharing:"₹ 29,999/-",
+    selling:"₹ 29,999/-",
+    bannerimg: require("../images/kerala.jpg")
+  }
 
 
 },
 {
-  title:"Meghalaya Backpack",
+  title:"Ladakh Backpack",
   img:require('../images/trip.jpg'),
-  links:'itenary'
+  links:'itenary',
+  data:{
+    maintitle:"Ladakh",
+    maindes:"hello Ladakh what are u doing",
+    title:"Ladakh trip by Beatmytrip",
+    des:"lorem of Ladakh coming from data",
+    days:"5 Days",
+    people:"Max People : 26",
+    price:"Price : 2,999",
+    date:"Jan 18’ - Dec 21'",
+    age:"Min Age : 10+",
+    pickup:"Pickup: Airpot",
+    itenaryday1:[
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+      
+    ],
+    itenaryday2:[
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+      
+    ],
+    itenaryday3:[
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+      
+    ],
+    inclusion:[
+       
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+  ],
+    exclusion:[
+       
+      "Airport pick up by 12 noon.(exclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+    ],
+    sep:"21-07-2023 – 25-08-2023 (open)",
+    oct:"21-07-2023 – 25-08-2023 (open)",
+    nov:"21-07-2023 – 25-08-2023 (open)",
+    dec:"21-07-2023 – 25-08-2023 (open)",
+    sharing:"₹ 29,999/-",
+    selling:"₹ 29,999/-",
+    bannerimg: require("../images/ladakh.jpg")
+  }
 
 
 },
 {
-  title:"Meghalaya Backpack",
+  title:"Himachal Backpack",
   img:require('../images/trip2.jpg'),
-  links:'itenary'
+  links:'itenary',
+  data:{
+    maintitle:"Himachal",
+    maindes:"hello Himachal what are u doing",
+    title:"Himachal trip by Beatmytrip",
+    des:"lorem of Himachal coming from data",
+    days:"5 Days",
+    people:"Max People : 26",
+    price:"Price : 2,999",
+    date:"Jan 18’ - Dec 21'",
+    age:"Min Age : 10+",
+    pickup:"Pickup: Airpot",
+    itenaryday1:[
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+      
+    ],
+    itenaryday2:[
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+      
+    ],
+    itenaryday3:[
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+      
+    ],
+    inclusion:[
+       
+      "Airport pick up by 12 noon.(Inclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+  ],
+    exclusion:[
+       
+      "Airport pick up by 12 noon.(exclusion)",
+      "Road trip to Shillong (approx 4 hours).",
+      "Visit Purva Tirupati Sri Balaji Temple & Barapani Lake (Umiam) on the way to Shillong.",
+      "Reach Shillong and Check-In & freshen up.",
+      "Gather for our BMTIEN style, welcome shots to start the night right.",
+      "Some amazing group bonding activities over music & dinner at the property.",
+    ],
+    sep:"21-07-2023 – 25-08-2023 (open)",
+    oct:"21-07-2023 – 25-08-2023 (open)",
+    nov:"21-07-2023 – 25-08-2023 (open)",
+    dec:"21-07-2023 – 25-08-2023 (open)",
+    sharing:"₹ 29,999/-",
+    selling:"₹ 29,999/-",
+    bannerimg: require("../images/himachal.jpg")
+  }
 
 
-},
-{
-  title:"Meghalaya Backpack",
-  img:require('../images/trip.jpg'),
-  links:'itenary'
+}
 
-
-},
-{
-  title:"Meghalaya Backpack",
-  img:require('../images/trip2.jpg'),
-  links:'itenary'
-
-
-},
 
 ]
 
@@ -296,7 +540,7 @@ export  const trip = function Sliders() {
     <p className="text-dark fs-6"> <small className="primary-color fw-semibold ">(5N/6D) </small><small className="fs-7">/ Per Person</small></p>
   </div>
     <div className=" my-4 pb-3 text-center">
-      <HashLink to={`/${e.links}/#`} className="c-btn">Learn More</HashLink>
+      <a  onClick={()=>navigate('/itenary/#',{state:`${JSON.stringify(e.data) }`})} className="c-btn">Learn More</a>
     </div>
  </div>
       
