@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beatmytrip/static/css/main.74d99cf4.css",
-    "main.js": "/beatmytrip/static/js/main.873aa89b.js",
+    "main.js": "/beatmytrip/static/js/main.16bf47bf.js",
     "static/media/meghalaya.jpg": "/beatmytrip/static/media/meghalaya.b453f04430f43db8db61.jpg",
     "static/media/home.jpg.jpg": "/beatmytrip/static/media/home.jpg.05071f89d7c4d75e7834.jpg",
     "static/media/kerala.jpg": "/beatmytrip/static/media/kerala.8765258cda994441bd6c.jpg",
@@ -30,10 +30,10 @@
     "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
     "main.74d99cf4.css.map": "/beatmytrip/static/css/main.74d99cf4.css.map",
-    "main.873aa89b.js.map": "/beatmytrip/static/js/main.873aa89b.js.map"
+    "main.16bf47bf.js.map": "/beatmytrip/static/js/main.16bf47bf.js.map"
   },
   "entrypoints": [
     "static/css/main.74d99cf4.css",
-    "static/js/main.873aa89b.js"
+    "static/js/main.16bf47bf.js"
   ]
 }
