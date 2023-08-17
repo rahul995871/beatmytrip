@@ -26,7 +26,7 @@ function Home() {
                <div className="home-blob" >
                <div className="row justify-content-center align-items-center">
                 <div className="col-md-7">
-                <p className="fs-5 mb-4">Begin your adventurous journey here.</p>
+                <p className="fs-5 mb-4 my-md-3">Begin your adventurous journey here.</p>
                 </div>
                 <div className="col-md-5 text-center text-md-end">
 
