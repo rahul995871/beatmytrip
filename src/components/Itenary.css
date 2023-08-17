@@ -75,7 +75,7 @@ flex-wrap: wrap;
 .c-tab>.active{
    padding: 20px;
 }
-.home-title h1{
+.blob h1{
     position: relative;
     z-index: 1;
 }
@@ -92,7 +92,7 @@ flex-wrap: wrap;
     z-index: -1;
     
 } */
-.home-title h1::before{
+.blob h1::before{
     position: absolute;
     content: "";
     top: -9px;

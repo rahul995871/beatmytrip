@@ -23,7 +23,7 @@ function Itenary() {
         className="container-fluid home-bg position-relative"
         style={{ background: `url("${fetcData.bannerimg}")`, height: "50vh",backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover" }}
       >
-        <div className="home-title pt-5">
+        <div className="home-title blob pt-5">
           <h1 className=" mb-3">{fetcData.maintitle}</h1>
           <p>{fetcData.maindes}</p>
           {/* <a className="c-btn">Discover More</a> */}
