@@ -2,12 +2,17 @@
 import  "../App.css"
 import  "./Home.css"
 import  homebg from "../images/home.jpg.jpg"
-import {week,trip,testimonial} from '../components/Sliders'
+import {week,trip,testimonial, tripDatas} from '../components/Sliders'
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { useNavigate } from "react-router-dom";
+import { data } from "./Data";
+
+
 
 function Home() {
-
+    const navigate =useNavigate()
+ 
 
     return (
         <div>
@@ -202,7 +207,22 @@ function Home() {
 
             </div>
                         <div className="row g-2">
-                            <div className="col-md-3 rounded position-relative" data-aos="flip-right" data-aos-delay="500"  data-aos-duration="1200">
+
+                                {data.map((e)=>{
+                                    return(
+                                        <>
+                                         <div className={`${e.colsize} rounded position-relative`} data-aos={e.dataaos} data-aos-delay="500"  data-aos-duration="1200">
+                                <a  onClick={()=>navigate('/itenary/#',{state:`${JSON.stringify(e.data) }`})}>
+                                <img className="rounded" src={e.weekimg}/>
+                                <h4 className="weektitle text-capitalize">{e.data.maintitle}</h4>
+                                </a>
+                            </div>
+                                        
+                                        </>
+                                    )
+                                })}
+
+                            {/* <div className="col-md-3 rounded position-relative" data-aos="flip-right" data-aos-delay="500"  data-aos-duration="1200">
                                 <HashLink to='/itenary/#'>
                                 <img className="rounded" src={require('../images/week1.png')}/>
                                 <h4 className="weektitle">Kerala</h4>
@@ -237,7 +257,7 @@ function Home() {
                             <h4 className="weektitle">Meghalaya</h4>
                                 </HashLink> 
                            
-                            </div>
+                            </div> */}
                             
                             
 
