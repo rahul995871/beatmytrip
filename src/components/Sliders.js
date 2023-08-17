@@ -167,7 +167,7 @@ const navigate =useNavigate()
     img:require('../images/trip.jpg'),
     links:'itenary',
     data:{
-      maintitle:"Meghalaya",
+      maintitle:"MEGHALAYA",
       maindes:"hello punjab what are u doing",
       title:"Meghalaya trip by Beatmytrip",
       des:"lorem of Meghalaya coming from data",
@@ -237,7 +237,7 @@ const navigate =useNavigate()
   img:require('../images/trip2.jpg'),
   links:'itenary',
   data:{
-    maintitle:"Kerala",
+    maintitle:"KERALA",
     maindes:"hello Kerala what are u doing",
     title:"Kerala trip by Beatmytrip",
     des:"lorem of Kerala coming from data",
@@ -308,7 +308,7 @@ const navigate =useNavigate()
   img:require('../images/trip.jpg'),
   links:'itenary',
   data:{
-    maintitle:"Ladakh",
+    maintitle:"LADAKH",
     maindes:"hello Ladakh what are u doing",
     title:"Ladakh trip by Beatmytrip",
     des:"lorem of Ladakh coming from data",
@@ -379,7 +379,7 @@ const navigate =useNavigate()
   img:require('../images/trip2.jpg'),
   links:'itenary',
   data:{
-    maintitle:"Himachal",
+    maintitle:"HIMACHAL",
     maindes:"hello Himachal what are u doing",
     title:"Himachal trip by Beatmytrip",
     des:"lorem of Himachal coming from data",
