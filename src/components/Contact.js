@@ -1,6 +1,7 @@
 import contact from "../images/contact.jpg";
 import contactSide from "../images/contact-side.svg";
 import "./Contact.css";
+import { Link } from "react-router-dom";
 function Contact(props) {
   return (
     <div>
@@ -32,12 +33,13 @@ function Contact(props) {
                   <img src={require("../images/phone.png")} />
                 </div>
                 <div>
-                  <small className="m-0 text-dark fw-semibold">
-                    +91 8750562321
-                  </small><br></br>
-                  <small className="m-0 text-dark fw-semibold">
-                    +91 934348473
-                  </small>
+                  <Link to="tel:919910170917" className="text-decoration-none"><small className="m-0 text-dark fw-semibold">
+                    +91 9910170917
+                  </small></Link>
+                  <br></br>
+                  <Link to="tel:918447785517" className="text-decoration-none"><small className="m-0 text-dark fw-semibold">
+                    +91 8447785517
+                  </small></Link>
                 </div>
               </div>
             </div>
@@ -48,12 +50,14 @@ function Contact(props) {
                   <img src={require("../images/email.png")} />
                 </div>
                 <div>
-                  <small className="text-dark fw-semibold">
-                    info@beatsmytrip.com
-                  </small><br></br>
-                  <small className="text-dark fw-semibold">
-                    info@myself.com
-                  </small>
+                <Link to="mailto:info@beatsmytrip.com" className="text-decoration-none"><small className="m-0 text-dark fw-semibold">
+                info@beatsmytrip.com
+                  </small></Link>
+                  <br></br>
+                 
+                  <Link to="mailto: ravirautela661@gmail.com"  className="text-decoration-none"><small className="m-0 text-dark fw-semibold">
+                  ravirautela661@gmail.com
+                  </small></Link>
                 </div>
               </div>
             </div>
