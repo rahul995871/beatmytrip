@@ -20,7 +20,7 @@ align-items: center;
 display: flex;
 gap: 20px;
 align-items: center;
-flex-wrap: wrap;
+/* flex-wrap: wrap; */
 
 }
 .itenary-btn img{
