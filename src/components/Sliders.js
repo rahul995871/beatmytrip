@@ -189,7 +189,7 @@ const navigate =useNavigate()
   }
     const settings = {
       dots: true,
-      infinite: true,
+      infinite: false,
       autoplay:false,
       speed: 500,
   

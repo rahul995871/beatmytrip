@@ -13,7 +13,10 @@ function Itenary() {
   const location=useLocation()
   // console.log( JSON.parse(location.state))
   const fetcData= JSON.parse(location.state)
-
+  console.log(fetcData.itenaryday1)
+  fetcData.itenaryday1.map((c)=>{
+    console.log(c)
+  })
   
  
   
@@ -149,31 +152,31 @@ function Itenary() {
       tabIndex={0}
     >
 <div className="accordion" id="accordionExample">
-  <div className="accordion-item">
+  {fetcData.itenaryday1.map((b)=>{
+    return(
+      <>
+      <div className="accordion-item">
     <h2 className="accordion-header">
-      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button className={`accordion-button ${b.col}`}type="button" data-bs-toggle="collapse" data-bs-target={`#${b.cid}`} aria-expanded={b.panel} aria-controls={b.cid}>
         <div className='itenary-btn'>
         <div><img src={require('../images/goal.png')}/></div>
-        <small className='m-0 fw-semibold'>Day 1</small>
+        <small className='m-0 fw-semibold text-capitalize'>{b.day}</small>
           
         </div>
       </button>
     </h2>
-    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+    <div id={b.cid} className={`accordion-collapse collapse  ${b.show}`} data-bs-parent="#accordionExample">
       <div className="accordion-body">
       <ul className="itenary-list p-3 pt-1 pb-0 mx-2">
-      {fetcData.itenaryday1.map((e)=>{
-        console.log(e)
-        return(
-          <>
-            <li className="itenary-list-child"><small>{e}
-</small></li>
- 
      
-          </>
-        )
-      })}
-
+{b.daydata.map((a)=>{
+  return(
+    <>
+    <li className="itenary-list-child"><small>{a}
+</small></li>
+    </>
+  )
+})}
 
 
  
@@ -181,65 +184,10 @@ function Itenary() {
        </div>
     </div>
   </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      <div className='itenary-btn'>
-      <div><img src={require('../images/goal.png')}/></div>
-            <small className='m-0 fw-semibold'>Day 2</small>
-          
-        </div>
-      </button>
-    </h2>
-    <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div className="accordion-body">
-      <ul className="itenary-list p-3 pt-1 pb-0 mx-2">
-      {fetcData.itenaryday2.map((e)=>{
-        console.log(e)
-        return(
-          <>
-            <li className="itenary-list-child"><small>{e}
-</small></li>
- 
-     
-          </>
-        )
-      })}
-     
- 
-</ul>
-         </div>
-    </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-      <div className='itenary-btn'>
-      <div><img src={require('../images/goal.png')}/></div>
-        <small className='m-0 fw-semibold'>Day 3</small>
-          
-        </div>
-      </button>
-    </h2>
-    <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div className="accordion-body">
-      <ul className="itenary-list p-3 pt-1 pb-0 mx-2">
-      {fetcData.itenaryday3.map((e)=>{
-        console.log(e)
-        return(
-          <>
-            <li className="itenary-list-child"><small>{e}
-</small></li>
- 
-     
-          </>
-        )
-      })}
- 
-</ul>
-        </div>
-    </div>
-  </div>
+      </>
+    )
+  })}
+
 </div>
     </div>
     <div
@@ -250,7 +198,7 @@ function Itenary() {
       tabIndex={0}
     >
        <ul className="itenary-list p-4 mx-4">
- {fetcData.inclusion.map((e)=>{
+       {fetcData.inclusion.map((e)=>{
         
         return(
           <>
@@ -261,7 +209,6 @@ function Itenary() {
           </>
         )
       })}
-     
  
 </ul>
     </div>
@@ -273,17 +220,17 @@ function Itenary() {
       tabIndex={0}
     >
      <ul className="itenary-list p-4 mx-4">
- {fetcData.exclusion.map((e)=>{
+     {fetcData.exclusion.map((e)=>{
        
-        return(
-          <>
-            <li className="itenary-list-child"><small>{e}
+       return(
+         <>
+           <li className="itenary-list-child"><small>{e}
 </small></li>
- 
-     
-          </>
-        )
-      })}
+
+    
+         </>
+       )
+     })}
      
  
 </ul>

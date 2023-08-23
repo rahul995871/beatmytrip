@@ -105,3 +105,14 @@ flex-wrap: wrap;
     transform: translate(50%,0%);
     z-index: -1;
 }
+/* .accordion-button{
+    background-color: white;
+    color: black;
+} */
+
+.accordion-button::after{
+    background-image: url('../images//down-arrow.png')
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url('../images//up-arrow.png')
+}
