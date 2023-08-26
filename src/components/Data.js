@@ -472,7 +472,7 @@ export const data=[
     dataaos:"flip-left",
 
     data:{
-      maintitle:"Kerala Quick Gateaway",
+      maintitle:"Kerala Quick",
       maindes:"hello Kerala Quick Gateaway what are u doing",
       title:"Kerala Quick Gateaway trip by Beatmytrip",
       des:"lorem of Kerala Quick Gateaway coming from data",
