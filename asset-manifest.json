@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beatmytrip/static/css/main.e69838f4.css",
-    "main.js": "/beatmytrip/static/js/main.14a96b67.js",
+    "main.js": "/beatmytrip/static/js/main.b2846340.js",
     "static/media/kerala-back.jpg": "/beatmytrip/static/media/kerala-back.cb9ef84ae625300b9c2f.jpg",
     "static/media/manali-back.jpg": "/beatmytrip/static/media/manali-back.b81238dfb44e8a8244c2.jpg",
     "static/media/kasol-back.jpg": "/beatmytrip/static/media/kasol-back.48513f1406b3f2162e7f.jpg",
@@ -34,10 +34,10 @@
     "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
     "main.e69838f4.css.map": "/beatmytrip/static/css/main.e69838f4.css.map",
-    "main.14a96b67.js.map": "/beatmytrip/static/js/main.14a96b67.js.map"
+    "main.b2846340.js.map": "/beatmytrip/static/js/main.b2846340.js.map"
   },
   "entrypoints": [
     "static/css/main.e69838f4.css",
-    "static/js/main.14a96b67.js"
+    "static/js/main.b2846340.js"
   ]
 }
