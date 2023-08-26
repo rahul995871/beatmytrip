@@ -30,14 +30,12 @@ function Home() {
         <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
-              'Chalo Apko Ghumate Hai',
+              'Chalo Apko Ghumate Hai...',
               1500, // wait 1s before replacing "Mice" with "Hamsters"
-              'Chalo Apko Ghumate Hai Kashmir Ke Vadiya',
-              1500,
-              'Chalo Apko Ghumate Hai Kerala  Ke Baag',
-              1500,
-              'Chalo Apko Ghumate Hai Manali  Ke Pahad',
-              1500
+              '',
+              1500, // wait 1s before replacing "Mice" with "Hamsters"
+              
+             
             ]}
             wrapper="h1"
             speed={25}
@@ -54,9 +52,9 @@ function Home() {
           >
             Find Next Place To Visit
           </h1> */}
-          <small data-aos="fade-up"  data-aos-delay="300" data-aos-duration="1000">
+          <p data-aos="fade-up" className="fs-6"  data-aos-delay="300" data-aos-duration="1000">
             Discover amzaing places at exclusive deals
-          </small>
+          </p>
           {/* <a className="c-btn">Discover More</a> */}
         </div>
 
