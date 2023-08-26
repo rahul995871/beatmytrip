@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.css": "/beatmytrip/static/css/main.e69838f4.css",
-    "main.js": "/beatmytrip/static/js/main.5e29664d.js",
+    "main.css": "/beatmytrip/static/css/main.249393e1.css",
+    "main.js": "/beatmytrip/static/js/main.b9f9fe3d.js",
+    "static/media/n9.jpg": "/beatmytrip/static/media/n9.d6bf9445fba88e839923.jpg",
+    "static/media/n4.jpg": "/beatmytrip/static/media/n4.7e6e2b1273f8844977f1.jpg",
+    "static/media/n2.jpg": "/beatmytrip/static/media/n2.cff09ff648e2b1694870.jpg",
+    "static/media/n8.jpg": "/beatmytrip/static/media/n8.481c78956e05e5bf485e.jpg",
+    "static/media/n7.jpg": "/beatmytrip/static/media/n7.fa3edf390cb3326418ad.jpg",
+    "static/media/n10.jpg": "/beatmytrip/static/media/n10.11d7937e6ac243a70fe4.jpg",
     "static/media/kerala-back.jpg": "/beatmytrip/static/media/kerala-back.cb9ef84ae625300b9c2f.jpg",
+    "static/media/n6.jpg": "/beatmytrip/static/media/n6.d7f1cff21c4852c98fb6.jpg",
     "static/media/manali-back.jpg": "/beatmytrip/static/media/manali-back.b81238dfb44e8a8244c2.jpg",
+    "static/media/n11.jpg": "/beatmytrip/static/media/n11.f5567f0d137ac46277ab.jpg",
     "static/media/kasol-back.jpg": "/beatmytrip/static/media/kasol-back.48513f1406b3f2162e7f.jpg",
     "static/media/jibhi-back.jpg": "/beatmytrip/static/media/jibhi-back.b943e0f6ffb88764e02e.jpg",
     "static/media/meghalaya.jpg": "/beatmytrip/static/media/meghalaya.b453f04430f43db8db61.jpg",
     "static/media/chopta-back.jpg": "/beatmytrip/static/media/chopta-back.bb6070d8242eab118da4.jpg",
     "static/media/spiti-back.jpg": "/beatmytrip/static/media/spiti-back.0ae8b60cf856739549d2.jpg",
+    "static/media/n1.jpg": "/beatmytrip/static/media/n1.6f5792087a498d097f91.jpg",
     "static/media/kerala.jpg": "/beatmytrip/static/media/kerala.8765258cda994441bd6c.jpg",
     "static/media/contact.jpg": "/beatmytrip/static/media/contact.76cb7e446b813f62dcec.jpg",
     "static/media/kashmir-back.jpg": "/beatmytrip/static/media/kashmir-back.36fe0bef63566e7764d9.jpg",
     "static/media/h-2.jpg": "/beatmytrip/static/media/h-2.e3c425732f8876e1a441.jpg",
     "static/media/about.jpg": "/beatmytrip/static/media/about.c931bfd17c1cbfb0ac33.jpg",
+    "static/media/n5.jpg": "/beatmytrip/static/media/n5.db44a9e5e4f486d11141.jpg",
+    "static/media/n3.jpg": "/beatmytrip/static/media/n3.64461b7fbc7b4b387c2c.jpg",
     "static/media/bir-back.jpg": "/beatmytrip/static/media/bir-back.d20354359ad962be9d5a.jpg",
     "static/media/whyus.png": "/beatmytrip/static/media/whyus.7f6275b1427416687fef.png",
     "static/media/kasol.jpg": "/beatmytrip/static/media/kasol.2a9a87260d50abb8e293.jpg",
@@ -33,11 +44,11 @@
     "static/media/slick.eot": "/beatmytrip/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
-    "main.e69838f4.css.map": "/beatmytrip/static/css/main.e69838f4.css.map",
-    "main.5e29664d.js.map": "/beatmytrip/static/js/main.5e29664d.js.map"
+    "main.249393e1.css.map": "/beatmytrip/static/css/main.249393e1.css.map",
+    "main.b9f9fe3d.js.map": "/beatmytrip/static/js/main.b9f9fe3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e69838f4.css",
-    "static/js/main.5e29664d.js"
+    "static/css/main.249393e1.css",
+    "static/js/main.b9f9fe3d.js"
   ]
 }
