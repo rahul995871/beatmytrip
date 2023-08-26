@@ -16,150 +16,150 @@ import { data } from "./Data";
 
 
 
- export  const week = function Sliders() {
+//  export  const week = function Sliders() {
 
-  const sliderData=[{
-    title:"Kerala",
-    img:require('../images/pro1.jpg')
-
-
-},
-{
-  title:"Ladakh",
-  img:require('../images/pro2.jpg')
+//   const sliderData=[{
+//     title:"Kerala",
+//     img:require('../images/pro1.jpg')
 
 
-},
-{
-  title:"Nepal",
-  img:require('../images/pro3.jpg')
+// },
+// {
+//   title:"Ladakh",
+//   img:require('../images/pro2.jpg')
 
 
-},
-{
-  title:"Risikesh",
-  img:require('../images/pro4.jpg')
+// },
+// {
+//   title:"Nepal",
+//   img:require('../images/pro3.jpg')
 
 
-},
-{
-  title:"Ladakh",
-  img:require('../images/pro2.jpg')
+// },
+// {
+//   title:"Risikesh",
+//   img:require('../images/pro4.jpg')
 
 
-},
-{
-  title:"Kerala",
-  img:require('../images/pro1.jpg')
+// },
+// {
+//   title:"Ladakh",
+//   img:require('../images/pro2.jpg')
 
 
-},
+// },
+// {
+//   title:"Kerala",
+//   img:require('../images/pro1.jpg')
 
-]
+
+// },
+
+// ]
 
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    // <i class="fa-solid fa-arrow-right"></i>
-    <div
-      className={`${className} fa-solid fa-arrow-right`}
-      style={{ ...style}}
-      onClick={onClick}
-    />
-  );
-}
+// function SampleNextArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     // <i class="fa-solid fa-arrow-right"></i>
+//     <div
+//       className={`${className} fa-solid fa-arrow-right`}
+//       style={{ ...style}}
+//       onClick={onClick}
+//     />
+//   );
+// }
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style}}
-      onClick={onClick}
-    />
-  );
-}
-    const settings = {
-      dots: true,
-      infinite: true,
-      autoplay:true,
-      // autoplaySpeed: 3000,
-      speed: 1000,
+// function SamplePrevArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style}}
+//       onClick={onClick}
+//     />
+//   );
+// }
+//     const settings = {
+//       dots: true,
+//       infinite: true,
+//       autoplay:true,
+//       // autoplaySpeed: 3000,
+//       speed: 1000,
       
   
-      slidesToShow: 4,
-      slidesToScroll: 3,
-      initialSlide: 0,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />,
-      responsive: [
-        {
-          breakpoint: 1024,
+//       slidesToShow: 4,
+//       slidesToScroll: 3,
+//       initialSlide: 0,
+//       nextArrow: <SampleNextArrow />,
+//       prevArrow: <SamplePrevArrow />,
+//       responsive: [
+//         {
+//           breakpoint: 1024,
         
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true,
+//           settings: {
+//             slidesToShow: 3,
+//             slidesToScroll: 3,
+//             infinite: true,
+//             dots: true,
             
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2,
-            arrows: false
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false
-          }
-        }
-      ]
-    };
-  return (
-    <div>
+//           }
+//         },
+//         {
+//           breakpoint: 600,
+//           settings: {
+//             slidesToShow: 2,
+//             slidesToScroll: 2,
+//             initialSlide: 2,
+//             arrows: false
+//           }
+//         },
+//         {
+//           breakpoint: 480,
+//           settings: {
+//             slidesToShow: 1,
+//             slidesToScroll: 1,
+//             arrows: false
+//           }
+//         }
+//       ]
+//     };
+//   return (
+//     <div>
      
        
         
       
 
-        {/* //////////////////////// */}
+//         {/* //////////////////////// */}
 
-      <Slider {...settings} className="pro">
+//       <Slider {...settings} className="pro">
 
-      {sliderData.map((e)=>{
-  return(
-    <>
-     <div className="pro-c" >
-    <div className="pp">
-      <h4 className="title">{e.title}</h4>
-      <img src={e.img}/>
-    </div>
-        </div>
-    </>
-  )
-})}
+//       {sliderData.map((e)=>{
+//   return(
+//     <>
+//      <div className="pro-c" >
+//     <div className="pp">
+//       <h4 className="title">{e.title}</h4>
+//       <img src={e.img}/>
+//     </div>
+//         </div>
+//     </>
+//   )
+// })}
 
        
 
-      </Slider>
+//       </Slider>
 
-        {/* //////////////////////// */}
+//         {/* //////////////////////// */}
         
        
 
   
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
 
 export  const trip = function Sliders() {
@@ -283,7 +283,7 @@ export  const teamslide = function Sliders() {
   const team=[{
     title:"Ravi Rautela",
     des:"Founder & CEO",
-    img:require('../images/trip.jpg')
+    img:require('../images/spiti.jpg')
 
 
 
@@ -291,28 +291,28 @@ export  const teamslide = function Sliders() {
 {
   title:"Ravi Rautela",
   des:"Founder & CEO",
-  img:require('../images/trip2.jpg')
+  img:require('../images/spiti.jpg')
 
 
 },
 {
   title:"Ravi Rautela",
   des:"Founder & CEO",
-  img:require('../images/trip.jpg')
+  img:require('../images/spiti.jpg')
 
 
 },
 {
   title:"Ravi Rautela",
   des:"Founder & CEO",
-  img:require('../images/trip2.jpg')
+  img:require('../images/spiti.jpg')
 
 
 },
 {
   title:"Ravi Rautela",
   des:"Founder & CEO",
-  img:require('../images/trip.jpg')
+  img:require('../images/spiti.jpg')
 
 
 }
