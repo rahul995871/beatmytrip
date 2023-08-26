@@ -39,10 +39,10 @@ function Home() {
             ]}
             wrapper="h1"
             speed={25}
-            style={{ fontSize: '2rem', display: 'inline-block' }}
+            style={{ fontSize: '1.7rem', display: 'inline-block' }}
             repeat={Infinity}
             cursor={true}
-            className="mb-3"
+            className="mb-2"
           />
           {/* <h1
             className=" mb-3"
@@ -52,9 +52,9 @@ function Home() {
           >
             Find Next Place To Visit
           </h1> */}
-          <p data-aos="fade-up" className="fs-6"  data-aos-delay="300" data-aos-duration="1000">
-            Discover amzaing places at exclusive deals
-          </p>
+            <p data-aos="fade-up" className="fs-6"  data-aos-delay="300" data-aos-duration="1000">
+              Discover amzaing places at exclusive deals
+            </p>
           {/* <a className="c-btn">Discover More</a> */}
         </div>
 
