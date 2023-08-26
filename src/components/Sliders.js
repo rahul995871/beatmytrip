@@ -9,9 +9,102 @@ import './Slider.css'
 import aa from '../images/aa.png'
 import { HashLink } from "react-router-hash-link";
 import { useNavigate } from "react-router-dom";
-import { data } from "./Data";
+import { data, homeData } from "./Data";
 
 
+
+// --------home----
+
+export  const homeSlider = function Sliders() {
+  const navigate =useNavigate()
+  
+    function SampleNextArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        // <i class="fa-solid fa-arrow-right"></i>
+        <div
+          className={`${className} fa-solid fa-arrow-right`}
+          style={{ ...style}}
+          onClick={onClick}
+        />
+      );
+    }
+  
+    function SamplePrevArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style}}
+          onClick={onClick}
+        />
+      );
+    }
+      const settings = {
+        dots: true,
+      fade: true,
+      infinite: true,
+      autoplay: true,
+      draggable:true,
+  
+      
+      speed: 1500,
+      autoplaySpeed: 5000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      cssEase: 'ease-in-out',
+      lazyLoad: 'progressive',
+        // nextArrow: <SampleNextArrow />,
+        // prevArrow: <SamplePrevArrow />,
+        
+      };
+    return (
+      <div>
+       
+         
+          
+        
+  
+          {/* //////////////////////// */}
+  
+        <Slider {...settings} className="h-overlay position-relative">
+  
+        {homeData.map((e)=>{
+    return(
+      <>
+      <div className="slideshow sliderimg" style={{
+          backgroundImage: `url("${e.img}")`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          height:"85vh"
+        
+        }}>
+      
+         
+        
+      </div>
+      
+      </>
+    )
+  })}
+  
+         
+  
+        </Slider>
+  
+          {/* //////////////////////// */}
+          
+         
+  
+    
+      </div>
+    );
+  }
+  
+
+
+// -----home-end--
 
 
 

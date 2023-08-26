@@ -1,7 +1,7 @@
 import "../App.css";
 import "./Home.css";
 import homebg from "../images/h-2.jpg";
-import { week, trip, testimonial, tripDatas, homeSlider } from "../components/Sliders";
+import { week, trip, testimonial, tripDatas } from "../components/Sliders";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { useNavigate } from "react-router-dom";
@@ -17,10 +17,16 @@ function Home() {
 
   return (
     <div>
-     <div className="section m-0 p-0 bg-white">
-     <div className="container-fluid position-relative px-0 hh">
-        {homeSlider()}
-        <div className="home-title2">
+      <div
+        className="container-fluid home-bg "
+        style={{
+          backgroundImage: `url("${homebg}")`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <div className="home-title">
       
           <h1
             className=" mb-3"
@@ -32,13 +38,13 @@ function Home() {
           </h1>
           <TypeAnimation
             sequence={[
-              
+              // Same substring at the start will only be typed out once, initially
               'Chalo Apko Ghumate Hai...',
-              1500, 
+              1500, // wait 1s before replacing "Mice" with "Hamsters"
               'Chalo Apko Firhate Hai...',
-              1500, 
+              1500, // wait 1s before replacing "Mice" with "Hamsters"
               '',
-              1500, 
+              1500, // wait 1s before replacing "Mice" with "Hamsters"
               
              
             ]}
@@ -54,11 +60,8 @@ function Home() {
             </p> */}
           {/* <a className="c-btn">Discover More</a> */}
         </div>
-        
-        
 
-      </div>
-      <div className="home-blob2">
+        <div className="home-blob">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-7">
                 
@@ -76,13 +79,11 @@ function Home() {
             </div>
           </div>
         </div>
-     </div>
-      
-     
+      </div>
       <div>
         {/* ------------------------whychoose--------------- */}
-        <div className="section m-0 bg-w pt-0">
-          <div className="container ">
+        <div className="section m-0 bg-w">
+          <div className="container mt-5 pt-5">
             <div className="row">
               <div
                 className="col-md-6 "
