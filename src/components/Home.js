@@ -27,10 +27,21 @@ function Home() {
         }}
       >
         <div className="home-title">
-        <TypeAnimation
+      
+          <h1
+            className=" mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            Find Next Place To Visit
+          </h1>
+          <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
               'Chalo Apko Ghumate Hai...',
+              1500, // wait 1s before replacing "Mice" with "Hamsters"
+              'Chalo Apko Firhate Hai...',
               1500, // wait 1s before replacing "Mice" with "Hamsters"
               '',
               1500, // wait 1s before replacing "Mice" with "Hamsters"
@@ -39,22 +50,14 @@ function Home() {
             ]}
             wrapper="h1"
             speed={25}
-            style={{ fontSize: '1.7rem', display: 'inline-block' }}
+            style={{ fontSize: '1.3rem', display: 'inline-block' }}
             repeat={Infinity}
             cursor={true}
-            className="mb-2"
+            className="mb-2 "
           />
-          {/* <h1
-            className=" mb-3"
-            data-aos="zoom-in"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-          >
-            Find Next Place To Visit
-          </h1> */}
-            <p data-aos="fade-up" className="fs-6"  data-aos-delay="300" data-aos-duration="1000">
-              Discover amzaing places at exclusive deals
-            </p>
+            {/* <p data-aos="fade-up" className="fs-6"  data-aos-delay="300" data-aos-duration="1000">
+              Discover amzaing places at<br></br> exclusive deals
+            </p> */}
           {/* <a className="c-btn">Discover More</a> */}
         </div>
 
