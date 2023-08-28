@@ -1,63 +1,64 @@
 import "../App.css";
 import "./Home.css";
 import homebg from "../images/h-2.jpg";
-import {
-  week,
-  trip,
-  testimonial,
-  tripDatas,
-  homeSlider,
-} from "../components/Sliders";
+import { week, trip, testimonial, tripDatas, homeSlider } from "../components/Sliders";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { useNavigate } from "react-router-dom";
 import { data, weekData } from "./Data";
 import { TypeAnimation } from "react-type-animation";
 
+
 function Home() {
+
+
+    
   const navigate = useNavigate();
 
   return (
     <div>
-      <div className="section m-0 p-0 bg-white">
-        <div className="container-fluid position-relative px-0 hh">
-          {homeSlider()}
-          <div className="home-title3">
-            <h1 className=" mb-5 pb-2">
-              <div className="n-logo ">
-                <span className="animate__bounce animate__animated animate__delay-1s">
-                  {/* <img
-                    src={require("../images/world4.png")}
-                    className="world"
-                  /> */}
-                  Beat
-                </span>{" "}
-                <span className="">MyTrip</span>
-              </div>
-            </h1>
-            <TypeAnimation
-              sequence={[
-                "Chalo Apko Ghumate Hai...",
-                1500,
-                "Chalo Apko Firhate Hai...",
-                1500,
-                "",
-                1500,
-              ]}
-              wrapper="h1"
-              speed={25}
-              style={{ fontSize: "1.3rem", display: "inline-block" }}
-              repeat={Infinity}
-              cursor={true}
-              className="mb-2 "
-            />
+     <div className="section m-0 p-0 bg-white">
+     <div className="container-fluid position-relative px-0 hh">
+        {homeSlider()}
+        <div className="home-title2">
+      
+          <h1
+            className=" mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            Find Next Place To Visit
+          </h1>
+          <TypeAnimation
+            sequence={[
+              
+              'Chalo Apko Ghumate Hai...',
+              1500, 
+              'Chalo Apko Firhate Hai...',
+              1500, 
+              '',
+              1500, 
+              
+             
+            ]}
+            wrapper="h1"
+            speed={25}
+            style={{ fontSize: '1.3rem', display: 'inline-block' }}
+            repeat={Infinity}
+            cursor={true}
+            className="mb-2 "
+          />
             {/* <p data-aos="fade-up" className="fs-6"  data-aos-delay="300" data-aos-duration="1000">
               Discover amzaing places at<br></br> exclusive deals
             </p> */}
-            {/* <a className="c-btn">Discover More</a> */}
-          </div>
+          {/* <a className="c-btn">Discover More</a> */}
         </div>
-        {/* <div className="home-blob2">
+        
+        
+
+      </div>
+      <div className="home-blob2">
           <div className="row justify-content-center align-items-center">
             <div className="col-md-7">
                 
@@ -74,12 +75,13 @@ function Home() {
               </HashLink>
             </div>
           </div>
-        </div> */}
-      </div>
-
+        </div>
+     </div>
+      
+     
       <div>
         {/* ------------------------whychoose--------------- */}
-        <div className="section m-0 bg-w">
+        <div className="section m-0 bg-w pt-0">
           <div className="container ">
             <div className="row">
               <div

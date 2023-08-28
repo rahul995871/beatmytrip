@@ -12,6 +12,12 @@ import { HashLink } from 'react-router-hash-link';
 function Navbar() {
   const [sticky, setSticky] = useState('');
   const [mob, setMob] = useState('');
+  const [ac, setAc] = useState(true);
+
+
+  const active=()=>{
+   
+  }
 
   // on render, set listener
   useEffect(() => {
@@ -54,7 +60,7 @@ function Navbar() {
   
     return (
         <div className={`${classes} rr`}>
-            {/* <nav className="c-navbar navbar navbar-expand-lg p-0">
+            <nav className="c-navbar navbar navbar-expand-lg p-0">
   <div className="container-fluid px-md-5 px-0 w-md-75 w-100">
     <HashLink className="navbar-brand px-2" to="/beatmytrip/#">
       <img src={sticky=="is-sticky" ? is : logo && mob== "logo" ? logo : is}/>
@@ -103,26 +109,10 @@ function Navbar() {
       
     </div>
   </div>
-</nav> */}
+</nav>
 
 
-<div className="c-navs">
-<HashLink  to="/beatmytrip/#" className="nav-link active" aria-current="page" href="#">
-           <div><img src={require('../images/home.png')}/></div>
-          </HashLink>
-          <HashLink to="/about/#" className="nav-link active" aria-current="page" href="#">
-          <div><img src={require('../images/group.png')}/></div>
-          </HashLink>
-          <HashLink className="nav-link active" aria-current="page" smooth={true} to="/beatmytrip/#bt">
-          <div><img src={require('../images/backpack.png')}/></div>
-          </HashLink>
-          <HashLink className="nav-link active" aria-current="page" smooth={true} to="/beatmytrip/#wt">
-          <div><img src={require('../images/weekend.png')}/></div>
-          </HashLink>
-          <HashLink to='/contact/#' className="nav-link active" aria-current="page" href="#">
-          <div><img src={require('../images/contact.png')}/></div>
-          </HashLink>
-    </div>
+
 
 
         </div>

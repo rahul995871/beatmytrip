@@ -77,7 +77,7 @@ export  const homeSlider = function Sliders() {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          height:"85vh"
+          height:"100vh"
         
         }}>
       
