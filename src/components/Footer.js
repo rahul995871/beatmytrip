@@ -11,7 +11,7 @@ function Footer() {
             </div>
             </Link> */}
            
-            <div className="container">
+            <div className="container pb-5 mb-5">
                 <div className="row justify-content-center align-items-center text-center">
                     <div className="col-md-10">
                     <p className="fs-7">112th Avenue, Gaur City 2, Noida - 201305 | Phone: +91 8750562321 | Email: info@beatsmytrip.com</p>
