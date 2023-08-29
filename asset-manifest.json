@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/beatmytrip/static/css/main.6007fe75.css",
-    "main.js": "/beatmytrip/static/js/main.207b945a.js",
+    "main.css": "/beatmytrip/static/css/main.ec71dae7.css",
+    "main.js": "/beatmytrip/static/js/main.45c5e3b3.js",
+    "static/media/M.pdf": "/beatmytrip/static/media/M.acb0462508afceb1b358.pdf",
     "static/media/n9.jpg": "/beatmytrip/static/media/n9.d6bf9445fba88e839923.jpg",
     "static/media/n4.jpg": "/beatmytrip/static/media/n4.7e6e2b1273f8844977f1.jpg",
     "static/media/n2.jpg": "/beatmytrip/static/media/n2.cff09ff648e2b1694870.jpg",
@@ -33,21 +34,21 @@
     "static/media/chopta.jpg": "/beatmytrip/static/media/chopta.88477d1930ceb11d850a.jpg",
     "static/media/kerala1.jpg": "/beatmytrip/static/media/kerala1.d2a1c06bfbf5516eea7c.jpg",
     "static/media/spiti.jpg": "/beatmytrip/static/media/spiti.2a25aaa47351caab9ce4.jpg",
+    "static/media/user.png": "/beatmytrip/static/media/user.99bf1b65e741fd526c0b.png",
     "static/media/meghalaya1.jpg": "/beatmytrip/static/media/meghalaya1.a5cfdcce873bebdc5215.jpg",
     "static/media/kashmir.jpg": "/beatmytrip/static/media/kashmir.63600a938fe2ab6dacb1.jpg",
     "static/media/people.png": "/beatmytrip/static/media/people.b02643469cb99e6907eb.png",
-    "static/media/date.png": "/beatmytrip/static/media/date.ed777a4fbefcdd848629.png",
     "static/media/contact-side.svg": "/beatmytrip/static/media/contact-side.38c15cd62c6ffd02186dd852c5b1b586.svg",
     "index.html": "/beatmytrip/index.html",
     "static/media/slick.svg": "/beatmytrip/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/beatmytrip/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
-    "main.6007fe75.css.map": "/beatmytrip/static/css/main.6007fe75.css.map",
-    "main.207b945a.js.map": "/beatmytrip/static/js/main.207b945a.js.map"
+    "main.ec71dae7.css.map": "/beatmytrip/static/css/main.ec71dae7.css.map",
+    "main.45c5e3b3.js.map": "/beatmytrip/static/js/main.45c5e3b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6007fe75.css",
-    "static/js/main.207b945a.js"
+    "static/css/main.ec71dae7.css",
+    "static/js/main.45c5e3b3.js"
   ]
 }
