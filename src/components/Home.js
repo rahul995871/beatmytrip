@@ -194,7 +194,7 @@ function Home() {
             </div>
             <div className="row justify-content-around gap-4">
               <div
-                className="col-md-3 text-center mb-md-0 mb-5"
+                className="col-md-3 text-center mb-md-0 mb-5 "
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="500"

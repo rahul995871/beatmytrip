@@ -1804,6 +1804,28 @@ export const weekData=[
 
 export const homeData=[
   {
+    img:require('../images/n6.jpg'),
+  },
+  {
+    img:require('../images/n7.jpg'),
+  },
+  // {
+  //   img:require('../images/n8.jpg'),
+  // },
+  // {
+  //   img:require('../images/n9.jpg'),
+  // },
+  {
+    img:require('../images/n1.jpg'),
+  },
+  
+  {
+    img:require('../images/n10.jpg'),
+  },
+  {
+    img:require('../images/n2.jpg'),
+  },
+  {
     img:require('../images/n4.jpg'),
   },
   
@@ -1813,25 +1835,5 @@ export const homeData=[
   {
     img:require('../images/n3.jpg'),
   },
-  {
-    img:require('../images/n1.jpg'),
-  },
-  {
-    img:require('../images/n6.jpg'),
-  },
-  {
-    img:require('../images/n7.jpg'),
-  },
-  {
-    img:require('../images/n8.jpg'),
-  },
-  {
-    img:require('../images/n9.jpg'),
-  },
-  {
-    img:require('../images/n10.jpg'),
-  },
-  {
-    img:require('../images/n2.jpg'),
-  },
+  
 ]
