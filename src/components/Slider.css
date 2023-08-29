@@ -242,3 +242,19 @@
       -ms-transform-origin: 50% 0%;
     }
   }
+
+  .test-img{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+text-align: center;
+margin: auto;
+margin-top: 15px;
+
+  }
+  .test-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }

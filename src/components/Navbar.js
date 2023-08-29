@@ -53,7 +53,8 @@ function Navbar() {
 
   
     return (
-        <div className={`${classes} rr`}>
+        // <div className={`${classes} rr`}>
+          <div >
             {/* <nav className="c-navbar navbar navbar-expand-lg p-0">
   <div className="container-fluid px-md-5 px-0 w-md-75 w-100">
     <HashLink className="navbar-brand px-2" to="/beatmytrip/#">

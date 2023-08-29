@@ -1,5 +1,6 @@
 import "../App.css";
 import "./Home.css";
+
 import homebg from "../images/h-2.jpg";
 import {
   week,
@@ -13,19 +14,37 @@ import { HashLink } from "react-router-hash-link";
 import { useNavigate } from "react-router-dom";
 import { data, weekData } from "./Data";
 import { TypeAnimation } from "react-type-animation";
+import { useState } from "react";
+
+const ReadMore = ({ children }) => {
+  const text = children;
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+  return (
+    <p className="text">
+      {isReadMore ? text.slice(0, 150) : text}
+      <span onClick={toggleReadMore} className="read-or-hide">
+        {isReadMore ? "...read more" : " show less"}
+      </span>
+    </p>
+  );
+};
 
 function Home() {
   const navigate = useNavigate();
 
   return (
     <div>
+      
       <div className="section m-0 p-0 bg-white">
         <div className="container-fluid position-relative px-0 hh">
           {homeSlider()}
           <div className="home-title3">
             <h1 className=" mb-5 pb-2">
               <div className="n-logo ">
-                <span className="animate__bounce animate__animated animate__delay-1s">
+                <span className="animate__bounce animate__animated animate__delay-1s ">
                   {/* <img
                     src={require("../images/world4.png")}
                     className="world"
@@ -37,12 +56,12 @@ function Home() {
             </h1>
             <TypeAnimation
               sequence={[
-                "Chalo Apko Ghumate Hai...",
-                1500,
-                "Chalo Apko Firhate Hai...",
-                1500,
+                "Chalo Apko Ghumate...",
+                1000,
+                " or Firhate Hai...",
+                1000,
                 "",
-                1500,
+                1000,
               ]}
               wrapper="h1"
               speed={25}
@@ -156,15 +175,14 @@ function Home() {
         <div className="section m-0 test bg-dark">
           <div className="container">
             <div className="headings mb-5">
-              <p
-                className="text-dark cursive primary-color  fs-5 mb-"
+              {/* <p
+                className="text-dark cursive primary-color  fs-5 fw-semibold"
                 data-aos="fade-right"
                 data-aos-delay="500"
                 data-aos-duration="1000"
               >
-                {" "}
-                destinations{" "}
-              </p>
+                {" "}Your Travel, Your Way{" "}
+              </p> */}
               <h1
                 className="px-3 c-line text-light"
                 data-aos="fade-left"
@@ -188,7 +206,7 @@ function Home() {
                   <div>
                     <h6 className="my-3">Best Price Guarantee</h6>
                     <small className="fs-7">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Our commitment to delivering value for your money means that you can expect top-notch service and experiences without compromising your financial plans.
                     </small>
                   </div>
                 </div>
@@ -207,7 +225,7 @@ function Home() {
                   <div>
                     <h6 className="my-3">Easy & Quick Booking</h6>
                     <small className="fs-7">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    We are passionate travelers ourselves, and our deep understanding of various destinations sets us apart. 
                     </small>
                   </div>
                 </div>
@@ -226,7 +244,7 @@ function Home() {
                   <div>
                     <h6 className="my-3">Customer Care 24/7</h6>
                     <small className="fs-7">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Our dedicated support team is available around the clock to assist you, whether you need last-minute changes or have questions while on the road.
                     </small>
                   </div>
                 </div>
@@ -270,7 +288,7 @@ function Home() {
                 data-aos-delay="500"
                 data-aos-duration="1000"
               >
-                Destination lists
+                Short on Time, High on Adventure
               </p>
               <h1
                 className="px-3 c-line "
@@ -376,7 +394,7 @@ function Home() {
                 data-aos-delay="300"
                 data-aos-duration="1000"
               >
-                Destination lists
+               Your Backpack, Our Expertise
               </p>
               <h1
                 className="px-3 c-line"
@@ -415,7 +433,7 @@ function Home() {
                     <span className="primary-color">Say</span>?
                   </h1>
                   <p className="text-light mb-5 ">
-                    Fuerat aestu carentem habentia spectent
+                  Discover what our clients have to say about their extraordinary journeys with BMT
                   </p>
                 </div>
               </div>
@@ -426,6 +444,7 @@ function Home() {
                 data-aos-delay="200"
                 data-aos-duration="1400"
               >
+                
                 {testimonial()}
               </div>
             </div>

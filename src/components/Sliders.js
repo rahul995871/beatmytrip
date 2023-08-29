@@ -10,11 +10,26 @@ import aa from '../images/aa.png'
 import { HashLink } from "react-router-hash-link";
 import { useNavigate } from "react-router-dom";
 import { data, homeData } from "./Data";
+import { useState } from "react";
 
 
 
 // --------home----
-
+const ReadMore = ({ children }) => {
+  const text = children;
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+  return (
+    <small className="text text-black ">
+      {isReadMore ? text.slice(0, 150) : text}
+      <span onClick={toggleReadMore} className="read-or-hide primary-color fw-semibold">
+        {isReadMore ? "...read more" : " show less"}
+      </span>
+    </small>
+  );
+};
 export  const homeSlider = function Sliders() {
   const navigate =useNavigate()
   
@@ -540,23 +555,36 @@ export  const teamslide = function Sliders() {
 export  const testimonial = function Sliders() {
 
   const testimonialdata=[{
-    title:"Thank you BMT for an amzing experience to Kerala. Our trip to Kerala is an awesome. In Munnar the property the location the people the food everything is so good, Boathouse experience was awesome. Property in Thekkady is also one of the best property. Thank you BMT 🙂",
-   name:"Custome Johi"
-
-
-},
-{
-  title:"Thank you BMT for an amzing experience to Kerala. Our trip to Kerala is an awesome. In Munnar the property the location the people the food everything is so good, Boathouse experience was awesome. Property in Thekkady is also one of the best property. Thank you BMT 🙂",
- name:"Custome Johi"
-
+    title:"Have travelled Kerala this week with BMT. I have very good experience with the team.They provided good car and good accommodation as well. It's completely safe for solo women travelers also.I would recommend them completely for the trips.",
+   name:"Moumita Ghosh",
+    img: require('../images/user.png'),
 
 },
 {
-  title:"Thank you BMT for an amzing experience to Kerala. Our trip to Kerala is an awesome. In Munnar the property the location the people the food everything is so good, Boathouse experience was awesome. Property in Thekkady is also one of the best property. Thank you BMT 🙂",
- name:"Custome Johi"
-
+  title:"Went with BMT to Bir Billing for the paragliding experience.Transit was good. Buses were on schedule and no unnecessary stops were made. The place of stay was very decent, some distance away from the main city with picture-perfect landscape. Food was standard; nothing out of ordinary. Met some wonderful people along the way and overall it was a great, fun experience.They accomodated us on a 1.5 day notice, organisation was quite well. Would recommend travellling with them, and probably would travel with them again :)",
+ name:"Shubham Vashishth",
+  img: require('../images/user.png'),
 
 },
+{
+  title:"One of my best trips ever, full with diverse experiences. Especially the driver was very well experienced and humble to drive safely throughout our trip. Seriously, I had a wonderful experience in my dream place, Spiti, with a variety of hotels, sights of monasteries, and palaces. Congratulations and a heartfelt thank you to everyone involved; the driver, trip organiser, and employees at each hotel were warm and accommodating, and they helped to make my trip a truly special one. BeatsMyTrip company has certainly delivered a professional and truly high standard of service and recommends to any visitor you are certainly in very good hands. It's an awesome trip. Thanks a lot.",
+ name:"Rajiv Choudhary",
+  img: require('../images/user.png'),
+
+},
+{
+  title:"It was our first Girls trip and it was great experience to plan with BeatsMyTrip. Everything was properly planned. Hotels, cab, itinerary all things were very good and we didn't feel any problem at any place. Homestays were very good and food was also good. Every stay was planned according to our destination. BeatsMyTrip team was very helpful. They made our trip totally memorable💜💜  We will surely recommend BMT to everyone for their trips. THANK YOU😊",
+ name:"Harshita Pandey",
+  img: require('../images/user.png'),
+
+},
+{
+  title:"It's been a great experience travelling with BeatsMyTrip. The driver is also very courteous, and speaking of lodging, all of the accommodations were fantastic, especially the Munnar homestay.Last but not least, if you're looking for the best expeditions in Kerala at the lowest price, BeatsMyTrip is the therefor you. ",
+ name:"yash talhan",
+  img: require('../images/user.png'),
+
+},
+
 
 
 
@@ -610,9 +638,15 @@ export  const testimonial = function Sliders() {
   return(
     <>
      <div className="test-card py-5 px-5 text-center ">
+     
     
-          <small className=" text-dark">{e.title}</small>
+          {/* <small className=" text-dark">{e.title}</small> */}
+          <ReadMore className=" text-dark">
+          {e.title}
+        </ReadMore>
+        <div className="test-img"><img src={e.img} /></div>
           <p className="mt-3 mb-0 pb-0 fw-semibold text-dark">-{e.name}</p>
+          
         </div>
     </>
   )

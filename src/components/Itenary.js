@@ -1,7 +1,9 @@
 import { useEffect } from 'react';
 import './Itenary.css'
 
+import dd from '../docs/M.pdf'
 import { useLocation } from 'react-router-dom';
+
 
 function Itenary() {
   useEffect(()=>{
@@ -17,8 +19,7 @@ function Itenary() {
   fetcData.itenaryday1.map((c)=>{
     console.log(c)
   })
-  
- 
+   console.log(fetcData)
   
     return (
         <div>
@@ -26,9 +27,21 @@ function Itenary() {
         className="container-fluid home-bg position-relative"
         style={{ background: `url("${fetcData.bannerimg}")`, height: "50vh",backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundSize:"cover" }}
       >
-        <div className="home-title blob pt-5">
-          <h1 className=" mb-3">{fetcData.maintitle}</h1>
-          <p>{fetcData.maindes}</p>
+        <div className="home-title  pt-5">
+        <h1 className=" mb-5 pb-2">
+              <div className="n-logo ">
+                <span className="animate__bounce animate__animated animate__delay-1s fs-1">
+                  {/* <img
+                    src={require("../images/world4.png")}
+                    className="world"
+                  /> */}
+                  {fetcData.maintitle}
+                </span>{" "}
+                {/* <span className="">Backpack</span> */}
+              </div>
+            </h1>
+          {/* <h1 className=" mb-3">{fetcData.maintitle}</h1> */}
+          {/* <p>{fetcData.maindes}</p> */}
           {/* <a className="c-btn">Discover More</a> */}
         </div>
       </div>
@@ -39,13 +52,13 @@ function Itenary() {
                 <div className="container">
                     <div className="row  align-items-start">
                         <div className="col-md-8 mb-3">
-                        <div className="itenary-heading row ">
+                        <div className="itenary-heading row align-items-center">
                    <div className="col-md-7">
-                   <h1 className='fs-4'>{fetcData.title}</h1>
+                   <h1 className='fs-4 fw-semibold'>{fetcData.title}</h1>
                    <small className=''>{fetcData.des}</small>
                    </div>
                    <div className="col-md-1">
-                    <img className='img-fluid' src={require('../images/download.png')}/>
+                  <a  target='_blank'  href={fetcData.pdfs} download="Meghalaya-Backpack.pdf"><img className='img-fluid' src={require('../images/download.png')}/></a>
                    </div>
                         </div>
 
@@ -71,12 +84,12 @@ function Itenary() {
                     <small className='m-0 text-dark '>{fetcData.price}</small>
                 </div>
             </div>
-            <div className='col-md-4 mb-3 mt-3'>
+            {/* <div className='col-md-4 mb-3 mt-3'>
                 <div className='task-card'>
                     <img src={require('../images/date.png')}/>
                     <small className='m-0 text-dark '>{fetcData.date}</small>
                 </div>
-            </div>
+            </div> */}
             <div className='col-md-4 mb-3 mt-3'>
                 <div className='task-card'>
                     <img src={require('../images/age.png')}/>
@@ -374,7 +387,7 @@ itenary-card">
         aria-controls="nav-home3"
         aria-selected="true"
       >
-        Room Sharing
+       Double Sharing
       </button>
       <button
         className="nav-link fs-7"
@@ -386,7 +399,7 @@ itenary-card">
         aria-controls="nav-profile3"
         aria-selected="false"
       >
-       Selling Cost (Per Person)
+       Triple Sharing
       </button>
      
     </div>
@@ -404,7 +417,7 @@ itenary-card">
       Double Sharing : 
       </small>
       <small className='fs-7 fw-semibold m-0 text-dark'>
-      {fetcData.sharing}
+      {fetcData.double}
       </small>
       
      </div>
@@ -421,7 +434,7 @@ itenary-card">
       Triple Sharing : 
       </small>
       <small className='fs-7 fw-semibold m-0 text-dark'>
-      {fetcData.selling}
+      {fetcData.triple}
       </small>
       
      </div>
