@@ -1,12 +1,10 @@
 {
   "files": {
     "main.css": "/beatmytrip/static/css/main.ec71dae7.css",
-    "main.js": "/beatmytrip/static/js/main.45c5e3b3.js",
+    "main.js": "/beatmytrip/static/js/main.101274ac.js",
     "static/media/M.pdf": "/beatmytrip/static/media/M.acb0462508afceb1b358.pdf",
-    "static/media/n9.jpg": "/beatmytrip/static/media/n9.d6bf9445fba88e839923.jpg",
     "static/media/n4.jpg": "/beatmytrip/static/media/n4.7e6e2b1273f8844977f1.jpg",
     "static/media/n2.jpg": "/beatmytrip/static/media/n2.cff09ff648e2b1694870.jpg",
-    "static/media/n8.jpg": "/beatmytrip/static/media/n8.481c78956e05e5bf485e.jpg",
     "static/media/n7.jpg": "/beatmytrip/static/media/n7.fa3edf390cb3326418ad.jpg",
     "static/media/n10.jpg": "/beatmytrip/static/media/n10.11d7937e6ac243a70fe4.jpg",
     "static/media/kerala-back.jpg": "/beatmytrip/static/media/kerala-back.cb9ef84ae625300b9c2f.jpg",
@@ -45,10 +43,10 @@
     "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
     "main.ec71dae7.css.map": "/beatmytrip/static/css/main.ec71dae7.css.map",
-    "main.45c5e3b3.js.map": "/beatmytrip/static/js/main.45c5e3b3.js.map"
+    "main.101274ac.js.map": "/beatmytrip/static/js/main.101274ac.js.map"
   },
   "entrypoints": [
     "static/css/main.ec71dae7.css",
-    "static/js/main.45c5e3b3.js"
+    "static/js/main.101274ac.js"
   ]
 }
