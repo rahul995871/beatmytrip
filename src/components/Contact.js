@@ -11,7 +11,7 @@ function Contact(props) {
       >
         <div className="home-title pt-5">
           <h1 className=" mb-3">Contact Us</h1>
-          <p>Discover amzaing places at exclusive deals</p>
+          {/* <p>Discover amzaing places at exclusive deals</p> */}
           {/* <a className="c-btn">Discover More</a> */}
         </div>
       </div>
@@ -33,12 +33,12 @@ function Contact(props) {
                   <img src={require("../images/phone.png")} />
                 </div>
                 <div>
-                  <Link to="tel:919910170917" className="text-decoration-none"><small className="m-0 text-dark fw-semibold">
+                  {/* <Link to="tel:919910170917" className="text-decoration-none"><small className="m-0 text-dark fw-semibold">
                     +91 9910170917
-                  </small></Link>
-                  <br></br>
-                  <Link to="tel:918447785517" className="text-decoration-none"><small className="m-0 text-dark fw-semibold">
-                    +91 8447785517
+                  </small></Link> */}
+                  
+                  <Link to="tel:918750562321" className="text-decoration-none"><small className="m-0 text-dark fw-semibold">
+                    +91 8750562321
                   </small></Link>
                 </div>
               </div>
@@ -55,9 +55,9 @@ function Contact(props) {
                   </small></Link>
                   <br></br>
                  
-                  <Link to="mailto: ravirautela661@gmail.com"  className="text-decoration-none"><small className="m-0 text-dark fw-semibold">
+                  {/* <Link to="mailto: ravirautela661@gmail.com"  className="text-decoration-none"><small className="m-0 text-dark fw-semibold">
                   ravirautela661@gmail.com
-                  </small></Link>
+                  </small></Link> */}
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ function Contact(props) {
                 </div>
                 <div>
                   <small className="text-dark fw-semibold">
-                    112th Avenue, Gaur City 2,<br></br>Noida - 201305{" "}
+                    112th Avenue, Gaur City 2,Noida - 201305{" "}
                   </small>
                 </div>
               </div>

@@ -73,7 +73,7 @@ align-items: center;
 
 
 .c-tab>.active{
-   padding: 20px;
+   padding: 20px 15px;
 }
 .blob h1{
     position: relative;
@@ -115,4 +115,35 @@ align-items: center;
 }
 .accordion-button:not(.collapsed)::after{
     background-image: url('../images//up-arrow.png')
+}
+.dates{
+    display: flex;
+    gap: 20;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    list-style-type: none;
+padding: 0;
+    margin: 0;
+}
+
+
+.dates li{
+display: inline-flex;
+gap: 10px;
+align-items: center;
+margin-bottom: 10px;
+background-color: black;
+color: white;
+padding: 10px;
+border-radius: 8px;
+margin-right: 10px;
+
+}
+.dates li:last-child{
+    margin-bottom: 0;
+}
+.dates li img{
+height: 20px;
+width: 20px;
+padding: 1px;
 }

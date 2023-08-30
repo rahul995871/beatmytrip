@@ -10,6 +10,20 @@ function Footer() {
                 <img src={require('../images/whatsapp-w.png')}/>
             </div>
             </Link> */}
+
+
+<div class="social-fixed">
+         
+         <a href="https://wa.me/918750562321" class="social-icon" target="blank">
+         <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="https://www.instagram.com/beats_mytrip/" class="social-icon" target="blank">
+            <i class="fa-brands fa-instagram"></i>
+            </a>
+
+      
+</div>
            
             <div className="container pb-5 mb-5">
                 <div className="row justify-content-center align-items-center text-center">

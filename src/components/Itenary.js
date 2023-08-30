@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './Itenary.css'
 
-import dd from '../docs/M.pdf'
+// import dd from '../docs/M.pdf'
 import { useLocation } from 'react-router-dom';
 
 
@@ -58,7 +58,7 @@ function Itenary() {
                    <small className=''>{fetcData.des}</small>
                    </div>
                    <div className="col-md-1">
-                  <a  target='_blank'  href={fetcData.pdfs} download="Meghalaya-Backpack.pdf"><img className='img-fluid' src={require('../images/download.png')}/></a>
+                  <a  target='_blank'  href={fetcData.pdfs}><img className='img-fluid' src={require('../images/download.png')}/></a>
                    </div>
                         </div>
 
@@ -327,7 +327,19 @@ itenary-card">
       aria-labelledby="nav-home-tab2"
       tabIndex={0}
     >
-     <small className='fs-7 fw-semibold'>{fetcData.sep}</small>
+      <ul className='dates'>
+ {fetcData.sep.map((e)=>{
+  return(
+    <>
+    
+    <li className="fs-7 fw-semibold"> <img src={require('../images/dates.png')}/> {e}</li>
+
+    </>
+  )
+
+
+})} 
+</ul>
     </div>
     <div
       className="tab-pane fade"
@@ -336,7 +348,19 @@ itenary-card">
       aria-labelledby="nav-profile-tab2"
       tabIndex={0}
     >
-     <small className='fs-7 fw-semibold'>{fetcData.oct}</small>
+    <ul className='dates'>
+ {fetcData.oct.map((e)=>{
+  return(
+    <>
+    
+    <li className="fs-7 fw-semibold"> <img src={require('../images/dates.png')}/> {e}</li>
+
+    </>
+  )
+
+
+})} 
+</ul>
     </div>
     <div
       className="tab-pane fade"
@@ -345,7 +369,19 @@ itenary-card">
       aria-labelledby="nav-contact-tab2"
       tabIndex={0}
     >
-     <small className='fs-7 fw-semibold'>{fetcData.nov}</small>
+    <ul className='dates'>
+ {fetcData.nov.map((e)=>{
+  return(
+    <>
+    
+    <li className="fs-7 fw-semibold"> <img src={require('../images/dates.png')}/> {e}</li>
+
+    </>
+  )
+
+
+})} 
+</ul>
     </div>
     <div
       className="tab-pane fade"
@@ -354,7 +390,19 @@ itenary-card">
       aria-labelledby="nav-disabled-tab2"
       tabIndex={0}
     >
-     <small className='fs-7 fw-semibold'>{fetcData.dec}</small>
+    <ul className='dates'>
+ {fetcData.dec.map((e)=>{
+  return(
+    <>
+    
+    <li className="fs-7 fw-semibold"> <img src={require('../images/dates.png')}/> {e}</li>
+
+    </>
+  )
+
+
+})} 
+</ul>
     </div>
   </div>
   

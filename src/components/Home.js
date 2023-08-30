@@ -16,6 +16,46 @@ import { data, weekData } from "./Data";
 import { TypeAnimation } from "react-type-animation";
 import { useState } from "react";
 
+export const testsec=()=>{
+  return(<>
+  <div
+          className="section m-0 c-testimonial"
+          style={{ background: "white" }}
+        >
+          <div className="container py-4">
+            <div className="row justify-content-around align-items-center">
+              <div
+                className="col-md-4 text-center text-md-start"
+                data-aos="fade-right"
+                data-aos-delay="100"
+                data-aos-duration="700"
+              >
+                <div className="">
+                  <h1 className="text-light mb-4">
+                    What Our Customers{" "}
+                    <span className="primary-color">Say</span>?
+                  </h1>
+                  <small className="text-light mb-5 ">
+                  Discover what our clients have to say about their extraordinary journeys with BMT
+                  </small>
+                </div>
+              </div>
+
+              <div
+                className="col-md-6"
+                data-aos="fade-left"
+                data-aos-delay="200"
+                data-aos-duration="1400"
+              >
+                
+                {testimonial()}
+              </div>
+            </div>
+          </div>
+        </div>
+  </>)
+}
+
 const ReadMore = ({ children }) => {
   const text = children;
   const [isReadMore, setIsReadMore] = useState(true);
@@ -225,7 +265,7 @@ function Home() {
                   <div>
                     <h6 className="my-3">Easy & Quick Booking</h6>
                     <small className="fs-7">
-                    We are passionate travelers ourselves, and our deep understanding of various destinations sets us apart. 
+                    We are passionate travelers ourselves,and our deep understanding of various destinations sets<br></br> us apart. 
                     </small>
                   </div>
                 </div>
@@ -415,41 +455,7 @@ function Home() {
 
         {/* ------------------test--------------------- */}
 
-        <div
-          className="section m-0 c-testimonial"
-          style={{ background: "white" }}
-        >
-          <div className="container py-4">
-            <div className="row justify-content-around align-items-center">
-              <div
-                className="col-md-4 text-center text-md-start"
-                data-aos="fade-right"
-                data-aos-delay="100"
-                data-aos-duration="700"
-              >
-                <div className="">
-                  <h1 className="text-light mb-4">
-                    What Our Customers{" "}
-                    <span className="primary-color">Say</span>?
-                  </h1>
-                  <p className="text-light mb-5 ">
-                  Discover what our clients have to say about their extraordinary journeys with BMT
-                  </p>
-                </div>
-              </div>
-
-              <div
-                className="col-md-6"
-                data-aos="fade-left"
-                data-aos-delay="200"
-                data-aos-duration="1400"
-              >
-                
-                {testimonial()}
-              </div>
-            </div>
-          </div>
-        </div>
+        {testsec()}
 
         {/* ------------------test-end-------------------- */}
       </div>

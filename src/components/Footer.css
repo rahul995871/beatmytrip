@@ -18,3 +18,34 @@ z-index: 20;
     object-fit: cover;
     object-position: center;
 }
+.social-fixed{
+    position: fixed;
+    right: -38px;
+    transform: rotate(-90deg);
+    top: 40%;
+    background: blue;
+    background: var(--primary-color);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    /* width: 150px; */
+    align-items: center;
+    justify-content: center;
+    z-index: 121212;
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    gap: 25px;
+    padding: 16px;
+    width: 100px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  
+}
+.social-fixed a i{
+    transform: rotate(90deg);
+   font-size: 16px;
+    color: white;
+    font-family: "Font Awesome 6 Brands"!important;
+    font-weight: 500;
+   
+}

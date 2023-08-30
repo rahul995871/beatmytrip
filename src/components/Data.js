@@ -12,15 +12,16 @@ export const data=[
     
       maintitle:"Meghalaya",
       maindes:"hello punjab what are u doing",
-      title:"Meghalaya trip by Beatmytrip",
-      des:"lorem of Meghalaya coming from data",
+      title:"Meghalaya Backpack",
+      des:"Heaven of Dancing Clouds",
       days:"6 Days",
       people:"Max People : 12",
-      price:"Price : 18,999",
+      price:"Price : 19,999",
       date:"Jan 18’ - Dec 21'",
       age:"Min Age : 18+",
-      pdfs:require('../docs/M.pdf'),
+     
       pickup:"Pickup/Drop: Guw - Guw",
+      pdfs:require('../docs/Meghalaya Backpack 2023-24.pdf'),
       
       itenaryday1:[
         {
@@ -149,12 +150,31 @@ export const data=[
         "Any other expense not mentioned in the inclusion column.",
         
       ],
-      sep:"21-07-2023 – 25-08-2023 (open)",
-      oct:"21-07-2023 – 25-08-2023 (open)",
-      nov:"21-07-2023 – 25-08-2023 (open)",
-      dec:"21-07-2023 – 25-08-2023 (open)",
-      double:"₹ 29,999/-",
-      triple:"₹ 29,999/-",
+      sep:[
+        "Sold Out!"
+      ],
+      oct:[
+        "07-Oct-2023 - 12-Oct-2023",
+        "14-Oct-2023 - 19-Oct-2023",
+        "21-Oct-2023 - 26-Oct-2023",
+        "28-Oct-2023 - 02-Nov-2023",
+        
+      ],
+      
+      nov:[
+        "04-Nov-2023 - 09-Nov-2023",
+        "11-Nov-2023 - 16-Nov-2023",
+       "18-Nov-2023 - 23-Nov-2023",
+       "25-Nov-2023 - 30-Nov-2023",
+      ],
+      dec:[
+        "02-Dec-2023 - 07-Dec-2023",
+        "09-Dec-2023 - 14-Dec-2023",
+        "16-Dec-2023 - 21-Dec-2023",
+        
+      ],
+      double:"₹ 19,999/-",
+      triple:"₹ 21,999/-",
       bannerimg: require("../images/meghalaya.jpg")
     }
   },
@@ -168,295 +188,16 @@ export const data=[
     data:{
       maintitle:"Kerala",
       maindes:"hello Kerala what are u doing",
-      title:"Kerala trip by Beatmytrip",
-      des:"lorem of Kerala coming from data",
-      days:"7 Days",
+      title:"Kerala Backpack",
+      des:"Kerala God's Own Country",
+      days:"5 Days",
       people:"Max People : 12",
-      price:"Price : 2,999",
+      price:"Price : 11,999",
       date:"Jan 18’ - Dec 21'",
       age:"Min Age : 18+",
-      pickup:"Pickup/Drop: Koc-Tri",
-     
-      itenaryday1:[
-        {
-          cid:"collapseOne",
-          col:"",
-          
-          show:"show",
-          panel:true,
-          day:"Day 1 : Road trip to munnar (105km/ 4hrs)",
-          daydata:[
-           "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseTwo",
-          col:"collapsed",
-          panel:false,
-          day:"Day 2 : Munnar sightseeing",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseThree",
-          col:"collapsed",
-          panel:false,
-          day:"Day 3 : Road trip to thekkady (95km/3.5hrs)",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseFour",
-          col:"collapsed",
-          panel:false,
-          day:"Day 4 : Road trip to alleppey houseboat (150km/4hrs)",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseFive",
-          col:"collapsed",
-          panel:false,
-          day:"Day 5 : Alleppey to varkala (120km/3hrs)",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseSix",
-          col:"collapsed",
-          panel:false,
-          day:"Day 6 : Varkala to kovalam (55km/1.5 hrs)",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseSeven",
-          col:"collapsed",
-          panel:false,
-          day:"Day 7 : Return to airport/station",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-           
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseEight",
-          col:"collapsed",
-          panel:false,
-          day:"Day 8 : Exit to the trip",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-           
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseNine",
-          col:"collapsed",
-          panel:false,
-          day:"day 9 : Exit to the trip",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-           
-          ],
-          
-        },
-        
-      ],
-     
-        
-    
-      inclusion:[
+      pickup:"Pickup/Drop: Koc-Koc",
+      pdfs:require('../docs/Kerala Backpack 2023-24.pdf'),
        
-        "Kochi to Trivandrum Travel in a personal Innova car.",
-        "Accommodation – On double/triple sharing basis for 6 nights.",
-        "Meals (Veg & Non-Veg both)- 1 meal (D) on day 1 & (B) on day 7, 2 meals (B & D) from day 2 to day 6.",
-        " Evening snacks with tea/coffee on selective days.",
-        "Filtered drinking water- Facility of filling up your water bottles at all our properties & restaurants (We encourage you to avoid single use plastic bottles).",
-        "Local sightseeing (as per itinerary)",
-        "Airport Pick up from Kochi on Day 1",
-        "Entry / Admission charges for Village/National Park / Museum/ Lakes etc. (Wherever applicable, as per itinerary)",
-        " Spice Plantation Tour on Day 1.",
-        "Tea factory & Museum",
-        "Boathouse stay in backwaters of Alleppey on Day 4.",
-        "Khatakali and martial arts show on one of the days.",
-        "Welcome shots on the first night",
-        " Fun Activities & Surprises",
-        "Medical Kit",
-        " Team captain throughout the trip",
-        " Female support staff (Online, 24*7 throughout the trip).",
-        "Tolls/Taxes/Permits/Fuel/Driver allowance for the transportation.",
-        
-        
-    ],
-      exclusion:[
-         
-        "Flight/Train tickets to the destination and return",
-        "Personal shopping of tea/spices",
-        "Ayurveda Massage & Elephant Ride ( Charge INR 400 )",
-        "Any other Food and Beverage charges that are not included in the package",
-        "Any other costing involved due to any kind of natural calamity or forced circumstances beyond our control.",
-        "Alcohol & Cigarettes",
-        "Any other items not specifically mentioned in Inclusions.",
-        
-        
-      ],
-      sep:"21-07-2023 – 25-08-2023 (open)",
-      oct:"21-07-2023 – 25-08-2023 (open)",
-      nov:"21-07-2023 – 25-08-2023 (open)",
-      dec:"21-07-2023 – 25-08-2023 (open)",
-      double:"₹ 29,999/-",
-      triple:"₹ 29,999/-",
-      bannerimg: require("../images/kerala-back.jpg")
-    }
-  },
-  {
-    title:"Kerala Quick Backpack",
-    img:require('../images/kerala-gateaway.jpg'),
-    links:'itenary',
-    colsize:"col-md-3",
-    dataaos:"flip-left",
-
-    data:{
-      maintitle:"Kerala Quick",
-      maindes:"hello Kerala Quick Gateaway what are u doing",
-      title:"Kerala Quick Gateaway trip by Beatmytrip",
-      des:"lorem of Kerala Quick Gateaway coming from data",
-      days:"5 Days",
-      people:"Max People : 26",
-      price:"Price : 2,999",
-      date:"Jan 18’ - Dec 21'",
-      age:"Min Age : 10+",
-      pickup:"Pickup: Airpot",
-     
       itenaryday1:[
         {
           cid:"collapseOne",
@@ -572,26 +313,174 @@ export const data=[
           ],
           
         },
+        
+        
+        
+      ],
+     
+        
+    
+      inclusion:[
+         
+        " Kochi to Trivandrum Travel in a personal Innova car.",
+            " Accommodation – On double/triple sharing basis for 6 nights.",
+            " Meals (Veg & Non-Veg both)- 1 meal (D) on day 1 & (B) on day 7, 2 meals (B & D) from day 2 to day 6.",
+            "Evening snacks with tea/coffee on selective days.",
+            "Local sightseeing (as per itinerary)",
+            "Airport Pick up from Kochi on Day 1",
+            " Entry / Admission charges for Village/National Park / Museum/ Lakes etc. (Wherever applicable, as per itinerary)",
+            "Tea factory & Museum",
+            "Boathouse stay in backwaters of Alleppey on Day 4.",
+            "Khatakali and martial arts show on one of the days.",
+            "Welcome shots on the first night",
+            " Fun Activities & Surprises",
+            "Medical Kit",
+            "Team captain throughout the trip",
+            "Female support staff (Online, 24*7 throughout the trip).",
+            "Tolls/Taxes/Permits/Fuel/Driver allowance for the transportation.",
+        
+    ],
+      exclusion:[
+         
+         "Flight/Train tickets to the destination and return",
+            "Personal shopping of tea/spices",
+            "Ayurveda Massage & Elephant Ride ( Charge INR 400 )",
+            "Any other Food and Beverage charges that are not included in the package",
+            "Any other costing involved due to any kind of natural calamity or forced circumstances beyond our control. This would also include expenses on any medical exigencies",
+            "Alcohol & Cigarettes",
+            "Any other items not specifically mentioned in Inclusions.",
+           
+        
+      ],
+
+
+      sep:[
+        "Sold Out!"
+      ],
+     
+      oct:[
+        "21-Oct-2023 - 27-Oct-2023",
+       
+        
+      ],
+      nov:[
+        "11-Nov-2023 - 17-Nov-2023",
+        
+      ],
+     
+      dec:[
+        "09-Dec-2023 - 15-Dec-2023",
+      
+      ],
+      double:"₹ 21,999/-",
+      triple:"₹ 19,999/-",
+      bannerimg: require("../images/kerala-back.jpg")
+    }
+  },
+  {
+    title:"Kerala Quick Backpack",
+    img:require('../images/kerala-gateaway.jpg'),
+    links:'itenary',
+    colsize:"col-md-3",
+    dataaos:"flip-left",
+
+    data:{
+      maintitle:"Kerala Quick",
+      maindes:"hello Kerala Quick Gateaway what are u doing",
+      title:"Kerala Quick Gateaway trip by Beatmytrip",
+      des:"Kerala Cod's Own Country",
+      days:"7 Days",
+      people:"Max People : 14",
+      price:"Price : 20,999",
+      date:"Jan 18’ - Dec 21'",
+      age:"Min Age : 18+",
+      pickup:"Pickup / Drop: Koc - Tri ",
+      pdfs:require('../docs/Kerala Quick Getaway 2023-24.pdf'),
+   
+
+      itenaryday1:[
+        {
+          cid:"collapseOne",
+          col:"",
+          
+          show:"show",
+          panel:true,
+          day:"Day 1 : Road Trip to Munnar (105KM/ 4HRS)",
+          daydata:[
+           "Pick up from Cochi International Airport by 12 noon",
+            "Visit 3 waterfalls namely Cheeyappara, Valara, Attukadu on the way to Munnar.",
+            "Warm ice-breaking session over lunch on our road trip.",
+            "Spice plantation tour in Munnar (You can also shop for authentic spices at the shops).",
+            "Munnar property check in & room allotment.",
+            "Freshen up & gather for our BMTIEN’S welcome shots to start the night right.",
+            "Some amazing group bonding activities over music & dinner at the property.",
+          ]
+          
+        },
         {
           show:"",
-          cid:"collapseEight",
+          cid:"collapseTwo",
           col:"collapsed",
           panel:false,
-          day:"Day 8 : Exit to the trip",
+          day:"Day 2 : Munnar sightseeing",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "After Breakfast, the day plan includes Eravikulam national park (Rajamalai) Half day tour.",
+            "After spend rest day to explore Rose Garden, Photo point, Mattupetty Dam, Kundala Lake View, Eco Point.",
+            "If time, Explore the Munnar Market.",
+            "Get back to the property after sunset & relax.",
+            "Dinner & overnight stay in Munnar.",
+            
+          ],
+          
+        },
+        {
+          show:"",
+          cid:"collapseThree",
+          col:"collapsed",
+          panel:false,
+          day:"Day 3 : Road trip to thekkady (95km/3.5hrs)",
+          daydata:[
+            "Check out after breakfast.",
+            "Visit famous Tea Factory.",
+            "After Drive to enjoy Elephant Ride in Munnar. Drive to Thekkady & have lunch on the way. ",
+            "On the way visit Tea Garden, Spices Garden and reach Thekkady.",
+            "Check in, relax for some bit at the property before we brace ourselves for the adventure ahead. ",
+            "After, we will go to Kadhakali- Kalari show at Kadathanadan Kaalari centre. This tour has various slots, from between 5 PM and 7 PM.",
+            "Over the duration of this show, lose yourself in the ancient dance-drama form of Kathakali. ",
+            "Get back to the property and sleep off the tiring day.",
+           
+          ],
+          
+        },
+        {
+          show:"",
+          cid:"collapseFour",
+          col:"collapsed",
+          panel:false,
+          day:"Day 4 : Road Trip to Alleppey (150km/4hrs)",
+          daydata:[
+            "Check out after breakfast and drive to Alleppey.",
+            "Lunch on the way to Alleppey – Shikara boat ride in the backwaters of Alleppey. This will be full of scenic views while we cross villages and see fellow house boats floating in the same waters as ours.",
+            "Light music on the deck to set the tune right while you look at the boat crossing the gushing waters. This experience is a natural paradise for people who are into photography.",
+            "Get back to the dock by sunset and head straight to our property.",
+            "Property check in and freshen up.",
+            "Dinner over some heart filled conversations.",
+            "Make the most out of the last night of the trip with the fellow travelers who aren’t strangers anymore.",
+            
+          ],
+          
+        },
+        {
+          show:"",
+          cid:"collapseFive",
+          col:"collapsed",
+          panel:false,
+          day:"Day 5 : RETURN TO AIRPORT/STATION",
+          daydata:[
+            "Time to bid a warm goodbye to Alleppey.",
+            "Breakfast & Hotel Check Out.",
+            "Airport drop by 12 noon.",
+            "Trip ends here.",
            
           ],
           
@@ -603,45 +492,58 @@ export const data=[
         
     
       inclusion:[
-         
-        "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+       
+        "Kochi to Trivandrum Travel in a personal Innova car.",
+        "Accommodation – On double/triple sharing basis for 4 nights.",
+        "MMeals (Veg & Non-Veg both)- 1 meal (D) on day 1 & (B) on day 5, 2 meals (B & D) from day 2 to day 4eals (Veg & Non-Veg both)- 1 meal (D) on day 1 & (B) on day 7, 2 meals (B & D) from day 2 to day 6.",
+        " Evening snacks with tea/coffee on selective days.",
+        "Filtered drinking water- Facility of filling up your water bottles at all our properties & restaurants (We encourage you to avoid single use plastic bottles).",
+        "Local sightseeing (as per itinerary)",
+        "Airport Drop to Kochi on Day 5 (before 12 noon)",
+        "Entry / Admission charges for Village/National Park / Museum/ Lakes etc. (Wherever applicable, as per itinerary)",
+        " Spice Plantation Tour.",
+        "Tea factory & Museum",
+        "Culture Show Tickets.",
+        "Fun Activities & Surprises.",
+        "Welcome shots on the first night",
+        " Fun Activities & Surprises",
+        "Medical Kit",
+        " Team captain throughout the trip",
+        " Female support staff (Online, 24*7 throughout the trip).",
+        "Tolls/Taxes/Permits/Fuel/Driver allowance for the transportation.",
+        
         
     ],
       exclusion:[
          
-         "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+        "Flight/Train tickets to the destination and return",
+        "Personal shopping of tea/spices",
+        "Ayurveda Massage & Elephant Ride ( Charge INR 400 )",
+        "Any other Food and Beverage charges that are not included in the package",
+        "Any other costing involved due to any kind of natural calamity or forced circumstances beyond our control.",
+        "Alcohol & Cigarettes",
+        "Any other items not specifically mentioned in Inclusions.",
+        
         
       ],
-      sep:"21-07-2023 – 25-08-2023 (open)",
-      oct:"21-07-2023 – 25-08-2023 (open)",
-      nov:"21-07-2023 – 25-08-2023 (open)",
-      dec:"21-07-2023 – 25-08-2023 (open)",
-      double:"₹ 29,999/-",
-      triple:"₹ 29,999/-",
+      sep:[
+        "Sold Out!"
+      ],
+      oct:[
+        "28-Oct-2023 - 01-Nov-2023",
+       
+      ],
+      nov:[
+        "18-Nov-2023 - 22-Nov-2023",
+        "25-Nov-2023- 29-Nov-2023",
+       
+      ],
+      dec:[
+        "09-Dec-2023 - 13-Dec-2023",
+        
+      ],
+      double:"₹ 13,999/-",
+      triple:"₹ 12,999/-",
       bannerimg: require("../images/kerala.jpg")
     }
   },
@@ -656,13 +558,14 @@ export const data=[
       maintitle:"Spiti Valley",
       maindes:"hello Spiti Valley what are u doing",
       title:"Spiti Valley trip by Beatmytrip",
-      des:"lorem of Spiti Valley coming from data",
-      days:"5 Days",
-      people:"Max People : 26",
-      price:"Price : 2,999",
+      des:"Experiential journeys will make you a storyteller",
+      days:"7 Days",
+      people:"Max People : 14",
+      price:"Price : 19,999",
       date:"Jan 18’ - Dec 21'",
-      age:"Min Age : 10+",
-      pickup:"Pickup: Airpot",
+      age:"Min Age : 18+",
+      pickup:"Pickup: DEL - DEL",
+      pdfs:require('../docs/Kerala Quick Getaway 2023-24.pdf'),
      
       itenaryday1:[
         {
@@ -671,21 +574,11 @@ export const data=[
           
           show:"show",
           panel:true,
-          day:"Day 1 : Road trip to munnar (105km/ 4hrs)",
+          day:"Day 1 :  DEPART FROM DELHI BY 09:30 PM",
           daydata:[
-           "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+           "We depart from Delhi around 9:30 PM in an AC Vehicle. (Know the true value of time; snatch, seize, and enjoy every moment of it.)",
+            "Pit stop for dinner at any decent roadside restaurant.",
+            
           ],
           
         },
@@ -694,21 +587,12 @@ export const data=[
           cid:"collapseTwo",
           col:"collapsed",
           panel:false,
-          day:"Day 2 : Munnar sightseeing",
+          day:"Day 2 :REACH SHIMLA | TRANSFER TO KALPA FROM SHIMLA | OVERNIGHT STAY IN KALPA",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "Morning departure to Kalpa around 7 AM via Tempo Traveller.",
+            "It’s a 10-11 hours drive traversing through the mountains.",
+            "Overnight stay in Kalpa.",
+            
           ],
           
         },
@@ -717,21 +601,12 @@ export const data=[
           cid:"collapseThree",
           col:"collapsed",
           panel:false,
-          day:"Day 3 : Road trip to thekkady (95km/3.5hrs)",
+          day:"Day 3 : TRANSFER FROM KALPA TO TABO via NAKO  | OVERNIGHT STAY IN TABO",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "Post breakfast, drive to Kaza via Nako a part of the Spiti Valley.",
+            "Visit Nako lake & enjoy the beautiful view.",
+            "Reach Tabo by evening, Check-in and overnight stay.",
+            
           ],
           
         },
@@ -740,21 +615,12 @@ export const data=[
           cid:"collapseFour",
           col:"collapsed",
           panel:false,
-          day:"Day 4 : Road trip to alleppey houseboat (150km/4hrs)",
+          day:"Day 4 : VISIT TABO MONASTERY AND DHANKAR MONASTERY | OVERNIGHT STAY IN KAZA",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "Post breakfast, head out to experience the true beauty of Spiti valley - Tabo Monastery & Dhankar Monastery.",
+            "Further we drive towards Kaza.",
+            "Reach kaza by evening, Check-in and overnight stay in kaza.",
+            
           ],
           
         },
@@ -763,21 +629,11 @@ export const data=[
           cid:"collapseFive",
           col:"collapsed",
           panel:false,
-          day:"Day 5 : Alleppey to varkala (120km/3hrs)",
+          day:"Day 5 :  VISIT HIKKIM, KOMIC & LANGZA | OVERNIGHT STAY IN KAZA",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "Post breakfast, head out to Visit Hikkim (home to the highest post office in the world, send postcards to your loved ones), Komik and eat at the highest cafe in the world. Langza (the site for the holy Buddha Statue).",
+            "Return to Kaza, Dinner & Overnight stay in Kaza.",
+            
           ],
           
         },
@@ -786,21 +642,13 @@ export const data=[
           cid:"collapseSix",
           col:"collapsed",
           panel:false,
-          day:"Day 6 : Varkala to kovalam (55km/1.5 hrs)",
+          day:"Day 6 : DEPARTURE TO KALPA FROM KAZA | VISIT KEY MONASTERY & CHICHAM BRIDGE | OVERNIGHT STAY IN KALPA",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "Post breakfast, check-out of the hotel.",
+            "Visit Key Monastery & Ride to the highest suspension bridge of Asia- the one and only Chicham Bridge.",
+            "Reach Kalpa by Night.",
+            "Dinner & Overnight stay in Kalpa.",
+            
           ],
           
         },
@@ -809,21 +657,13 @@ export const data=[
           cid:"collapseSeven",
           col:"collapsed",
           panel:false,
-          day:"Day 7 : Return to airport/station",
+          day:"Day 7 :  DRIVE TO THE LAST VILLAGE - CHITKUL | OVERNIGHT STAY AT CHITKUL",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "After an amazing experience of the Spiti Valley, the end might seem a bit lazy but there is one more amazing place right around the bend.",
+            "Chitkul - is another enchanted place of this beautiful land. Has a high altitude river flowing right beside it. Offers grand views of the nearby mountain peaks. - is another enchanted place of this beautiful land. Has a high altitude river flowing right beside it. Offers grand views of the nearby mountain peaks.ddddddddddddddd",
+            "It is also a starting and end point for multiple high altitude treks.",
+            "Dinner & Overnight stay in Chitkul.",
+            
            
           ],
           
@@ -833,21 +673,13 @@ export const data=[
           cid:"collapseEight",
           col:"collapsed",
           panel:false,
-          day:"Day 8 : Exit to the trip",
+          day:"Day 8 :  DEPART TO SHIMLA | OVERNIGHT JOURNEY TO DELHI ",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "This is the last day of the trip and is filled with tons of emotions",
+            "Post breakfast, we check-out from the hotel and start our return journey to Delhi.",
+            "We drive to Shimla first which is again a 10-11 hours journey and then an overnight journey by Volvo to Delhi.",
+            "Back home with memories of the land far away but forever etched in us.",
+            
            
           ],
           
@@ -857,21 +689,10 @@ export const data=[
           cid:"collapseNine",
           col:"collapsed",
           panel:false,
-          day:"day 9 : Exit to the trip",
+          day:"day 9 : REACH DELHI BY MORNING",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "Reach delhi by morning.",
+            
            
           ],
           
@@ -883,44 +704,51 @@ export const data=[
     
       inclusion:[
          
-        "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+        "Volvo Transfers from Delhi to Shimla and Back",
+            "Entire expedition from Shimla via Tempo Traveler",
+            "Accommodation for 6 nights – 1 Night at Chitkul ,1 Night at Tabo, 2 Nights at Kalpa, 2 Nights at Kaza.",
+            "Meals (12 Meals Including Breakfasts and Dinners)",
+            "Team Leader throughout the trip.",
+            "Availability of oxygen 24x7 in case of any emergency.",
+            "All applicable toll, parking and driver charges.",
+            "All inner line permits.",
+            
         
     ],
       exclusion:[
          
-         "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+         "Any Personal Expenses / Tips / Permits. ",
+            "5% GST (Tax). ",
+            "Guide / Porters. ",
+            "Meals in Transit / Lunch in Kalpa or Rampur / Any Beverages / Any meals that are not mentioned in the itinerary. ",
+            "Sightseeing in Shimla / Any accommodation, activities or transfers other than what is mentioned in the itinerary. ",
+            "Any cost arising out of unforeseen circumstances including medical emergencies and acts of God. ",
+            "Anything that is not mentioned in the above list of inclusions.",
+            
         
       ],
-      sep:"21-07-2023 – 25-08-2023 (open)",
-      oct:"21-07-2023 – 25-08-2023 (open)",
-      nov:"21-07-2023 – 25-08-2023 (open)",
-      dec:"21-07-2023 – 25-08-2023 (open)",
-      double:"₹ 29,999/-",
-      triple:"₹ 29,999/-",
+      sep:[
+        "Sold Out!"
+      ],
+      oct:[
+      
+        "14-Oct-2023 - 22-Oct-2023",
+        "28-Oct-2023 - 05-Nov-2023",
+       
+      ],
+      nov:[
+        "04-Nov-2023 - 12-Nov-2023",
+        "11-Nov-2023 - 19-Nov-2023",
+        "18-Nov-2023 - 26-Nov-2023",
+        "25-Nov-2023 - 03-Nov-2023",
+      ],
+      dec:[
+        "02-Dec-2023 - 10-Dec-2023",
+        "09-Dec-2023 - 17-Dec-2023",
+      
+      ],
+      double:"₹ 21,999/-",
+      triple:"₹ 20,999/-",
       bannerimg: require("../images/spiti-back.jpg")
     }
   },
@@ -934,14 +762,15 @@ export const data=[
     data:{
       maintitle:"Kashmir",
       maindes:"hello Kashmir what are u doing",
-      title:"Kashmir trip by Beatmytrip",
-      des:"lorem of Kashmir coming from data",
+      title:"Kashmir Backpack",
+      des:"Kashmir Known as Heaven on the Earth",
       days:"5 Days",
-      people:"Max People : 26",
-      price:"Price : 2,999",
+      people:"Max People : 14",
+      price:"Price : 20,999",
       date:"Jan 18’ - Dec 21'",
-      age:"Min Age : 10+",
-      pickup:"Pickup: Airpot",
+      age:"Min Age : 18+",
+      pickup:"Pickup / Drop: Sri - Sri",
+      pdfs:require('../docs/Kerala Quick Getaway 2023-24.pdf'),
      
       itenaryday1:[
         {
@@ -950,21 +779,14 @@ export const data=[
           
           show:"show",
           panel:true,
-          day:"Day 1 : Road trip to munnar (105km/ 4hrs)",
+          day:"Day 1 : ARRIVAL IN SRINAGAR | LOCAL SIGHTSEEING | OVERNIGHT STAY AT SRINAGAR ",
           daydata:[
-           "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+           "On this day, you will be arriving in Srinagar, the capital city of Jammu and Kashmir.",
+            "Post checking in, get freshened up and spend some time at leisure.",
+            "Post lunch, get ready to visit The Shankaracharya Temple, Hazratbal Shrine, Mughal Gardens which consists of Shalimar Bagh, Chashme Shahi, Nishat Bagh and Pari Mahal.",
+            "Later, Head back to Hotel.",
+            "Dinner and overnight stay in Srinagar hotel.",
+           
           ],
           
         },
@@ -973,21 +795,13 @@ export const data=[
           cid:"collapseTwo",
           col:"collapsed",
           panel:false,
-          day:"Day 2 : Munnar sightseeing",
+          day:"Day 2 :  TRANSFER TO PAHALGAM | ARU VALLEY - BETAAB VALLEY - CHANDANWARI VISIT | OVERNIGHT STAY AT PAHALGAM",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "Morning after Breakfast we drive to Pahalgam via Pampore, Avantipura and the village of Bijbehara which remains famous as the bread basket of Kashmir.",
+            "We switch from the national highway 1A at Khanabal and drive through the second largest city of Anantnag.",
+            "Visit Aru Valley, Betaab Valley and Chandanwari as well as take a horse riding trip to Baisaran meadows (At your own cost).",
+            "Dinner and overnight stay at Pahalgam hotel.",
+            
           ],
           
         },
@@ -996,21 +810,13 @@ export const data=[
           cid:"collapseThree",
           col:"collapsed",
           panel:false,
-          day:"Day 3 : Road trip to thekkady (95km/3.5hrs)",
+          day:"Day 3 : TRANSFER TO GULMARG | LOCAL SIGHTSEEING | OVERNIGHT STAY AT GULMARG",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "Following today’s delicious breakfast at the pahalgam hotel, you will be driven to the enchanting valleys of Gulmarg, Also known as the ‘Meadow of Flowers’, this scenic hill station of Jammu and Kashmir is known for its salubrious beauty and charm!",
+            "The drive to Gulmarg will keep you enthralled with the astounding views of the Nanga Parbat; you can also catch the panoramic views of Gulmarg from Tangmarg",
+            "Post lunch, visit the Golf course, Church and go on Cafe Hopping tour. Spend the rest of the day at your leisure.",
+            "Later, Head back to Hotel, Dinner and overnight stay in gulmarg hotel.",
+            
           ],
           
         },
@@ -1019,21 +825,14 @@ export const data=[
           cid:"collapseFour",
           col:"collapsed",
           panel:false,
-          day:"Day 4 : Road trip to alleppey houseboat (150km/4hrs)",
+          day:"Day 4 :  GONDOLA RIDE | TRANSFER TO SRINAGAR HOUSEBOAT | OVERNIGHT STAY AT SRINAGAR HOUSEBOAT",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "Post breakfast, head out to enjoy the Gondola Cable Car Ride.",
+            "Post lunch transfer to Srinagar.",
+            "In the evening reach Srinagar Houseboat, Check-in at the houseboat. ",
+            "Enjoy Shikara Ride in the Evening.",
+            "Overnight stay in Srinagar Houseboat.",
+            
           ],
           
         },
@@ -1042,119 +841,14 @@ export const data=[
           cid:"collapseFive",
           col:"collapsed",
           panel:false,
-          day:"Day 5 : Alleppey to varkala (120km/3hrs)",
+          day:"Day 5 : FLY BACK TO SRINAGAR",
           daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+            "Wake up & post breakfast check out and fly back home with amazing trip memories.",
+            
           ],
           
         },
-        {
-          show:"",
-          cid:"collapseSix",
-          col:"collapsed",
-          panel:false,
-          day:"Day 6 : Varkala to kovalam (55km/1.5 hrs)",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseSeven",
-          col:"collapsed",
-          panel:false,
-          day:"Day 7 : Return to airport/station",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-           
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseEight",
-          col:"collapsed",
-          panel:false,
-          day:"Day 8 : Exit to the trip",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-           
-          ],
-          
-        },
-        {
-          show:"",
-          cid:"collapseNine",
-          col:"collapsed",
-          panel:false,
-          day:"day 9 : Exit to the trip",
-          daydata:[
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-           
-          ],
-          
-        },
+        
         
       ],
      
@@ -1162,44 +856,48 @@ export const data=[
     
       inclusion:[
          
-        "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+        "Entire travel as per the itinerary in a private vehicle.",
+            "4 Nights accommodation (1 night stay in srinagar houseboat, 1 night stay in Gulmarg, 1 night stay in Pahalgam and 1 night stay in srinagar in hotel) on double/ triple sharing.",
+            "A total of 08 meals. (4 Breakfasts & 4 Dinners)",
+            "Shikara ride (1 Hour)",
+            "Team Captain throughout the trip ",
+            "Medical kit",
+            "All inner line permit if anything applicable",
+           
         
     ],
       exclusion:[
          
-         "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+         "5% GST",
+            "Any other costing involved due to any kind of natural calamity, forced circumstances, which are out of our control",
+            "Airport pick-up and drop not inlcuded",
+            "Any kind of entry tickets / fees",
+            "Any Meals / Drinks other than Inclusion",
+            "Pony Rides are not included",
+            "Internal transfer to Aru valley, Betaab Valley and Chandanwari",
+            "Gondola Cable Car Phase 1 & Phase 2 tickets",
+            "Entry tickets to Aru Valley, Betaab Valley and Chandanwari",
+           
         
       ],
-      sep:"21-07-2023 – 25-08-2023 (open)",
-      oct:"21-07-2023 – 25-08-2023 (open)",
-      nov:"21-07-2023 – 25-08-2023 (open)",
-      dec:"21-07-2023 – 25-08-2023 (open)",
-      double:"₹ 29,999/-",
-      triple:"₹ 29,999/-",
+      sep:[
+        "Coming Soon...",
+      
+      ],
+      oct:[
+        "Coming Soon...",
+        
+      ],
+      nov:[
+        "Coming Soon...",
+       
+      ],
+      dec:[
+        "Coming Soon...",
+       
+      ],
+      double:"₹ 22,999/-",
+      triple:"₹ 20,999/-",
       bannerimg: require("../images/kashmir-back.jpg")
     }
   },
@@ -1224,6 +922,7 @@ export const weekData=[
       date:"Jan 18’ - Dec 21'",
       age:"Min Age : 18+",
       pickup:"Pickup/Drop: DEL - DEL",
+      pdfs:require('../docs/Chopta Tungnath 2023-24.pdf'),
      
       itenaryday1:[
         {
@@ -1309,10 +1008,26 @@ export const weekData=[
            
         
       ],
-      sep:"21-07-2023 – 25-08-2023 (open)",
-      oct:"21-07-2023 – 25-08-2023 (open)",
-      nov:"21-07-2023 – 25-08-2023 (open)",
-      dec:"21-07-2023 – 25-08-2023 (open)",
+      sep:[
+        "15-Sept-2023 - 19-Sept-2023",
+        "22-Sept-2023 - 26-Sept-2023",
+        "29-Sept-2023 - 03-Oct-2023",
+        
+      ],
+      oct:[
+        "06-Oct-2023 - 10-Oct-2023",
+        "13-Oct-2023 - 17-Oct-2023",
+        "20-Oct-2023 - 24-Oct-2023",
+        "27-Oct-2023 - 31-Oct-2023",
+      ],
+      nov:[
+        "03-Nov-2023 - 07-Nov-2023",
+        "10-Nov-2023 - 14-Nov-2023",
+       
+      ],
+      dec:[
+        "Coming Soon...",
+      ],
       double:"₹ 8,499/-",
       triple:"₹ 7,999/-",
       bannerimg: require("../images/chopta-back.jpg")
@@ -1336,6 +1051,7 @@ export const weekData=[
       date:"Jan 18’ - Dec 21'",
       age:"Min Age : 18+",
       pickup:"Pickup/Drop: DEL - DEL",
+      pdfs:require('../docs/Manali-Solang 2023-24.pdf'),
      
       itenaryday1:[
         {
@@ -1409,14 +1125,14 @@ export const weekData=[
             "AC Transportation",
             "Local and Solang Valley Sightseeing",
             "Guide while Trekking.",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+           
+           
+           
+           
+           
+           
+           
+           
         
     ],
       exclusion:[
@@ -1426,20 +1142,36 @@ export const weekData=[
             "Any kind of entry tickets/fees.",
             "Any Meals & Drinks other than Inclusion.",
             "5% GST.",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+           
+           
+           
+           
+           
+           
+           
+           
         
       ],
-      sep:"21-07-2023 – 25-08-2023 (open)",
-      oct:"21-07-2023 – 25-08-2023 (open)",
-      nov:"21-07-2023 – 25-08-2023 (open)",
-      dec:"21-07-2023 – 25-08-2023 (open)",
+      sep:[
+        "15-Sept-2023 - 19-Sept-2023",
+        "22-Sept-2023 - 26-Sept-2023",
+        "29-Sept-2023 - 03-Oct-2023",
+        
+      ],
+      oct:[
+        "06-Oct-2023 - 10-Oct-2023",
+        "13-Oct-2023 - 17-Oct-2023",
+        "20-Oct-2023 - 24-Oct-2023",
+        "27-Oct-2023 - 31-Oct-2023",
+      ],
+      nov:[
+        "03-Nov-2023 - 07-Nov-2023",
+        "10-Nov-2023 - 14-Nov-2023",
+       
+      ],
+      dec:[
+        "Coming Soon...",
+      ],
       double:"₹ 7,999/-",
       triple:"₹ 7,499/-",
       bannerimg: require("../images/manali-back.jpg")
@@ -1463,6 +1195,7 @@ export const weekData=[
       date:"Jan 18’ - Dec 21'",
       age:"Min Age : 18+",
       pickup:"Pickup/Drop: DEL - DEL",
+      pdfs:require('../docs/Bir-Billing with toy train 2023-24.pdf'),
      
       itenaryday1:[
         {
@@ -1551,21 +1284,31 @@ export const weekData=[
             "Any other costing involved due to any kind of natural calamity or forced circumstances beyond our control. Alcoholic Beverage or Cigarettes",
             "Tips for the local support staff.",
             "Any other items not specifically mentioned in Inclusions",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
-            "dddddddddddddddddd",
+      
         
       ],
-      sep:"21-07-2023 – 25-08-2023 (open)",
-      oct:"21-07-2023 – 25-08-2023 (open)",
-      nov:"21-07-2023 – 25-08-2023 (open)",
-      dec:"21-07-2023 – 25-08-2023 (open)",
+      sep:[
+        "22-Sept-2023 - 25-Sept-2023",
+      
+        "29-Sept-2023 - 02-Oct-2023",
+        
+      ],
+      oct:[
+        "06-Oct-2023 - 9-Oct-2023",
+        "13-Oct-2023 - 16-Oct-2023",
+        "20-Oct-2023 - 23-Oct-2023",
+        "27-Oct-2023 - 30-Oct-2023",
+      ],
+      nov:[
+        "03-Nov-2023 - 06-Nov-2023",
+        "10-Nov-2023 - 13-Nov-2023",
+        "17-Nov-2023 - 20-Nov-2023",
+        "24-Nov-2023 - 27-Nov-2023",
+       
+      ],
+      dec:[
+        "Coming Soon...",
+      ],
       double:"₹ 9,999/-",
       triple:"₹ 8,999/-",
       bannerimg: require("../images/bir-back.jpg")
@@ -1589,6 +1332,7 @@ export const weekData=[
       date:"Jan 18’ - Dec 21'",
       age:"Min Age : 18+",
       pickup:"Pickup/Drop: DEL - DEL",
+      pdfs:require('../docs/Explore the beauty of Jibhi & Tirthan 2023-24.pdf'),
      
       itenaryday1:[
         {
@@ -1679,10 +1423,26 @@ export const weekData=[
            
         
       ],
-      sep:"21-07-2023 – 25-08-2023 (open)",
-      oct:"21-07-2023 – 25-08-2023 (open)",
-      nov:"21-07-2023 – 25-08-2023 (open)",
-      dec:"21-07-2023 – 25-08-2023 (open)",
+      sep:[
+        "15-Sept-2023 - 19-Sept-2023",
+        "22-Sept-2023 - 26-Sept-2023",
+        "29-Sept-2023 - 03-Oct-2023",
+        
+      ],
+      oct:[
+        "06-Oct-2023 - 10-Oct-2023",
+        "13-Oct-2023 - 17-Oct-2023",
+        "20-Oct-2023 - 24-Oct-2023",
+        "27-Oct-2023 - 31-Oct-2023",
+      ],
+      nov:[
+        "03-Nov-2023 - 07-Nov-2023",
+        "10-Nov-2023 - 14-Nov-2023",
+       
+      ],
+      dec:[
+        "Coming Soon...",
+      ],
       double:"₹ 8,999/-",
       triple:"₹ 7,999/-",
       bannerimg: require("../images/jibhi-back.jpg")
@@ -1706,6 +1466,7 @@ export const weekData=[
       date:"Jan 18’ - Dec 21'",
       age:"Min Age : 18+",
       pickup:"Pickup/Drop: DEL - DEL",
+      pdfs:require('../docs/Kasol Kheerganga 2023-24.pdf'),
      
       itenaryday1:[
         {
@@ -1791,10 +1552,27 @@ export const weekData=[
             
         
       ],
-      sep:"21-07-2023 – 25-08-2023 (open)",
-      oct:"21-07-2023 – 25-08-2023 (open)",
-      nov:"21-07-2023 – 25-08-2023 (open)",
-      dec:"21-07-2023 – 25-08-2023 (open)",
+      sep:[
+        "15-Sept-2023 - 19-Sept-2023",
+        "22-Sept-2023 - 26-Sept-2023",
+        "29-Sept-2023 - 03-Oct-2023",
+        
+      ],
+      oct:[
+        "06-Oct-2023 - 10-Oct-2023",
+        "13-Oct-2023 - 17-Oct-2023",
+        "20-Oct-2023 - 24-Oct-2023",
+        "27-Oct-2023 - 31-Oct-2023",
+      ],
+      nov:[
+        "03-Nov-2023 - 07-Nov-2023",
+        "10-Nov-2023 - 14-Nov-2023",
+       
+      ],
+      dec:[
+        "Coming Soon...",
+        
+      ],
       double:"₹ 7,999/-",
       triple:"₹ 7,499/-",
       bannerimg: require("../images/kasol-back.jpg")

@@ -389,41 +389,48 @@ const navigate =useNavigate()
 export  const teamslide = function Sliders() {
 
   const team=[{
-    title:"Ravi Rautela",
+    title:"Himani Bisht",
     des:"Founder & CEO",
-    img:require('../images/spiti.jpg')
+    img:require('../images/himani.jpg')
 
 
 
 },
 {
   title:"Ravi Rautela",
-  des:"Founder & CEO",
-  img:require('../images/spiti.jpg')
+  des:"CEO",
+  img:require('../images/ravi.jpg')
 
 
 },
 {
-  title:"Ravi Rautela",
-  des:"Founder & CEO",
-  img:require('../images/spiti.jpg')
+  title:"Rahul Rautela",
+  des:"IT/Web Developer",
+  img:require('../images/rahul.jpg')
 
 
 },
 {
-  title:"Ravi Rautela",
-  des:"Founder & CEO",
-  img:require('../images/spiti.jpg')
+  title:"Rohit Kumar",
+  des:"Ground Operation",
+  img:require('../images/rohit.jpg')
 
 
 },
 {
-  title:"Ravi Rautela",
-  des:"Founder & CEO",
-  img:require('../images/spiti.jpg')
+  title:"Anshu Bisht",
+  des:"Ground Operation",
+  img:require('../images/anshu.jpg')
 
 
-}
+},
+{
+  title:"Shanu Nirmal",
+  des:"SEO/Digital Marketing",
+  img:require('../images/shanu.jpg')
+
+
+},
 
 
 ]
@@ -454,7 +461,7 @@ export  const teamslide = function Sliders() {
   }
     const settings = {
       dots: true,
-      infinite: true,
+      // infinite: true,
       autoplay:false,
       speed: 500,
   
@@ -519,10 +526,8 @@ export  const teamslide = function Sliders() {
     <p className="text-dark fs-6"> <small className="primary-color fw-semibold ">{e.des}</small></p>
   </div>
     <div className=" my-4 pb-3 text-center social-icon d-flex flex-wrap justify-content-center gap-3">
-      <a>
-        <img src={require('../images/fb1.png')}/>
-      </a>
-      <a>
+      {/* <a><img src={require('../images/fb1.png')}/>    </a> */}
+      <a href="https://www.instagram.com/beats_mytrip/" target="_blank">
         <img src={require('../images/insta.png')}/>
       </a>
       
@@ -557,31 +562,31 @@ export  const testimonial = function Sliders() {
   const testimonialdata=[{
     title:"Have travelled Kerala this week with BMT. I have very good experience with the team.They provided good car and good accommodation as well. It's completely safe for solo women travelers also.I would recommend them completely for the trips.",
    name:"Moumita Ghosh",
-    img: require('../images/user.png'),
+    img: require('../images/t-1.jpg'),
 
 },
 {
   title:"Went with BMT to Bir Billing for the paragliding experience.Transit was good. Buses were on schedule and no unnecessary stops were made. The place of stay was very decent, some distance away from the main city with picture-perfect landscape. Food was standard; nothing out of ordinary. Met some wonderful people along the way and overall it was a great, fun experience.They accomodated us on a 1.5 day notice, organisation was quite well. Would recommend travellling with them, and probably would travel with them again :)",
  name:"Shubham Vashishth",
-  img: require('../images/user.png'),
+  img: require('../images/t-3.jpg'),
 
 },
 {
   title:"One of my best trips ever, full with diverse experiences. Especially the driver was very well experienced and humble to drive safely throughout our trip. Seriously, I had a wonderful experience in my dream place, Spiti, with a variety of hotels, sights of monasteries, and palaces. Congratulations and a heartfelt thank you to everyone involved; the driver, trip organiser, and employees at each hotel were warm and accommodating, and they helped to make my trip a truly special one. BeatsMyTrip company has certainly delivered a professional and truly high standard of service and recommends to any visitor you are certainly in very good hands. It's an awesome trip. Thanks a lot.",
  name:"Rajiv Choudhary",
-  img: require('../images/user.png'),
+  img: require('../images/t-2.JPG'),
 
 },
 {
   title:"It was our first Girls trip and it was great experience to plan with BeatsMyTrip. Everything was properly planned. Hotels, cab, itinerary all things were very good and we didn't feel any problem at any place. Homestays were very good and food was also good. Every stay was planned according to our destination. BeatsMyTrip team was very helpful. They made our trip totally memorable💜💜  We will surely recommend BMT to everyone for their trips. THANK YOU😊",
  name:"Harshita Pandey",
-  img: require('../images/user.png'),
+  img: require('../images/t-4.jpg'),
 
 },
 {
   title:"It's been a great experience travelling with BeatsMyTrip. The driver is also very courteous, and speaking of lodging, all of the accommodations were fantastic, especially the Munnar homestay.Last but not least, if you're looking for the best expeditions in Kerala at the lowest price, BeatsMyTrip is the therefor you. ",
  name:"yash talhan",
-  img: require('../images/user.png'),
+  img: require('../images/t-5.jpg'),
 
 },
 
