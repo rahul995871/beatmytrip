@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beatmytrip/static/css/main.907e8972.css",
-    "main.js": "/beatmytrip/static/js/main.9e3c8a50.js",
+    "main.js": "/beatmytrip/static/js/main.5d20237d.js",
     "static/media/Kerala Backpack 2023-24.pdf": "/beatmytrip/static/media/Kerala Backpack 2023-24.3b64e42ddc075413a1fc.pdf",
     "static/media/Explore the beauty of Jibhi & Tirthan 2023-24.pdf": "/beatmytrip/static/media/Explore the beauty of Jibhi & Tirthan 2023-24.657487f1ccd0049a6652.pdf",
     "static/media/Kerala Quick Getaway 2023-24.pdf": "/beatmytrip/static/media/Kerala Quick Getaway 2023-24.49dda251f26b14779b3d.pdf",
@@ -56,10 +56,10 @@
     "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
     "main.907e8972.css.map": "/beatmytrip/static/css/main.907e8972.css.map",
-    "main.9e3c8a50.js.map": "/beatmytrip/static/js/main.9e3c8a50.js.map"
+    "main.5d20237d.js.map": "/beatmytrip/static/js/main.5d20237d.js.map"
   },
   "entrypoints": [
     "static/css/main.907e8972.css",
-    "static/js/main.9e3c8a50.js"
+    "static/js/main.5d20237d.js"
   ]
 }
