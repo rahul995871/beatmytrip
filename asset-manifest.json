@@ -1,8 +1,15 @@
 {
   "files": {
-    "main.css": "/beatmytrip/static/css/main.ec71dae7.css",
-    "main.js": "/beatmytrip/static/js/main.101274ac.js",
-    "static/media/M.pdf": "/beatmytrip/static/media/M.acb0462508afceb1b358.pdf",
+    "main.css": "/beatmytrip/static/css/main.907e8972.css",
+    "main.js": "/beatmytrip/static/js/main.9e3c8a50.js",
+    "static/media/Kerala Backpack 2023-24.pdf": "/beatmytrip/static/media/Kerala Backpack 2023-24.3b64e42ddc075413a1fc.pdf",
+    "static/media/Explore the beauty of Jibhi & Tirthan 2023-24.pdf": "/beatmytrip/static/media/Explore the beauty of Jibhi & Tirthan 2023-24.657487f1ccd0049a6652.pdf",
+    "static/media/Kerala Quick Getaway 2023-24.pdf": "/beatmytrip/static/media/Kerala Quick Getaway 2023-24.49dda251f26b14779b3d.pdf",
+    "static/media/Kasol Kheerganga 2023-24.pdf": "/beatmytrip/static/media/Kasol Kheerganga 2023-24.c2a11d60596bec52b729.pdf",
+    "static/media/Chopta Tungnath 2023-24.pdf": "/beatmytrip/static/media/Chopta Tungnath 2023-24.21d42f2813c935ed4391.pdf",
+    "static/media/Meghalaya Backpack 2023-24.pdf": "/beatmytrip/static/media/Meghalaya Backpack 2023-24.410722123fbaf69758a0.pdf",
+    "static/media/Bir-Billing with toy train 2023-24.pdf": "/beatmytrip/static/media/Bir-Billing with toy train 2023-24.f689309d025ec60485f1.pdf",
+    "static/media/Manali-Solang 2023-24.pdf": "/beatmytrip/static/media/Manali-Solang 2023-24.b60d3f2ba01038dfc2bf.pdf",
     "static/media/n4.jpg": "/beatmytrip/static/media/n4.7e6e2b1273f8844977f1.jpg",
     "static/media/n2.jpg": "/beatmytrip/static/media/n2.cff09ff648e2b1694870.jpg",
     "static/media/n7.jpg": "/beatmytrip/static/media/n7.fa3edf390cb3326418ad.jpg",
@@ -25,6 +32,12 @@
     "static/media/n3.jpg": "/beatmytrip/static/media/n3.64461b7fbc7b4b387c2c.jpg",
     "static/media/bir-back.jpg": "/beatmytrip/static/media/bir-back.d20354359ad962be9d5a.jpg",
     "static/media/whyus.png": "/beatmytrip/static/media/whyus.7f6275b1427416687fef.png",
+    "static/media/shanu.jpg": "/beatmytrip/static/media/shanu.7a0511ae962edec18748.jpg",
+    "static/media/himani.jpg": "/beatmytrip/static/media/himani.ea7221980a16bad52a7e.jpg",
+    "static/media/rohit.jpg": "/beatmytrip/static/media/rohit.ca0a6a609a32a62961b4.jpg",
+    "static/media/anshu.jpg": "/beatmytrip/static/media/anshu.c5105caa83da9d8a9dc3.jpg",
+    "static/media/ravi.jpg": "/beatmytrip/static/media/ravi.07da8f5519112878d620.jpg",
+    "static/media/rahul.jpg": "/beatmytrip/static/media/rahul.24cd904f154a37265006.jpg",
     "static/media/kasol.jpg": "/beatmytrip/static/media/kasol.2a9a87260d50abb8e293.jpg",
     "static/media/jibhi.jpg": "/beatmytrip/static/media/jibhi.dcdb62d67f3aea2967d1.jpg",
     "static/media/manali.jpg": "/beatmytrip/static/media/manali.c524ca2d4981de19de91.jpg",
@@ -32,21 +45,21 @@
     "static/media/chopta.jpg": "/beatmytrip/static/media/chopta.88477d1930ceb11d850a.jpg",
     "static/media/kerala1.jpg": "/beatmytrip/static/media/kerala1.d2a1c06bfbf5516eea7c.jpg",
     "static/media/spiti.jpg": "/beatmytrip/static/media/spiti.2a25aaa47351caab9ce4.jpg",
-    "static/media/user.png": "/beatmytrip/static/media/user.99bf1b65e741fd526c0b.png",
     "static/media/meghalaya1.jpg": "/beatmytrip/static/media/meghalaya1.a5cfdcce873bebdc5215.jpg",
     "static/media/kashmir.jpg": "/beatmytrip/static/media/kashmir.63600a938fe2ab6dacb1.jpg",
     "static/media/people.png": "/beatmytrip/static/media/people.b02643469cb99e6907eb.png",
     "static/media/contact-side.svg": "/beatmytrip/static/media/contact-side.38c15cd62c6ffd02186dd852c5b1b586.svg",
+    "static/media/t-2.JPG": "/beatmytrip/static/media/t-2.6371b4149dbb78c84bad.JPG",
     "index.html": "/beatmytrip/index.html",
     "static/media/slick.svg": "/beatmytrip/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/beatmytrip/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
-    "main.ec71dae7.css.map": "/beatmytrip/static/css/main.ec71dae7.css.map",
-    "main.101274ac.js.map": "/beatmytrip/static/js/main.101274ac.js.map"
+    "main.907e8972.css.map": "/beatmytrip/static/css/main.907e8972.css.map",
+    "main.9e3c8a50.js.map": "/beatmytrip/static/js/main.9e3c8a50.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec71dae7.css",
-    "static/js/main.101274ac.js"
+    "static/css/main.907e8972.css",
+    "static/js/main.9e3c8a50.js"
   ]
 }
