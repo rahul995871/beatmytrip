@@ -89,7 +89,7 @@ function Home() {
                     src={require("../images/world4.png")}
                     className="world"
                   /> */}
-                  Beat
+                  Beats
                 </span>{" "}
                 <span className="">MyTrip</span>
               </div>
@@ -170,7 +170,7 @@ function Home() {
                   >
                     Plan Your Trip with
                     <br />
-                    BeatMyTrip
+                    BeatsMyTrip
                   </h1>
                   <div
                     className="mt-4"

@@ -82,7 +82,7 @@ function About() {
                         <div className="col-md-6">
                             <div>
                                 <p className="cursive primary-color fs-4 px-3"data-aos="fade-left" data-aos-delay="300"  data-aos-duration="1000">About Us</p>
-                                <h1 className="c-line position-relative px-3"data-aos="fade-left" data-aos-delay="200"  data-aos-duration="1200">Plan Your Trip with<br/>BeatMyTrip</h1>
+                                <h1 className="c-line position-relative px-3"data-aos="fade-left" data-aos-delay="200"  data-aos-duration="1200">Plan Your Trip with<br/>BeatsMyTrip</h1>
                                 <div className="mt-4" data-aos="fade-left" data-aos-delay="100"  data-aos-duration="1400">
                                 <small className="text-light">
                                 <span className="primary-color fs-5 fw-semibold">W</span>elcome to BeatsMyTrip, your gateway to unforgettable travel experiences in India! Founded just two years ago by a group of 18 well-experienced and trained travelers who have extensively explored every nook and cranny of this magnificent country, we are dedicated to making your journey through India seamless, enriching, and budget-friendly.

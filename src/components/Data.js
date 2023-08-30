@@ -6,6 +6,7 @@ export const data=[
     links:'itenary',
     colsize:"col-md-3",
     dataaos:"flip-right",
+    nd:"(5N/6D)",
     
    
     data:{
@@ -184,6 +185,7 @@ export const data=[
     links:'itenary',
     colsize:"col-md-6",
     dataaos:"fade-down",
+    nd:"(6N/7D)",
   
     data:{
       maintitle:"Kerala",
@@ -383,6 +385,7 @@ export const data=[
     links:'itenary',
     colsize:"col-md-3",
     dataaos:"flip-left",
+    nd:"(4N/5D)",
 
     data:{
       maintitle:"Kerala Quick",
@@ -553,6 +556,7 @@ export const data=[
     links:'itenary',
     colsize:"col-md-6",
       dataaos:"fade-right",
+      nd:"(6N/7D)",
    
     data:{
       maintitle:"Spiti Valley",
@@ -574,7 +578,7 @@ export const data=[
           
           show:"show",
           panel:true,
-          day:"Day 1 :  DEPART FROM DELHI BY 09:30 PM",
+          day:"Day 1 :  Depart From Delhi By 09:30 Pm",
           daydata:[
            "We depart from Delhi around 9:30 PM in an AC Vehicle. (Know the true value of time; snatch, seize, and enjoy every moment of it.)",
             "Pit stop for dinner at any decent roadside restaurant.",
@@ -587,7 +591,7 @@ export const data=[
           cid:"collapseTwo",
           col:"collapsed",
           panel:false,
-          day:"Day 2 :REACH SHIMLA | TRANSFER TO KALPA FROM SHIMLA | OVERNIGHT STAY IN KALPA",
+          day:"Day 2 :Reach Shimla | Transfer To Kalpa From Shimla | Overnight Stay In Kalpa",
           daydata:[
             "Morning departure to Kalpa around 7 AM via Tempo Traveller.",
             "It’s a 10-11 hours drive traversing through the mountains.",
@@ -601,7 +605,7 @@ export const data=[
           cid:"collapseThree",
           col:"collapsed",
           panel:false,
-          day:"Day 3 : TRANSFER FROM KALPA TO TABO via NAKO  | OVERNIGHT STAY IN TABO",
+          day:"Day 3 : Transfer From Kalpa To Tabo Via Nako  | Overnight Stay In Tabo",
           daydata:[
             "Post breakfast, drive to Kaza via Nako a part of the Spiti Valley.",
             "Visit Nako lake & enjoy the beautiful view.",
@@ -615,7 +619,7 @@ export const data=[
           cid:"collapseFour",
           col:"collapsed",
           panel:false,
-          day:"Day 4 : VISIT TABO MONASTERY AND DHANKAR MONASTERY | OVERNIGHT STAY IN KAZA",
+          day:"Day 4 : Visit Tabo Monastery And Dhankar Monastery | Overnight Stay In Kaza",
           daydata:[
             "Post breakfast, head out to experience the true beauty of Spiti valley - Tabo Monastery & Dhankar Monastery.",
             "Further we drive towards Kaza.",
@@ -629,7 +633,7 @@ export const data=[
           cid:"collapseFive",
           col:"collapsed",
           panel:false,
-          day:"Day 5 :  VISIT HIKKIM, KOMIC & LANGZA | OVERNIGHT STAY IN KAZA",
+          day:"Day 5 :  Visit Hikkim, Komic & Langza | Overnight Stay In Kaza",
           daydata:[
             "Post breakfast, head out to Visit Hikkim (home to the highest post office in the world, send postcards to your loved ones), Komik and eat at the highest cafe in the world. Langza (the site for the holy Buddha Statue).",
             "Return to Kaza, Dinner & Overnight stay in Kaza.",
@@ -642,7 +646,7 @@ export const data=[
           cid:"collapseSix",
           col:"collapsed",
           panel:false,
-          day:"Day 6 : DEPARTURE TO KALPA FROM KAZA | VISIT KEY MONASTERY & CHICHAM BRIDGE | OVERNIGHT STAY IN KALPA",
+          day:"Day 6 : Departure To Kalpa From Kaza | Visit Key Monastery & Chicham Bridge | Overnight Stay In Kalpa",
           daydata:[
             "Post breakfast, check-out of the hotel.",
             "Visit Key Monastery & Ride to the highest suspension bridge of Asia- the one and only Chicham Bridge.",
@@ -657,7 +661,7 @@ export const data=[
           cid:"collapseSeven",
           col:"collapsed",
           panel:false,
-          day:"Day 7 :  DRIVE TO THE LAST VILLAGE - CHITKUL | OVERNIGHT STAY AT CHITKUL",
+          day:"Day 7 :  Drive To The Last Village - Chitkul | Overnight Stay At Chitkul",
           daydata:[
             "After an amazing experience of the Spiti Valley, the end might seem a bit lazy but there is one more amazing place right around the bend.",
             "Chitkul - is another enchanted place of this beautiful land. Has a high altitude river flowing right beside it. Offers grand views of the nearby mountain peaks. - is another enchanted place of this beautiful land. Has a high altitude river flowing right beside it. Offers grand views of the nearby mountain peaks.ddddddddddddddd",
@@ -673,7 +677,7 @@ export const data=[
           cid:"collapseEight",
           col:"collapsed",
           panel:false,
-          day:"Day 8 :  DEPART TO SHIMLA | OVERNIGHT JOURNEY TO DELHI ",
+          day:"Day 8 :  Depart To Shimla | Overnight Journey To Delhi ",
           daydata:[
             "This is the last day of the trip and is filled with tons of emotions",
             "Post breakfast, we check-out from the hotel and start our return journey to Delhi.",
@@ -689,7 +693,7 @@ export const data=[
           cid:"collapseNine",
           col:"collapsed",
           panel:false,
-          day:"day 9 : REACH DELHI BY MORNING",
+          day:"day 9 : Reach Delhi By Morning",
           daydata:[
             "Reach delhi by morning.",
             
@@ -758,6 +762,7 @@ export const data=[
     links:'itenary',
     colsize:"col-md-6",
       dataaos:"fade-right",
+      nd:"(4N/5D)",
      
     data:{
       maintitle:"Kashmir",
@@ -779,7 +784,7 @@ export const data=[
           
           show:"show",
           panel:true,
-          day:"Day 1 : ARRIVAL IN SRINAGAR | LOCAL SIGHTSEEING | OVERNIGHT STAY AT SRINAGAR ",
+          day:"Day 1 : Arrival In Srinagar | Local Sightseeing | Overnight Stay At Srinagar ",
           daydata:[
            "On this day, you will be arriving in Srinagar, the capital city of Jammu and Kashmir.",
             "Post checking in, get freshened up and spend some time at leisure.",
@@ -795,7 +800,7 @@ export const data=[
           cid:"collapseTwo",
           col:"collapsed",
           panel:false,
-          day:"Day 2 :  TRANSFER TO PAHALGAM | ARU VALLEY - BETAAB VALLEY - CHANDANWARI VISIT | OVERNIGHT STAY AT PAHALGAM",
+          day:"Day 2 :  Transfer To Pahalgam | Aru Valley - Betaab Valley - Chandanwari Visit | Overnight Stay At Pahalgam",
           daydata:[
             "Morning after Breakfast we drive to Pahalgam via Pampore, Avantipura and the village of Bijbehara which remains famous as the bread basket of Kashmir.",
             "We switch from the national highway 1A at Khanabal and drive through the second largest city of Anantnag.",
@@ -810,7 +815,7 @@ export const data=[
           cid:"collapseThree",
           col:"collapsed",
           panel:false,
-          day:"Day 3 : TRANSFER TO GULMARG | LOCAL SIGHTSEEING | OVERNIGHT STAY AT GULMARG",
+          day:"Day 3 : Transfer To Gulmarg | Local Sightseeing | Overnight Stay At Gulmarg",
           daydata:[
             "Following today’s delicious breakfast at the pahalgam hotel, you will be driven to the enchanting valleys of Gulmarg, Also known as the ‘Meadow of Flowers’, this scenic hill station of Jammu and Kashmir is known for its salubrious beauty and charm!",
             "The drive to Gulmarg will keep you enthralled with the astounding views of the Nanga Parbat; you can also catch the panoramic views of Gulmarg from Tangmarg",
@@ -825,7 +830,7 @@ export const data=[
           cid:"collapseFour",
           col:"collapsed",
           panel:false,
-          day:"Day 4 :  GONDOLA RIDE | TRANSFER TO SRINAGAR HOUSEBOAT | OVERNIGHT STAY AT SRINAGAR HOUSEBOAT",
+          day:"Day 4 :  Gondola Ride | Transfer To Srinagar Houseboat | Overnight Stay At Srinagar Houseboat",
           daydata:[
             "Post breakfast, head out to enjoy the Gondola Cable Car Ride.",
             "Post lunch transfer to Srinagar.",
@@ -841,7 +846,7 @@ export const data=[
           cid:"collapseFive",
           col:"collapsed",
           panel:false,
-          day:"Day 5 : FLY BACK TO SRINAGAR",
+          day:"Day 5 : Fly Back To Srinagar",
           daydata:[
             "Wake up & post breakfast check out and fly back home with amazing trip memories.",
             

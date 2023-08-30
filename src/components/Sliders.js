@@ -359,7 +359,7 @@ const navigate =useNavigate()
  <div className="my-4">
  <div className="des my-4 px-3">
   <h6 className="trip-title position-relative ">{e.title}</h6>
-    <p className="text-dark fs-6"> <small className="primary-color fw-semibold ">(5N/6D) </small><small className="fs-7">/ Per Person</small></p>
+    <p className="text-dark fs-6"> <small className="primary-color fw-semibold ">{e.nd} </small></p>
   </div>
     <div className=" my-4 pb-3 text-center">
       <a  onClick={()=>navigate('/itenary/#',{state:`${JSON.stringify(e.data) }`})} className="c-btn">Learn More</a>
@@ -462,11 +462,11 @@ export  const teamslide = function Sliders() {
     const settings = {
       dots: true,
       // infinite: true,
-      autoplay:false,
+      autoplay:true,
       speed: 500,
   
       slidesToShow: 4,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       initialSlide: 0,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
