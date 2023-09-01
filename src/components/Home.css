@@ -114,6 +114,9 @@ font-family: 'Montserrat', sans-serif;
 .bg-white{
     background-color: white!important;
 }
+.bg-primary{
+    background-color: var(--primary-color)!important;
+}
 
 .section{
     position: relative;

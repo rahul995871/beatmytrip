@@ -16,45 +16,46 @@ import { data, weekData } from "./Data";
 import { TypeAnimation } from "react-type-animation";
 import { useState } from "react";
 
-export const testsec=()=>{
-  return(<>
-  <div
-          className="section m-0 c-testimonial"
-          style={{ background: "white" }}
-        >
-          <div className="container py-4">
-            <div className="row justify-content-around align-items-center">
-              <div
-                className="col-md-4 text-center text-md-start"
-                data-aos="fade-right"
-                data-aos-delay="100"
-                data-aos-duration="700"
-              >
-                <div className="">
-                  <h1 className="text-light mb-4">
-                    What Our Customers{" "}
-                    <span className="primary-color">Say</span>?
-                  </h1>
-                  <small className="text-light mb-5 ">
-                  Discover what our clients have to say about their extraordinary journeys with BMT
-                  </small>
-                </div>
+export const TestSec = () => {
+  return (
+    <>
+      <div
+        className="section m-0 c-testimonial"
+        style={{ background: "white" }}
+      >
+        <div className="container py-4">
+          <div className="row justify-content-around align-items-center">
+            <div
+              className="col-md-4 text-center text-md-start"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="700"
+            >
+              <div className="">
+                <h1 className="text-light mb-4">
+                  What Our Customers <span className="primary-color">Say</span>?
+                </h1>
+                <small className="text-light mb-5 ">
+                  Discover what our clients have to say about their
+                  extraordinary journeys with BMT
+                </small>
               </div>
+            </div>
 
-              <div
-                className="col-md-6"
-                data-aos="fade-left"
-                data-aos-delay="200"
-                data-aos-duration="1400"
-              >
-                
-                {testimonial()}
-              </div>
+            <div
+              className="col-md-6"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              data-aos-duration="1400"
+            >
+              {testimonial()}
             </div>
           </div>
         </div>
-  </>)
-}
+      </div>
+    </>
+  );
+};
 
 const ReadMore = ({ children }) => {
   const text = children;
@@ -71,13 +72,192 @@ const ReadMore = ({ children }) => {
     </p>
   );
 };
+export const AboutSec = ({ toggle }) => {
+  // const[bb,setBb]=useState('bg-light')
+  return (
+    <>
+      <div className={`section m-0 ${toggle ? "bg-dark" : "bg-light"}`}>
+        <div className="container ">
+          <div className="row">
+            <div
+              className="col-md-6 "
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="500"
+            >
+              <img src={require("../images/whyus.png")} className="img-fluid" />
+            </div>
+            <div className="col-md-6 ">
+              <div>
+                <p
+                  className="cursive primary-color fs-4 px-3"
+                  data-aos="fade-left"
+                  data-aos-delay="300"
+                  data-aos-duration="1000"
+                >
+                  About Us
+                </p>
+                <h1
+                  className={`c-line position-relative px-3 ${
+                    toggle ? "text-light" : "text-dark"
+                  }`}
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                  data-aos-duration="1200"
+                >
+                  Plan Your Trip with
+                  <br />
+                  BeatsMyTrip
+                </h1>
+                <div
+                  className="mt-4"
+                  data-aos="fade-left"
+                  data-aos-delay="100"
+                  data-aos-duration="1400"
+                >
+                  <small className={`${toggle ? "text-light" : "text-dark"}`}>
+                    <span className="primary-color fs-5 fw-semibold">W</span>
+                    elcome to BeatsMyTrip, your gateway to unforgettable travel
+                    experiences in India! Founded just two years ago by a group
+                    of 18 well-experienced and trained travelers who have
+                    extensively explored every nook and cranny of this
+                    magnificent country, we are dedicated to making your journey
+                    through India seamless, enriching, and budget-friendly.
+                  </small>
+                  <br></br>
+                  <br></br>
+                  <small className={`${toggle ? "text-light" : "text-dark"}`}>
+                    At BeatsMyTrip, we understand that each traveler is unique,
+                    with different preferences and interests. That’s why we take
+                    pride in curating personalized itineraries that cater to
+                    your specific needs, ensuring you get the most out of your
+                    trip. Whether you’re an adventure enthusiast seeking
+                    adrenaline-pumping activities, a nature lover yearning for
+                    serene landscapes, a history buff eager to unravel India’s
+                    rich heritage, or simply looking to immerse yourself in the
+                    vibrant cultures and traditions, we’ve got you covered.
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+export const WhySec = ({ toggle }) => {
+  return (
+    <>
+      <div className={`section m-0 test ${toggle ? "bg-light" : "bg-dark"}`}>
+        <div className="container">
+          <div className="headings mb-5">
+            {/* <p
+                className="text-dark cursive primary-color  fs-5 fw-semibold"
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+              >
+                {" "}Your Travel, Your Way{" "}
+              </p> */}
+            <h1
+              className={`px-3 c-line ${toggle ? "text-dark" : "text-light"}`}
+              data-aos="fade-left"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+            >
+              Why Choose Us
+            </h1>
+          </div>
+          <div className="row justify-content-around gap-4">
+            <div
+              className="col-md-3 text-center mb-md-0 mb-5 "
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="500"
+            >
+              <div
+                className={`whychoose ${toggle ? "text-dark" : "text-light"}`}
+              >
+                <div>
+                  <img
+                    src={require("../images/price.png")}
+                    className={`${toggle ? "bg-primary" : "bg-transparent"}`}
+                  />
+                </div>
+                <div>
+                  <h6 className="my-3">Best Price Guarantee</h6>
+                  <small className="fs-7">
+                    Our commitment to delivering value for your money means that
+                    you can expect top-notch service and experiences without
+                    compromising your financial plans.
+                  </small>
+                </div>
+              </div>
+            </div>
 
+            <div
+              className="col-md-3 text-center mb-md-0 mb-5 "
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              <div
+                className={`whychoose ${toggle ? "text-dark" : "text-light"}`}
+              >
+                <div>
+                  <img
+                    src={require("../images/booking.png")}
+                    className={`${toggle ? "bg-primary" : "bg-transparent"}`}
+                  />
+                </div>
+                <div>
+                  <h6 className="my-3">Easy & Quick Booking</h6>
+                  <small className="fs-7">
+                    We are passionate travelers ourselves,and our deep
+                    understanding of various destinations sets<br></br> us
+                    apart.
+                  </small>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-3 text-center mb-md-0 mb-5"
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="1500"
+            >
+              <div
+                className={`whychoose ${toggle ? "text-dark" : "text-light"}`}
+              >
+                <div>
+                  <img
+                    src={require("../images/customer.png")}
+                    className={`${toggle ? "bg-primary" : "bg-transparent"}`}
+                  />
+                </div>
+                <div>
+                  <h6 className="my-3">Customer Care 24/7</h6>
+                  <small className="fs-7">
+                    Our dedicated support team is available around the clock to
+                    assist you, whether you need last-minute changes or have
+                    questions while on the road.
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 function Home() {
   const navigate = useNavigate();
 
   return (
     <div>
-      
       <div className="section m-0 p-0 bg-white">
         <div className="container-fluid position-relative px-0 hh">
           {homeSlider()}
@@ -138,160 +318,12 @@ function Home() {
 
       <div>
         {/* ------------------------whychoose--------------- */}
-        <div className="section m-0 bg-w">
-          <div className="container ">
-            <div className="row">
-              <div
-                className="col-md-6 "
-                data-aos="fade-right"
-                data-aos-delay="100"
-                data-aos-duration="500"
-              >
-                <img
-                  src={require("../images/whyus.png")}
-                  className="img-fluid"
-                />
-              </div>
-              <div className="col-md-6 ">
-                <div>
-                  <p
-                    className="cursive primary-color fs-4 px-3"
-                    data-aos="fade-left"
-                    data-aos-delay="300"
-                    data-aos-duration="1000"
-                  >
-                    About Us
-                  </p>
-                  <h1
-                    className="c-line position-relative px-3"
-                    data-aos="fade-left"
-                    data-aos-delay="200"
-                    data-aos-duration="1200"
-                  >
-                    Plan Your Trip with
-                    <br />
-                    BeatsMyTrip
-                  </h1>
-                  <div
-                    className="mt-4"
-                    data-aos="fade-left"
-                    data-aos-delay="100"
-                    data-aos-duration="1400"
-                  >
-                    <small className="text-dark">
-                      <span className="primary-color fs-5 fw-semibold">W</span>
-                      elcome to BeatsMyTrip, your gateway to unforgettable
-                      travel experiences in India! Founded just two years ago by
-                      a group of 18 well-experienced and trained travelers who
-                      have extensively explored every nook and cranny of this
-                      magnificent country, we are dedicated to making your
-                      journey through India seamless, enriching, and
-                      budget-friendly.
-                    </small>
-                    <br></br>
-                    <br></br>
-                    <small className="text-dark">
-                      At BeatsMyTrip, we understand that each traveler is
-                      unique, with different preferences and interests. That’s
-                      why we take pride in curating personalized itineraries
-                      that cater to your specific needs, ensuring you get the
-                      most out of your trip. Whether you’re an adventure
-                      enthusiast seeking adrenaline-pumping activities, a nature
-                      lover yearning for serene landscapes, a history buff eager
-                      to unravel India’s rich heritage, or simply looking to
-                      immerse yourself in the vibrant cultures and traditions,
-                      we’ve got you covered.
-                    </small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <AboutSec homeaboutbg="bg-light" homeabouttxt="text-dark"></AboutSec>
         {/* ------------------------whychoose-end--------------- */}
 
         {/* ------------------testimonial--------------------- */}
 
-        <div className="section m-0 test bg-dark">
-          <div className="container">
-            <div className="headings mb-5">
-              {/* <p
-                className="text-dark cursive primary-color  fs-5 fw-semibold"
-                data-aos="fade-right"
-                data-aos-delay="500"
-                data-aos-duration="1000"
-              >
-                {" "}Your Travel, Your Way{" "}
-              </p> */}
-              <h1
-                className="px-3 c-line text-light"
-                data-aos="fade-left"
-                data-aos-delay="500"
-                data-aos-duration="1000"
-              >
-                Why Choose Us
-              </h1>
-            </div>
-            <div className="row justify-content-around gap-4">
-              <div
-                className="col-md-3 text-center mb-md-0 mb-5 "
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="500"
-              >
-                <div className="whychoose text-white ">
-                  <div>
-                    <img src={require("../images/price.png")} />
-                  </div>
-                  <div>
-                    <h6 className="my-3">Best Price Guarantee</h6>
-                    <small className="fs-7">
-                     Our commitment to delivering value for your money means that you can expect top-notch service and experiences without compromising your financial plans.
-                    </small>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-md-3 text-center mb-md-0 mb-5 "
-                data-aos="fade-up"
-                data-aos-delay="200"
-                data-aos-duration="1000"
-              >
-                <div className="whychoose text-white ">
-                  <div>
-                    <img src={require("../images/booking.png")} />
-                  </div>
-                  <div>
-                    <h6 className="my-3">Easy & Quick Booking</h6>
-                    <small className="fs-7">
-                    We are passionate travelers ourselves,and our deep understanding of various destinations sets<br></br> us apart. 
-                    </small>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-md-3 text-center mb-md-0 mb-5"
-                data-aos="fade-up"
-                data-aos-delay="300"
-                data-aos-duration="1500"
-              >
-                <div className="whychoose text-white ">
-                  <div>
-                    <img src={require("../images/customer.png")} />
-                  </div>
-                  <div>
-                    <h6 className="my-3">Customer Care 24/7</h6>
-                    <small className="fs-7">
-                    Our dedicated support team is available around the clock to assist you, whether you need last-minute changes or have questions while on the road.
-                    </small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <WhySec homewhybg="bg-light" homewhytxt="text-dark"></WhySec>
 
         {/* ------------------testimonial-end-------------------- */}
 
@@ -434,7 +466,7 @@ function Home() {
                 data-aos-delay="300"
                 data-aos-duration="1000"
               >
-               Your Backpack, Our Expertise
+                Your Backpack, Our Expertise
               </p>
               <h1
                 className="px-3 c-line"
@@ -455,7 +487,7 @@ function Home() {
 
         {/* ------------------test--------------------- */}
 
-        {testsec()}
+        <TestSec></TestSec>
 
         {/* ------------------test-end-------------------- */}
       </div>
