@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beatmytrip/static/css/main.907e8972.css",
-    "main.js": "/beatmytrip/static/js/main.5e8c10ba.js",
+    "main.css": "/beatmytrip/static/css/main.f8c1c6e7.css",
+    "main.js": "/beatmytrip/static/js/main.e55271ee.js",
     "static/media/Kerala Backpack 2023-24.pdf": "/beatmytrip/static/media/Kerala Backpack 2023-24.3b64e42ddc075413a1fc.pdf",
     "static/media/Explore the beauty of Jibhi & Tirthan 2023-24.pdf": "/beatmytrip/static/media/Explore the beauty of Jibhi & Tirthan 2023-24.657487f1ccd0049a6652.pdf",
     "static/media/Kerala Quick Getaway 2023-24.pdf": "/beatmytrip/static/media/Kerala Quick Getaway 2023-24.49dda251f26b14779b3d.pdf",
@@ -55,11 +55,11 @@
     "static/media/slick.eot": "/beatmytrip/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/beatmytrip/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/beatmytrip/static/media/slick.295183786cd8a1389865.woff",
-    "main.907e8972.css.map": "/beatmytrip/static/css/main.907e8972.css.map",
-    "main.5e8c10ba.js.map": "/beatmytrip/static/js/main.5e8c10ba.js.map"
+    "main.f8c1c6e7.css.map": "/beatmytrip/static/css/main.f8c1c6e7.css.map",
+    "main.e55271ee.js.map": "/beatmytrip/static/js/main.e55271ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.907e8972.css",
-    "static/js/main.5e8c10ba.js"
+    "static/css/main.f8c1c6e7.css",
+    "static/js/main.e55271ee.js"
   ]
 }
