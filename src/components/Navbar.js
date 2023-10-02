@@ -108,19 +108,19 @@ function Navbar() {
 
 
 <div className="c-navs">
-<HashLink  to="/beatmytrip/#" className="nav-link active" aria-current="page" href="#">
+<HashLink  to="/#" className="nav-link active" aria-current="page" href="#">
            <div><img src={require('../images/home.png')}/></div>
           </HashLink>
-          <HashLink to="/about/#" className="nav-link active" aria-current="page" href="#">
+          <HashLink to="/about" className="nav-link active" aria-current="page" >
           <div><img src={require('../images/group.png')}/></div>
           </HashLink>
-          <HashLink className="nav-link active" aria-current="page" smooth={true} to="/beatmytrip/#bt">
+          <HashLink className="nav-link active" aria-current="page" smooth={true} to="/#bt">
           <div><img src={require('../images/backpack.png')}/></div>
           </HashLink>
-          <HashLink className="nav-link active" aria-current="page" smooth={true} to="/beatmytrip/#wt">
+          <HashLink className="nav-link active" aria-current="page" smooth={true} to="/#wt">
           <div><img src={require('../images/weekend.png')}/></div>
           </HashLink>
-          <HashLink to='/contact/#' className="nav-link active" aria-current="page" href="#">
+          <HashLink to='/contact' className="nav-link active" aria-current="page" >
           <div><img src={require('../images/contact.png')}/></div>
           </HashLink>
     </div>

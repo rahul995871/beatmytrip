@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Footer.css'
+import './Home.css'
+
 
 function Footer() {
     return (
@@ -29,7 +31,7 @@ function Footer() {
                 <div className="row justify-content-center align-items-center text-center">
                     <div className="col-md-10">
                     <p className="fs-7">112th Avenue, Gaur City 2, Noida - 201305 | Phone: +91 8750562321 | Email: info@beatsmytrip.com</p>
-                    <p className="fs-7 mb-0">Copyright © 2023 BeatsMyTrip</p>
+                    <p className="fs-7 mb-0">Copyright © 2023 BeatsMyTrip | Developed  by <a href='tel:919958718364' className='text-white bg-primary text-decoration-none p-1 rounded'>Rahul Rautela</a></p>
                     </div>
                     
                 </div>

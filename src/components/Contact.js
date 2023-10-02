@@ -2,7 +2,13 @@ import contact from "../images/contact.jpg";
 import contactSide from "../images/contact-side.svg";
 import "./Contact.css";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+
 function Contact(props) {
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  
+  },[])
   return (
     <div>
       <div

@@ -3,8 +3,15 @@ import "./About.css";
 import about from "../images/about.jpg";
 import { teamslide, testimonial } from "./Sliders";
 import { AboutSec, TestSec, WhySec } from "./Home";
+import { useEffect } from "react";
 
+
+  
 function About() {
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  
+  },[])
   return (
     <div>
       <div
